@@ -1,0 +1,6785 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"Project-Id-Version: WooCommerce\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: siavash keshmiri <siavash.keshmiri@gmail.com>\n"
+"Language-Team: wooper.ir Team <info@wooper.ir>\n"
+
+#: assets/js/admin/editor_plugin_lang.php:5
+msgid "Insert Shortcode"
+msgstr "افزودن Shortcode"
+
+#: assets/js/admin/editor_plugin_lang.php:6
+msgid "Product price/cart button"
+msgstr "قیمت محصول/ پایین کارت"
+
+#: assets/js/admin/editor_plugin_lang.php:7
+msgid "Product by SKU/ID"
+msgstr "محصول بر طبق موجودی/کد شناسایی"
+
+#: assets/js/admin/editor_plugin_lang.php:8
+msgid "Products by SKU/ID"
+msgstr "محصولات بر طبق موجودی/کد شناسایی"
+
+#: assets/js/admin/editor_plugin_lang.php:9
+msgid "Product categories"
+msgstr "دسته‌بندی‌های محصولات"
+
+#: assets/js/admin/editor_plugin_lang.php:10
+msgid "Products by category slug"
+msgstr "محصولات بر اساس نامک دسته بندی"
+
+#: assets/js/admin/editor_plugin_lang.php:11
+msgid "Recent products"
+msgstr "محصولات اخیر"
+
+#: assets/js/admin/editor_plugin_lang.php:12
+msgid "Featured products"
+msgstr "محصولات ویژه"
+
+#: assets/js/admin/editor_plugin_lang.php:13
+msgid "Shop Messages"
+msgstr "پیامهای فروشگاه"
+
+#: assets/js/admin/editor_plugin_lang.php:14
+msgid "Pages"
+msgstr "برگه‌ها"
+
+#: assets/js/admin/editor_plugin_lang.php:15
+#: classes/widgets/class-wc-widget-cart.php:61
+msgid "Cart"
+msgstr "سبد خرید"
+
+#: assets/js/admin/editor_plugin_lang.php:16
+msgid "Checkout"
+msgstr "تسویه حساب"
+
+#: assets/js/admin/editor_plugin_lang.php:17
+msgid "Order tracking"
+msgstr "رهگیری سفارش"
+
+#: assets/js/admin/editor_plugin_lang.php:18
+#: templates/checkout/thankyou.php:30
+msgid "My Account"
+msgstr "حساب من"
+
+#: assets/js/admin/editor_plugin_lang.php:19
+msgid "Edit Address"
+msgstr "ویرایش آدرس"
+
+#: assets/js/admin/editor_plugin_lang.php:20
+msgid "Change Password"
+msgstr "تغییر رمز عبور"
+
+#: assets/js/admin/editor_plugin_lang.php:21 woocommerce.php:1031
+#: woocommerce.php:1032
+msgid "View Order"
+msgstr "نمایش سفارش"
+
+#: assets/js/admin/editor_plugin_lang.php:22
+#: templates/checkout/thankyou.php:28 templates/myaccount/my-orders.php:71
+msgid "Pay"
+msgstr "پرداخت"
+
+#: assets/js/admin/editor_plugin_lang.php:23
+msgid "Thankyou"
+msgstr "متشکریم"
+
+#: classes/abstracts/abstract-wc-email.php:421
+#: classes/emails/class-wc-email-customer-completed-order.php:135
+#: classes/emails/class-wc-email-customer-invoice.php:138
+#: classes/emails/class-wc-email-new-order.php:115
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:63
+#: classes/gateways/cheque/class-wc-gateway-cheque.php:57
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:158
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:119
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:77
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:75
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:52
+msgid "Enable/Disable"
+msgstr "فعال/غیرفعال"
+
+#: classes/abstracts/abstract-wc-email.php:423
+#: classes/emails/class-wc-email-customer-completed-order.php:137
+#: classes/emails/class-wc-email-customer-invoice.php:140
+#: classes/emails/class-wc-email-new-order.php:117
+msgid "Enable this email notification"
+msgstr "فعال سازی اطلاع رسانی از طریق ایمیل"
+
+#: classes/abstracts/abstract-wc-email.php:427
+#: classes/emails/class-wc-email-customer-invoice.php:144
+msgid "Email subject"
+msgstr "عنوان ایمیل"
+
+#: classes/abstracts/abstract-wc-email.php:429
+#: classes/abstracts/abstract-wc-email.php:436
+#: classes/emails/class-wc-email-customer-completed-order.php:143
+#: classes/emails/class-wc-email-customer-completed-order.php:150
+#: classes/emails/class-wc-email-customer-completed-order.php:157
+#: classes/emails/class-wc-email-customer-completed-order.php:164
+#: classes/emails/class-wc-email-customer-invoice.php:146
+#: classes/emails/class-wc-email-customer-invoice.php:153
+#: classes/emails/class-wc-email-customer-invoice.php:160
+#: classes/emails/class-wc-email-customer-invoice.php:167
+msgid "Defaults to <code>%s</code>"
+msgstr "پیشفرض به <code>%s</code>"
+
+#: classes/abstracts/abstract-wc-email.php:434
+#: classes/emails/class-wc-email-customer-invoice.php:151
+msgid "Email heading"
+msgstr "سربرگ ایمیل"
+
+#: classes/abstracts/abstract-wc-email.php:441
+#: classes/emails/class-wc-email-customer-completed-order.php:169
+#: classes/emails/class-wc-email-customer-invoice.php:172
+#: classes/emails/class-wc-email-new-order.php:142
+msgid "Email type"
+msgstr "نوع ایمیل"
+
+#: classes/abstracts/abstract-wc-email.php:443
+#: classes/emails/class-wc-email-customer-completed-order.php:171
+#: classes/emails/class-wc-email-customer-invoice.php:174
+#: classes/emails/class-wc-email-new-order.php:144
+msgid "Choose which format of email to send."
+msgstr "انتخاب کنید چه نوع ساختاری برای ایمیل فرستاده شده استفاده شود"
+
+#: classes/abstracts/abstract-wc-email.php:447
+#: classes/emails/class-wc-email-customer-completed-order.php:175
+#: classes/emails/class-wc-email-customer-invoice.php:178
+#: classes/emails/class-wc-email-new-order.php:148
+msgid "Plain text"
+msgstr "متن ساده"
+
+#: classes/abstracts/abstract-wc-email.php:448
+#: classes/emails/class-wc-email-customer-completed-order.php:176
+#: classes/emails/class-wc-email-customer-invoice.php:179
+#: classes/emails/class-wc-email-new-order.php:149
+msgid "HTML"
+msgstr "HTML"
+
+#: classes/abstracts/abstract-wc-email.php:449
+#: classes/emails/class-wc-email-customer-completed-order.php:177
+#: classes/emails/class-wc-email-customer-invoice.php:180
+#: classes/emails/class-wc-email-new-order.php:150
+msgid "Multipart"
+msgstr "چند بخشی"
+
+#: classes/abstracts/abstract-wc-email.php:485
+#: classes/abstracts/abstract-wc-email.php:506
+msgid "Could not write to template file."
+msgstr "در فایل الگو نمیتوانید بنویسید"
+
+#: classes/abstracts/abstract-wc-email.php:533
+msgid "Template file copied to theme."
+msgstr "فایل الگو به عنوان زمینه کپی شد."
+
+#: classes/abstracts/abstract-wc-email.php:542
+msgid "Template file deleted from theme."
+msgstr "فایل الگو از زمینه پاک شد"
+
+#: classes/abstracts/abstract-wc-email.php:550
+#: classes/abstracts/abstract-wc-integration.php:30
+#: classes/abstracts/abstract-wc-settings-api.php:39
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: classes/abstracts/abstract-wc-email.php:562
+msgid "HTML template"
+msgstr "الگوی HTML"
+
+#: classes/abstracts/abstract-wc-email.php:563
+msgid "Plain text template"
+msgstr "الگوی متنی ساده"
+
+#: classes/abstracts/abstract-wc-email.php:582
+msgid "Delete template file"
+msgstr "پاک کردن فایل الگو"
+
+#: classes/abstracts/abstract-wc-email.php:585
+msgid ""
+"This template has been overridden by your theme and can be found in: <code>"
+"%s</code>."
+msgstr ""
+"الگو بر روی زمینه شما بازنویسی شد و در اینجا قابل دسترس است <code>%s</code>."
+
+#: classes/abstracts/abstract-wc-email.php:600
+msgid "Copy file to theme"
+msgstr "کپی کردن فایل به زمینه"
+
+#: classes/abstracts/abstract-wc-email.php:603
+msgid ""
+"To override and edit this email template copy <code>%s</code> to your theme "
+"folder: <code>%s</code>."
+msgstr ""
+"برای بازنویسی و ویرایش این الگوی ایمیل پوشه الگو را<code>%s</code> کپی کنید "
+"<code>%s</code>."
+
+#: classes/abstracts/abstract-wc-email.php:614
+msgid "File was not found."
+msgstr "فایل مورد نظر یافت نشد"
+
+#: classes/abstracts/abstract-wc-email.php:639
+msgid "View template"
+msgstr "دیدن الگو"
+
+#: classes/abstracts/abstract-wc-email.php:640
+msgid "Hide template"
+msgstr "مخفی کردن الگو"
+
+#: classes/abstracts/abstract-wc-email.php:651
+msgid "Are you sure you want to delete this template file?"
+msgstr "آیا مطمئن هستید که میخواهید این فایل الگو را پاک کنید؟"
+
+#: classes/abstracts/abstract-wc-product.php:33
+msgid ""
+"The <code>WC_Product</code> class is now abstract. Use <code>get_product()</"
+"code> to instantiate an instance of a product instead of calling this class "
+"directly."
+msgstr ""
+"<code>WC_Product</code>  یه رده خلاصه می باشد. از نمونه <code>get_product()</"
+"code> به جای فراخوانی این طبقه به طور مستقیم استفاده کنید. "
+
+#: classes/abstracts/abstract-wc-product.php:545
+#: classes/abstracts/abstract-wc-product.php:550
+#: classes/abstracts/abstract-wc-product.php:569
+msgid "In stock"
+msgstr "موجود در انبار"
+
+#: classes/abstracts/abstract-wc-product.php:550
+msgid "Only %s left in stock"
+msgstr "%s در انبار موجود است."
+
+#: classes/abstracts/abstract-wc-product.php:553
+msgid "%s in stock"
+msgstr "%s در انبار"
+
+#: classes/abstracts/abstract-wc-product.php:560
+msgid "(backorders allowed)"
+msgstr "(پیش‌خرید باز است)"
+
+#: classes/abstracts/abstract-wc-product.php:566
+#: classes/abstracts/abstract-wc-product.php:579 templates/cart/cart.php:76
+msgid "Available on backorder"
+msgstr "امکان پیش‌خرید این کالا هست"
+
+#: classes/abstracts/abstract-wc-product.php:572
+#: classes/abstracts/abstract-wc-product.php:582
+#: classes/abstracts/abstract-wc-product.php:586
+msgid "Out of stock"
+msgstr "در انبار موجود نمی باشد"
+
+#: classes/abstracts/abstract-wc-product.php:849
+#: classes/abstracts/abstract-wc-product.php:855
+#: classes/class-wc-cart.php:1743 classes/class-wc-order.php:863
+#: classes/class-wc-product-variable.php:274
+#: classes/class-wc-product-variable.php:283
+#: classes/class-wc-product-variation.php:246
+msgid "Free!"
+msgstr "رایگان ! "
+
+#: classes/abstracts/abstract-wc-product.php:873
+msgctxt "min_price"
+msgid "From:"
+msgstr "از:"
+
+#: classes/abstracts/abstract-wc-product.php:965
+#: templates/single-product-reviews.php:43
+msgid "Rated %s out of 5"
+msgstr "نمره %s از 5"
+
+#: classes/abstracts/abstract-wc-product.php:967
+#: templates/single-product/review.php:27
+#: templates/single-product-reviews.php:43
+msgid "out of 5"
+msgstr "از 5"
+
+#: classes/class-wc-cart.php:464
+msgid ""
+"Sorry, we do not have enough \"%s\" in stock to fulfill your order (%s in "
+"stock). Please edit your cart and try again. We apologise for any "
+"inconvenience caused."
+msgstr ""
+"متاسفانه  تعداد کافی %s در انبار موجود نیست تا برای شما ارسال شود، تعداد "
+"موجود در انبار ما %s است. لطفا سبد خرید خود را ویرایش کنید و دوباره تلاش "
+"کنید، عذرخواهی ما را بابت این مشکل پذیرا باشید."
+
+#: classes/class-wc-cart.php:483 classes/class-wc-cart.php:492
+msgid ""
+"Sorry, we do not have enough \"%s\" in stock to fulfil your order (%s in "
+"stock). Please edit your cart and try again. We apologise for any "
+"inconvenience caused."
+msgstr ""
+"متاسفانه تعداد کافی %s در انبار موجود نیست تا برای شما ارسال شود، تعداد "
+"موجود در انبار ما %s است. لطفا سبد خرید خود را ویرایش کنید و دوباره تلاش "
+"کنید، عذرخواهی ما را بابت این مشکل پذیرا باشید."
+
+#: classes/class-wc-cart.php:527
+msgid ""
+"Sorry, we do not have enough \"%s\" in stock to fulfil your order right now. "
+"Please try again in %d minutes or edit your cart and try again. We apologise "
+"for any inconvenience caused."
+msgstr ""
+"متاسفانه تعداد کافی %s در انبار موجود نیست تا برای شما ارسال شود، تعداد "
+"موجود در انبار ما %s است. لطفا سبد خرید خود را ویرایش کنید و دوباره تلاش "
+"کنید، عذرخواهی ما را بابت این مشکل پذیرا باشید."
+
+#: classes/class-wc-cart.php:537
+msgid ""
+"Sorry, \"%s\" is not in stock. Please edit your cart and try again. We "
+"apologise for any inconvenience caused."
+msgstr ""
+"متاسفانه تعداد کافی %s در انبار موجود نیست. لطفا سبد خرید خود را ویرایش "
+"کنید. عذرخواهی ما را بابت این مشکل پذیرا باشید."
+
+#: classes/class-wc-cart.php:818
+msgid "Sorry, &quot;%s&quot; cannot be purchased."
+msgstr "ببخشید، &quot;%s&quot; قابل خریداری نیست"
+
+#: classes/class-wc-cart.php:825
+msgid ""
+"You cannot add &quot;%s&quot; to the cart because the product is out of "
+"stock."
+msgstr ""
+"شما نمی توانید &quot;%s&quot; را به سبد خرید خود اضافه کنید، این محصول در "
+"انبار موجود نیست."
+
+#: classes/class-wc-cart.php:830
+msgid ""
+"You cannot add that amount of &quot;%s&quot; to the cart because there is "
+"not enough stock (%s remaining)."
+msgstr ""
+"شما نمی توانید این تعداد از &quot;%s&quot; را به سبد خرید خود اضافه کنید. "
+"موجودی انبار به این میزان نیست"
+
+#: classes/class-wc-cart.php:842 classes/class-wc-cart.php:856
+#: classes/class-wc-cart.php:864 templates/cart/mini-cart.php:68
+#: woocommerce-functions.php:470 woocommerce.php:1176
+msgid "View Cart &rarr;"
+msgstr "سبد خرید"
+
+#: classes/class-wc-cart.php:842
+msgid "You already have this item in your cart."
+msgstr "این محصول در سبد خرید شما موجود است."
+
+#: classes/class-wc-cart.php:856 classes/class-wc-cart.php:864
+msgid ""
+"<a href=\"%s\" class=\"button\">%s</a> You cannot add that amount to the "
+"cart &mdash; we have %s in stock and you already have %s in your cart."
+msgstr ""
+"<a href=\"%s\" class=\"button\">%s</a> نمیتوانید این تعداد محصول را به سبد "
+"خرید خود اضافه کنید. تعداد محصولات قابل سفارش %s است و شما در سبد خرید خود "
+"%s ازین محصول دارید."
+
+#: classes/class-wc-cart.php:1755
+msgid "via"
+msgstr "از طریق"
+
+#: classes/class-wc-checkout.php:64
+msgid "Account username"
+msgstr "نام کاربری"
+
+#: classes/class-wc-checkout.php:65
+msgctxt "placeholder"
+msgid "Username"
+msgstr "نام کاربری"
+
+#: classes/class-wc-checkout.php:72 classes/class-wc-checkout.php:79
+msgid "Account password"
+msgstr "رمز عبور"
+
+#: classes/class-wc-checkout.php:73 classes/class-wc-checkout.php:80
+msgctxt "placeholder"
+msgid "Password"
+msgstr "رمز عبور"
+
+#: classes/class-wc-checkout.php:89
+msgid "Order Notes"
+msgstr "توضیحات سفارش"
+
+#: classes/class-wc-checkout.php:90
+msgctxt "placeholder"
+msgid "Notes about your order, e.g. special notes for delivery."
+msgstr "یادداشت ها درباره سفارش شما ، برای مثال نکات مهم برای تحویل بار "
+
+#: classes/class-wc-checkout.php:152
+msgid "Order &ndash; %s"
+msgstr "سفارش %s"
+
+#: classes/class-wc-checkout.php:152
+msgctxt "Order date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr "%b %d, %Y در %I:%M %p [تاریخ سفارش با استفاده از strftimep"
+
+#: classes/class-wc-checkout.php:276
+msgid "Backordered"
+msgstr "پیش‌خرید شده"
+
+#: classes/class-wc-checkout.php:386
+msgid ""
+"Sorry, your session has expired. <a href=\"%s\">Return to homepage &rarr;</a>"
+msgstr ""
+"متاسفانه وقت شما به اتمام رسید، <a href=\"%s\">به برگه اصلی بازگردید</a>."
+
+#: classes/class-wc-checkout.php:438 woocommerce-functions.php:1632
+msgid "is a required field."
+msgstr "نام شهر مورد نیاز است."
+
+#: classes/class-wc-checkout.php:451
+msgid "(%s) is not a valid postcode/ZIP."
+msgstr "(%s) کد پستی معتبر نیست."
+
+#: classes/class-wc-checkout.php:472
+msgid "is not valid. Please enter one of the following:"
+msgstr "معتبر نیست. لطفا یکی از موارد زیر را کامل کنید"
+
+#: classes/class-wc-checkout.php:480
+msgid "is not a valid number."
+msgstr "شماره معتبری نیست."
+
+#: classes/class-wc-checkout.php:487
+msgid "is not a valid email address."
+msgstr "ایمیل معتبر نیست"
+
+#: classes/class-wc-checkout.php:543
+msgid "Please enter an account username."
+msgstr "لطفا نام کاربری حساب خود را وارد کنید"
+
+#: classes/class-wc-checkout.php:547
+msgid "Invalid email/username."
+msgstr "آدرس ایمیل / نام کاربری صحیح نمی باشد"
+
+#: classes/class-wc-checkout.php:550
+msgid ""
+"An account is already registered with that username. Please choose another."
+msgstr "قبلا این نام کاربری ثبت شده است . لطفا یک نام دیگر انتخاب کنید"
+
+#: classes/class-wc-checkout.php:560
+msgid "Please enter an account password."
+msgstr "لطفا رمزعبور حساب خود را وارد کنید"
+
+#: classes/class-wc-checkout.php:563
+#: classes/shortcodes/class-wc-shortcode-lost-password.php:85
+#: woocommerce-functions.php:731 woocommerce-functions.php:1562
+msgid "Passwords do not match."
+msgstr "رمز عبورها یکی نیستند"
+
+#: classes/class-wc-checkout.php:567
+msgid "An account is already registered with your email address. Please login."
+msgstr "قبلا یک حساب با این آدرس ایمیل ثبت شده است. لطفا وارد شوید . "
+
+#: classes/class-wc-checkout.php:573
+msgid "You must accept our Terms &amp; Conditions."
+msgstr ""
+"لطفا قبل از ادامه خرید صفحه شرایط و توضیحات فروشگاه را بخوانید و دکمه \"قبول "
+"می‌کنم\" را انتخاب کنید."
+
+#: classes/class-wc-checkout.php:582
+msgid "Invalid shipping method."
+msgstr "روش حمل و نقل معتبر نمی باشد "
+
+#: classes/class-wc-checkout.php:595
+msgid "Invalid payment method."
+msgstr "روش پرداخت معتبر نمی باشد . "
+
+#: classes/class-wc-checkout.php:635 woocommerce-core-functions.php:2485
+#: woocommerce-core-functions.php:2488 woocommerce-functions.php:703
+#: woocommerce-functions.php:705 woocommerce-functions.php:708
+#: woocommerce-functions.php:720 woocommerce-functions.php:722
+#: woocommerce-functions.php:725 woocommerce-functions.php:759
+msgid "ERROR"
+msgstr "خطا"
+
+#: classes/class-wc-checkout.php:635 woocommerce-functions.php:759
+msgid ""
+"Couldn&#8217;t register you&hellip; please contact us if you continue to "
+"have problems."
+msgstr ""
+"&#8217;t نمی توانیم شما را ثبت نام کنیم &hellip; در صورت ادامه مشکل لطفا با "
+"ما تماس بگیرید"
+
+#: classes/class-wc-countries.php:37
+msgid "Afghanistan"
+msgstr "افغانستان"
+
+#: classes/class-wc-countries.php:38
+msgid "&#197;land Islands"
+msgstr "&#197; زمین جزایر"
+
+#: classes/class-wc-countries.php:39
+msgid "Albania"
+msgstr "آلبانى"
+
+#: classes/class-wc-countries.php:40
+msgid "Algeria"
+msgstr "الجزيره"
+
+#: classes/class-wc-countries.php:41
+msgid "Andorra"
+msgstr "آندورا"
+
+#: classes/class-wc-countries.php:42
+msgid "Angola"
+msgstr "آنگولا"
+
+#: classes/class-wc-countries.php:43
+msgid "Anguilla"
+msgstr "آنگویلا"
+
+#: classes/class-wc-countries.php:44
+msgid "Antarctica"
+msgstr "قطب جنوب"
+
+#: classes/class-wc-countries.php:45
+msgid "Antigua and Barbuda"
+msgstr "آنتیگوا و باربودا"
+
+#: classes/class-wc-countries.php:46
+msgid "Argentina"
+msgstr "آرژانتين"
+
+#: classes/class-wc-countries.php:47
+msgid "Armenia"
+msgstr "ارمنستان"
+
+#: classes/class-wc-countries.php:48
+msgid "Aruba"
+msgstr "آروبا"
+
+#: classes/class-wc-countries.php:49
+msgid "Australia"
+msgstr "استرالیا"
+
+#: classes/class-wc-countries.php:50
+msgid "Austria"
+msgstr "اتریش"
+
+#: classes/class-wc-countries.php:51
+msgid "Azerbaijan"
+msgstr "آذربایجان"
+
+#: classes/class-wc-countries.php:52
+msgid "Bahamas"
+msgstr "باهاما"
+
+#: classes/class-wc-countries.php:53
+msgid "Bahrain"
+msgstr "بحرين"
+
+#: classes/class-wc-countries.php:54
+msgid "Bangladesh"
+msgstr "بنگلادش"
+
+#: classes/class-wc-countries.php:55
+msgid "Barbados"
+msgstr "باربادوس"
+
+#: classes/class-wc-countries.php:56
+msgid "Belarus"
+msgstr "بلاروس"
+
+#: classes/class-wc-countries.php:57
+msgid "Belgium"
+msgstr "بلژيك"
+
+#: classes/class-wc-countries.php:58
+msgid "Belau"
+msgstr "پالائو"
+
+#: classes/class-wc-countries.php:59
+msgid "Belize"
+msgstr "بلیز"
+
+#: classes/class-wc-countries.php:60
+msgid "Benin"
+msgstr "بنین"
+
+#: classes/class-wc-countries.php:61
+msgid "Bermuda"
+msgstr "برمودا"
+
+#: classes/class-wc-countries.php:62
+msgid "Bhutan"
+msgstr "بوتان"
+
+#: classes/class-wc-countries.php:63
+msgid "Bolivia"
+msgstr "بوليوي"
+
+#: classes/class-wc-countries.php:64
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "بونیر ، سینت یوستیشس و سابا"
+
+#: classes/class-wc-countries.php:65
+msgid "Bosnia and Herzegovina"
+msgstr "بوسني و هرزگوين"
+
+#: classes/class-wc-countries.php:66
+msgid "Botswana"
+msgstr "بوتسوانا"
+
+#: classes/class-wc-countries.php:67
+msgid "Bouvet Island"
+msgstr "جزیره بووه"
+
+#: classes/class-wc-countries.php:68
+msgid "Brazil"
+msgstr "برزيل"
+
+#: classes/class-wc-countries.php:69
+msgid "British Indian Ocean Territory"
+msgstr "محدوده اقیانوس هند تحت سیطره بریتانیا"
+
+#: classes/class-wc-countries.php:70
+msgid "British Virgin Islands"
+msgstr "جزایر بریتیش ویرجین"
+
+#: classes/class-wc-countries.php:71
+msgid "Brunei"
+msgstr "برونئی"
+
+#: classes/class-wc-countries.php:72
+msgid "Bulgaria"
+msgstr "بلغارستان"
+
+#: classes/class-wc-countries.php:73
+msgid "Burkina Faso"
+msgstr "بورکینافاسو"
+
+#: classes/class-wc-countries.php:74
+msgid "Burundi"
+msgstr "بوروندی"
+
+#: classes/class-wc-countries.php:75
+msgid "Cambodia"
+msgstr "کامبوج"
+
+#: classes/class-wc-countries.php:76
+msgid "Cameroon"
+msgstr "كامرون"
+
+#: classes/class-wc-countries.php:77
+msgid "Canada"
+msgstr "كانادا"
+
+#: classes/class-wc-countries.php:78
+msgid "Cape Verde"
+msgstr "کیپ ورد"
+
+#: classes/class-wc-countries.php:79
+msgid "Cayman Islands"
+msgstr "جزابر کیمن"
+
+#: classes/class-wc-countries.php:80
+msgid "Central African Republic"
+msgstr "جمهوری آفریقای مرکزی"
+
+#: classes/class-wc-countries.php:81
+msgid "Chad"
+msgstr "چاد"
+
+#: classes/class-wc-countries.php:82
+msgid "Chile"
+msgstr "شيلي"
+
+#: classes/class-wc-countries.php:83
+msgid "China"
+msgstr "چين"
+
+#: classes/class-wc-countries.php:84
+msgid "Christmas Island"
+msgstr "جزیره کریسمس"
+
+#: classes/class-wc-countries.php:85
+msgid "Cocos (Keeling) Islands"
+msgstr "جزایر کوکوس"
+
+#: classes/class-wc-countries.php:86
+msgid "Colombia"
+msgstr "كلمبيا"
+
+#: classes/class-wc-countries.php:87
+msgid "Comoros"
+msgstr "کومور"
+
+#: classes/class-wc-countries.php:88
+msgid "Congo (Brazzaville)"
+msgstr "کنگو (برازاویل)"
+
+#: classes/class-wc-countries.php:89
+msgid "Congo (Kinshasa)"
+msgstr "کنگو (کینشازا)"
+
+#: classes/class-wc-countries.php:90
+msgid "Cook Islands"
+msgstr "جزایر کوک"
+
+#: classes/class-wc-countries.php:91
+msgid "Costa Rica"
+msgstr "كاستا ريكا"
+
+#: classes/class-wc-countries.php:92
+msgid "Croatia"
+msgstr "كرواسي"
+
+#: classes/class-wc-countries.php:93
+msgid "Cuba"
+msgstr "كوبا"
+
+#: classes/class-wc-countries.php:94
+msgid "Cura&Ccedil;ao"
+msgstr "کورا و سدیل؛ آئو"
+
+#: classes/class-wc-countries.php:95
+msgid "Cyprus"
+msgstr "قبرس"
+
+#: classes/class-wc-countries.php:96
+msgid "Czech Republic"
+msgstr "جمهوري چك"
+
+#: classes/class-wc-countries.php:97
+msgid "Denmark"
+msgstr "دانمارك"
+
+#: classes/class-wc-countries.php:98
+msgid "Djibouti"
+msgstr "جیبوتی"
+
+#: classes/class-wc-countries.php:99
+msgid "Dominica"
+msgstr "دومنيكا"
+
+#: classes/class-wc-countries.php:100
+msgid "Dominican Republic"
+msgstr "جمهوري دومنيكا"
+
+#: classes/class-wc-countries.php:101
+msgid "Ecuador"
+msgstr "اكوادر"
+
+#: classes/class-wc-countries.php:102
+msgid "Egypt"
+msgstr "مصر"
+
+#: classes/class-wc-countries.php:103
+msgid "El Salvador"
+msgstr "الساوادر"
+
+#: classes/class-wc-countries.php:104
+msgid "Equatorial Guinea"
+msgstr "گینه استوایی"
+
+#: classes/class-wc-countries.php:105
+msgid "Eritrea"
+msgstr "اریتره"
+
+#: classes/class-wc-countries.php:106
+msgid "Estonia"
+msgstr "استوني"
+
+#: classes/class-wc-countries.php:107
+msgid "Ethiopia"
+msgstr "اتيوپي"
+
+#: classes/class-wc-countries.php:108
+msgid "Falkland Islands"
+msgstr "جزایر فالکلند"
+
+#: classes/class-wc-countries.php:109
+msgid "Faroe Islands"
+msgstr "جزایر فارو"
+
+#: classes/class-wc-countries.php:110
+msgid "Fiji"
+msgstr "فیجی"
+
+#: classes/class-wc-countries.php:111
+msgid "Finland"
+msgstr "فنلاند"
+
+#: classes/class-wc-countries.php:112
+msgid "France"
+msgstr "فرانسه"
+
+#: classes/class-wc-countries.php:113
+msgid "French Guiana"
+msgstr "گویان فرانسه"
+
+#: classes/class-wc-countries.php:114
+msgid "French Polynesia"
+msgstr "پلی نزی فرانسه"
+
+#: classes/class-wc-countries.php:115
+msgid "French Southern Territories"
+msgstr "محدوده جنوبی تحت سیطره فرانسه"
+
+#: classes/class-wc-countries.php:116
+msgid "Gabon"
+msgstr "گابون"
+
+#: classes/class-wc-countries.php:117
+msgid "Gambia"
+msgstr "گامبيا"
+
+#: classes/class-wc-countries.php:118 i18n/states/US.php:23
+msgid "Georgia"
+msgstr "گرجستان"
+
+#: classes/class-wc-countries.php:119
+msgid "Germany"
+msgstr "آلمان"
+
+#: classes/class-wc-countries.php:120
+msgid "Ghana"
+msgstr "غنا"
+
+#: classes/class-wc-countries.php:121
+msgid "Gibraltar"
+msgstr "جبل الطارق"
+
+#: classes/class-wc-countries.php:122
+msgid "Greece"
+msgstr "يونان"
+
+#: classes/class-wc-countries.php:123
+msgid "Greenland"
+msgstr "گرینلند"
+
+#: classes/class-wc-countries.php:124
+msgid "Grenada"
+msgstr "گرانادا"
+
+#: classes/class-wc-countries.php:125
+msgid "Guadeloupe"
+msgstr "گوادولوپ"
+
+#: classes/class-wc-countries.php:126
+msgid "Guatemala"
+msgstr "گواتمالا"
+
+#: classes/class-wc-countries.php:127
+msgid "Guernsey"
+msgstr "گرنزی"
+
+#: classes/class-wc-countries.php:128
+msgid "Guinea"
+msgstr "گينه"
+
+#: classes/class-wc-countries.php:129
+msgid "Guinea-Bissau"
+msgstr "گينه بي سائو"
+
+#: classes/class-wc-countries.php:130
+msgid "Guyana"
+msgstr "گویان"
+
+#: classes/class-wc-countries.php:131
+msgid "Haiti"
+msgstr "هائيتي"
+
+#: classes/class-wc-countries.php:132
+msgid "Heard Island and McDonald Islands"
+msgstr "جزیره هرد و جزایر مک‌دونالد"
+
+#: classes/class-wc-countries.php:133
+msgid "Honduras"
+msgstr "هندوراس"
+
+#: classes/class-wc-countries.php:134
+msgid "Hong Kong"
+msgstr "هنگ كنگ"
+
+#: classes/class-wc-countries.php:135
+msgid "Hungary"
+msgstr "مجارستان"
+
+#: classes/class-wc-countries.php:136
+msgid "Iceland"
+msgstr "ایسلند"
+
+#: classes/class-wc-countries.php:137
+msgid "India"
+msgstr "هند"
+
+#: classes/class-wc-countries.php:138
+msgid "Indonesia"
+msgstr "اندونزي"
+
+#: classes/class-wc-countries.php:139
+msgid "Iran"
+msgstr "ایران"
+
+#: classes/class-wc-countries.php:140
+msgid "Iraq"
+msgstr "عراق"
+
+#: classes/class-wc-countries.php:141
+msgid "Republic of Ireland"
+msgstr "جمهوری ایرلند"
+
+#: classes/class-wc-countries.php:142
+msgid "Isle of Man"
+msgstr "جزیره انسان"
+
+#: classes/class-wc-countries.php:143
+msgid "Israel"
+msgstr "رژيم صهيونيستي"
+
+#: classes/class-wc-countries.php:144
+msgid "Italy"
+msgstr "ايتاليا"
+
+#: classes/class-wc-countries.php:145
+msgid "Ivory Coast"
+msgstr "ساحل عاج"
+
+#: classes/class-wc-countries.php:146
+msgid "Jamaica"
+msgstr "جامائيكا"
+
+#: classes/class-wc-countries.php:147
+msgid "Japan"
+msgstr "ژاپن"
+
+#: classes/class-wc-countries.php:148
+msgid "Jersey"
+msgstr "جرسي"
+
+#: classes/class-wc-countries.php:149
+msgid "Jordan"
+msgstr "اردن"
+
+#: classes/class-wc-countries.php:150
+msgid "Kazakhstan"
+msgstr "قزاقستان"
+
+#: classes/class-wc-countries.php:151
+msgid "Kenya"
+msgstr "كنيا"
+
+#: classes/class-wc-countries.php:152
+msgid "Kiribati"
+msgstr "كيريبيتي"
+
+#: classes/class-wc-countries.php:153
+msgid "Kuwait"
+msgstr "كوييت"
+
+#: classes/class-wc-countries.php:154
+msgid "Kyrgyzstan"
+msgstr "قرقیزستان"
+
+#: classes/class-wc-countries.php:155
+msgid "Laos"
+msgstr "لائوس"
+
+#: classes/class-wc-countries.php:156
+msgid "Latvia"
+msgstr "لتونی"
+
+#: classes/class-wc-countries.php:157
+msgid "Lebanon"
+msgstr "لبنان"
+
+#: classes/class-wc-countries.php:158
+msgid "Lesotho"
+msgstr "لسوتو"
+
+#: classes/class-wc-countries.php:159
+msgid "Liberia"
+msgstr "لیبریا"
+
+#: classes/class-wc-countries.php:160
+msgid "Libya"
+msgstr "ليبي"
+
+#: classes/class-wc-countries.php:161
+msgid "Liechtenstein"
+msgstr "لیختن اشتاین"
+
+#: classes/class-wc-countries.php:162
+msgid "Lithuania"
+msgstr "ليتواني"
+
+#: classes/class-wc-countries.php:163
+msgid "Luxembourg"
+msgstr "لوكسامبورگ"
+
+#: classes/class-wc-countries.php:164
+msgid "Macao S.A.R., China"
+msgstr "ماکائو"
+
+#: classes/class-wc-countries.php:165
+msgid "Macedonia"
+msgstr "مقدونيه"
+
+#: classes/class-wc-countries.php:166
+msgid "Madagascar"
+msgstr "ماداگاسكار"
+
+#: classes/class-wc-countries.php:167
+msgid "Malawi"
+msgstr "مالاوی"
+
+#: classes/class-wc-countries.php:168
+msgid "Malaysia"
+msgstr "مالزي"
+
+#: classes/class-wc-countries.php:169
+msgid "Maldives"
+msgstr "مالديو"
+
+#: classes/class-wc-countries.php:170
+msgid "Mali"
+msgstr "مالي"
+
+#: classes/class-wc-countries.php:171
+msgid "Malta"
+msgstr "مالتا"
+
+#: classes/class-wc-countries.php:172
+msgid "Marshall Islands"
+msgstr "جزایر مارشال"
+
+#: classes/class-wc-countries.php:173
+msgid "Martinique"
+msgstr "مارتینیک"
+
+#: classes/class-wc-countries.php:174
+msgid "Mauritania"
+msgstr "موریتانی"
+
+#: classes/class-wc-countries.php:175
+msgid "Mauritius"
+msgstr "موریس"
+
+#: classes/class-wc-countries.php:176
+msgid "Mayotte"
+msgstr "مایوت"
+
+#: classes/class-wc-countries.php:177
+msgid "Mexico"
+msgstr "مكزيك"
+
+#: classes/class-wc-countries.php:178
+msgid "Micronesia"
+msgstr "میکرونزی"
+
+#: classes/class-wc-countries.php:179
+msgid "Moldova"
+msgstr "مالديو"
+
+#: classes/class-wc-countries.php:180
+msgid "Monaco"
+msgstr "موناکو"
+
+#: classes/class-wc-countries.php:181
+msgid "Mongolia"
+msgstr "مغولستان"
+
+#: classes/class-wc-countries.php:182
+msgid "Montenegro"
+msgstr "مونته نگرو"
+
+#: classes/class-wc-countries.php:183
+msgid "Montserrat"
+msgstr "مونتسرات"
+
+#: classes/class-wc-countries.php:184
+msgid "Morocco"
+msgstr "مراكش"
+
+#: classes/class-wc-countries.php:185
+msgid "Mozambique"
+msgstr "موزامبيك"
+
+#: classes/class-wc-countries.php:186
+msgid "Myanmar"
+msgstr "ميانمار"
+
+#: classes/class-wc-countries.php:187
+msgid "Namibia"
+msgstr "نامیبیا"
+
+#: classes/class-wc-countries.php:188
+msgid "Nauru"
+msgstr "نائورو"
+
+#: classes/class-wc-countries.php:189
+msgid "Nepal"
+msgstr "نپال"
+
+#: classes/class-wc-countries.php:190
+msgid "Netherlands"
+msgstr "هلند"
+
+#: classes/class-wc-countries.php:191
+msgid "Netherlands Antilles"
+msgstr "آنتیل هلند"
+
+#: classes/class-wc-countries.php:192
+msgid "New Caledonia"
+msgstr "کالدونیای جدید"
+
+#: classes/class-wc-countries.php:193
+msgid "New Zealand"
+msgstr "نيوزلند"
+
+#: classes/class-wc-countries.php:194
+msgid "Nicaragua"
+msgstr "نیکاراگوئه"
+
+#: classes/class-wc-countries.php:195
+msgid "Niger"
+msgstr "نیجر"
+
+#: classes/class-wc-countries.php:196
+msgid "Nigeria"
+msgstr "نيجريه"
+
+#: classes/class-wc-countries.php:197
+msgid "Niue"
+msgstr "نیوئه"
+
+#: classes/class-wc-countries.php:198
+msgid "Norfolk Island"
+msgstr "جزیره نورفولک"
+
+#: classes/class-wc-countries.php:199
+msgid "North Korea"
+msgstr "كره ي شمالي"
+
+#: classes/class-wc-countries.php:200
+msgid "Norway"
+msgstr "نروژ"
+
+#: classes/class-wc-countries.php:201
+msgid "Oman"
+msgstr "عمان"
+
+#: classes/class-wc-countries.php:202
+msgid "Pakistan"
+msgstr "پاكستان"
+
+#: classes/class-wc-countries.php:203
+msgid "Palestinian Territory"
+msgstr "سرزمینهای فلسطین"
+
+#: classes/class-wc-countries.php:204
+msgid "Panama"
+msgstr "پاناما"
+
+#: classes/class-wc-countries.php:205
+msgid "Papua New Guinea"
+msgstr "پاپوا گينه ي نو"
+
+#: classes/class-wc-countries.php:206
+msgid "Paraguay"
+msgstr "پاراگوئه"
+
+#: classes/class-wc-countries.php:207
+msgid "Peru"
+msgstr "پرو"
+
+#: classes/class-wc-countries.php:208
+msgid "Philippines"
+msgstr "فيليپين"
+
+#: classes/class-wc-countries.php:209
+msgid "Pitcairn"
+msgstr "پیتکارین"
+
+#: classes/class-wc-countries.php:210
+msgid "Poland"
+msgstr "لهستان"
+
+#: classes/class-wc-countries.php:211
+msgid "Portugal"
+msgstr "پرتغال"
+
+#: classes/class-wc-countries.php:212
+msgid "Qatar"
+msgstr "قطر"
+
+#: classes/class-wc-countries.php:213
+msgid "Reunion"
+msgstr "رئونیون"
+
+#: classes/class-wc-countries.php:214
+msgid "Romania"
+msgstr "روماني"
+
+#: classes/class-wc-countries.php:215
+msgid "Russia"
+msgstr "روسيه"
+
+#: classes/class-wc-countries.php:216
+msgid "Rwanda"
+msgstr "رواندا"
+
+#: classes/class-wc-countries.php:217
+msgid "Saint Barth&eacute;lemy"
+msgstr "سنت بارثلمی"
+
+#: classes/class-wc-countries.php:218
+msgid "Saint Helena"
+msgstr "سنت هلن"
+
+#: classes/class-wc-countries.php:219
+msgid "Saint Kitts and Nevis"
+msgstr "سنت کیتس و نویس"
+
+#: classes/class-wc-countries.php:220
+msgid "Saint Lucia"
+msgstr "سنت لوسیا"
+
+#: classes/class-wc-countries.php:221
+msgid "Saint Martin (French part)"
+msgstr "سنت مارتین (قسمت فرانسه)"
+
+#: classes/class-wc-countries.php:222
+msgid "Saint Martin (Dutch part)"
+msgstr "سنت مارتین (قسمت هلند)"
+
+#: classes/class-wc-countries.php:223
+msgid "Saint Pierre and Miquelon"
+msgstr "سنت پیر و میکلون"
+
+#: classes/class-wc-countries.php:224
+msgid "Saint Vincent and the Grenadines"
+msgstr "سنت وینسنت و گرنادین"
+
+#: classes/class-wc-countries.php:225
+msgid "Samoa"
+msgstr "ساموآ"
+
+#: classes/class-wc-countries.php:226
+msgid "San Marino"
+msgstr "سن مارینو"
+
+#: classes/class-wc-countries.php:227
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "سائوتومه و پرینسیپ"
+
+#: classes/class-wc-countries.php:228
+msgid "Saudi Arabia"
+msgstr "عربستان سعودی"
+
+#: classes/class-wc-countries.php:229
+msgid "Senegal"
+msgstr "سنگال"
+
+#: classes/class-wc-countries.php:230
+msgid "Serbia"
+msgstr "صربستان"
+
+#: classes/class-wc-countries.php:231
+msgid "Seychelles"
+msgstr "سیشل"
+
+#: classes/class-wc-countries.php:232
+msgid "Sierra Leone"
+msgstr "سیرالئون"
+
+#: classes/class-wc-countries.php:233
+msgid "Singapore"
+msgstr "سنگاپور"
+
+#: classes/class-wc-countries.php:234
+msgid "Slovakia"
+msgstr "اسلواکی"
+
+#: classes/class-wc-countries.php:235
+msgid "Slovenia"
+msgstr "اسلونی"
+
+#: classes/class-wc-countries.php:236
+msgid "Solomon Islands"
+msgstr "جزاير سليمان"
+
+#: classes/class-wc-countries.php:237
+msgid "Somalia"
+msgstr "سومالی"
+
+#: classes/class-wc-countries.php:238
+msgid "South Africa"
+msgstr "آفريقای جنوبي"
+
+#: classes/class-wc-countries.php:239
+msgid "South Georgia/Sandwich Islands"
+msgstr "گرجستان جنوبی / جزایر ساندویچ"
+
+#: classes/class-wc-countries.php:240
+msgid "South Korea"
+msgstr "كره ی جنوبي"
+
+#: classes/class-wc-countries.php:241
+msgid "South Sudan"
+msgstr "سودان جنوبی"
+
+#: classes/class-wc-countries.php:242
+msgid "Spain"
+msgstr "اسپانيا"
+
+#: classes/class-wc-countries.php:243
+msgid "Sri Lanka"
+msgstr "سريلانكا"
+
+#: classes/class-wc-countries.php:244
+msgid "Sudan"
+msgstr "سودان"
+
+#: classes/class-wc-countries.php:245
+msgid "Suriname"
+msgstr "سورینام"
+
+#: classes/class-wc-countries.php:246
+msgid "Svalbard and Jan Mayen"
+msgstr "اسوالبارد و جان ماین"
+
+#: classes/class-wc-countries.php:247
+msgid "Swaziland"
+msgstr "سوازیلند"
+
+#: classes/class-wc-countries.php:248
+msgid "Sweden"
+msgstr "سوئد"
+
+#: classes/class-wc-countries.php:249
+msgid "Switzerland"
+msgstr "سوييس"
+
+#: classes/class-wc-countries.php:250
+msgid "Syria"
+msgstr "سوريه"
+
+#: classes/class-wc-countries.php:251
+msgid "Taiwan"
+msgstr "تايوان"
+
+#: classes/class-wc-countries.php:252
+msgid "Tajikistan"
+msgstr "تاجيكستان"
+
+#: classes/class-wc-countries.php:253
+msgid "Tanzania"
+msgstr "تانزانيا"
+
+#: classes/class-wc-countries.php:254
+msgid "Thailand"
+msgstr "تايلند"
+
+#: classes/class-wc-countries.php:255
+msgid "Timor-Leste"
+msgstr "تیمور"
+
+#: classes/class-wc-countries.php:256
+msgid "Togo"
+msgstr "توگو"
+
+#: classes/class-wc-countries.php:257
+msgid "Tokelau"
+msgstr "توکلائو"
+
+#: classes/class-wc-countries.php:258
+msgid "Tonga"
+msgstr "تونگا"
+
+#: classes/class-wc-countries.php:259
+msgid "Trinidad and Tobago"
+msgstr "ترینیداد و توباگو"
+
+#: classes/class-wc-countries.php:260
+msgid "Tunisia"
+msgstr "تونس"
+
+#: classes/class-wc-countries.php:261
+msgid "Turkey"
+msgstr "تركيه"
+
+#: classes/class-wc-countries.php:262
+msgid "Turkmenistan"
+msgstr "تركمنستان"
+
+#: classes/class-wc-countries.php:263
+msgid "Turks and Caicos Islands"
+msgstr "جزایر تورکس و کایکوس"
+
+#: classes/class-wc-countries.php:264
+msgid "Tuvalu"
+msgstr "تووالو"
+
+#: classes/class-wc-countries.php:265
+msgid "Uganda"
+msgstr "اوگاندا"
+
+#: classes/class-wc-countries.php:266
+msgid "Ukraine"
+msgstr "اوكراين"
+
+#: classes/class-wc-countries.php:267
+msgid "United Arab Emirates"
+msgstr "امارات متحده ي عربي"
+
+#: classes/class-wc-countries.php:268
+msgid "United Kingdom"
+msgstr "انگلستان"
+
+#: classes/class-wc-countries.php:269
+msgid "United States"
+msgstr "آمريكا"
+
+#: classes/class-wc-countries.php:270
+msgid "Uruguay"
+msgstr "اوروگوئه"
+
+#: classes/class-wc-countries.php:271
+msgid "Uzbekistan"
+msgstr "ازبكستان"
+
+#: classes/class-wc-countries.php:272
+msgid "Vanuatu"
+msgstr "وانواتو"
+
+#: classes/class-wc-countries.php:273
+msgid "Vatican"
+msgstr "واتيكان"
+
+#: classes/class-wc-countries.php:274
+msgid "Venezuela"
+msgstr "ونزوئلا"
+
+#: classes/class-wc-countries.php:275
+msgid "Vietnam"
+msgstr "ويتنام"
+
+#: classes/class-wc-countries.php:276
+msgid "Wallis and Futuna"
+msgstr "والیس و فوتونا"
+
+#: classes/class-wc-countries.php:277
+msgid "Western Sahara"
+msgstr "صحرای غربی"
+
+#: classes/class-wc-countries.php:278
+msgid "Yemen"
+msgstr "يمن"
+
+#: classes/class-wc-countries.php:279
+msgid "Zambia"
+msgstr "زامبیا"
+
+#: classes/class-wc-countries.php:280
+msgid "Zimbabwe"
+msgstr "زیمباوه"
+
+#: classes/class-wc-countries.php:418
+msgid "to the"
+msgstr "به"
+
+#: classes/class-wc-countries.php:419
+msgid "to"
+msgstr "به"
+
+#: classes/class-wc-countries.php:432
+msgid "the"
+msgstr " "
+
+#: classes/class-wc-countries.php:444
+msgid "VAT"
+msgstr "مالیات بر ارزش افزوده"
+
+#: classes/class-wc-countries.php:444 templates/cart/totals.php:110
+#: templates/checkout/review-order.php:113
+msgid "Tax"
+msgstr "مالیات"
+
+#: classes/class-wc-countries.php:457
+msgid "(incl. VAT)"
+msgstr "(شامل مالیات بر ارزش افزوده)"
+
+#: classes/class-wc-countries.php:457
+msgid "(incl. tax)"
+msgstr "(شامل مالیات)"
+
+#: classes/class-wc-countries.php:470
+msgid "(ex. VAT)"
+msgstr "(به عنوان مثال، مالیات بر ارزش افزوده)"
+
+#: classes/class-wc-countries.php:470
+msgid "(ex. tax)"
+msgstr "مالیات"
+
+#: classes/class-wc-countries.php:694 classes/class-wc-countries.php:704
+#: classes/class-wc-countries.php:724 classes/class-wc-countries.php:779
+#: classes/class-wc-countries.php:803 classes/class-wc-countries.php:848
+#: classes/class-wc-countries.php:872
+msgid "Province"
+msgstr "استان"
+
+#: classes/class-wc-countries.php:710
+msgid "Canton"
+msgstr "بخش"
+
+#: classes/class-wc-countries.php:719 classes/class-wc-countries.php:854
+msgid "Municipality"
+msgstr "شهرداری"
+
+#: classes/class-wc-countries.php:766
+msgid "Town / District"
+msgstr "شهر / ناحیه"
+
+#: classes/class-wc-countries.php:769
+msgid "Region"
+msgstr "منطقه"
+
+#: classes/class-wc-countries.php:877
+msgid "Zip"
+msgstr "کدپستی"
+
+#: classes/class-wc-countries.php:880
+msgid "State"
+msgstr "استان"
+
+#: classes/class-wc-countries.php:885
+#: templates/cart/shipping-calculator.php:68
+msgid "Postcode"
+msgstr "کد پستی"
+
+#: classes/class-wc-countries.php:888
+msgid "County"
+msgstr "شهرستان"
+
+#: classes/class-wc-countries.php:920 classes/class-wc-countries.php:921
+#: classes/class-wc-countries.php:996
+#: templates/cart/shipping-calculator.php:68
+msgid "Postcode / Zip"
+msgstr "کدپستی"
+
+#: classes/class-wc-countries.php:925 classes/class-wc-countries.php:926
+#: classes/class-wc-countries.php:985
+msgid "Town / City"
+msgstr "شهر"
+
+#: classes/class-wc-countries.php:930 classes/class-wc-countries.php:931
+#: classes/class-wc-countries.php:991
+msgid "State / County"
+msgstr "استان / ایالت"
+
+#: classes/class-wc-countries.php:955
+msgid "Country"
+msgstr "کشور"
+
+#: classes/class-wc-countries.php:960
+msgid "First Name"
+msgstr "نام"
+
+#: classes/class-wc-countries.php:965
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+#: classes/class-wc-countries.php:971
+msgid "Company Name"
+msgstr "نام شرکت"
+
+#: classes/class-wc-countries.php:975
+msgid "Address"
+msgstr "آدرس"
+
+#: classes/class-wc-countries.php:976
+msgctxt "placeholder"
+msgid "Street address"
+msgstr "خیابان"
+
+#: classes/class-wc-countries.php:981
+msgctxt "placeholder"
+msgid "Apartment, suite, unit etc. (optional)"
+msgstr "شماره پلاک، واحد، بلوک "
+
+#: classes/class-wc-countries.php:1038
+msgid "Email Address"
+msgstr "آدرس ایمیل"
+
+#: classes/class-wc-countries.php:1044
+msgid "Phone"
+msgstr "تلفن"
+
+#: classes/class-wc-coupon.php:420
+msgid "Coupon code applied successfully."
+msgstr "کد کوپن با موفقیت اعمال شد"
+
+#: classes/class-wc-coupon.php:441
+msgid "Coupon is not valid."
+msgstr "کوپن معتبر نیست"
+
+#: classes/class-wc-coupon.php:444 classes/class-wc-coupon.php:494
+msgid "Coupon does not exist!"
+msgstr "کوپن وجود ندارد !"
+
+#: classes/class-wc-coupon.php:447
+msgid ""
+"Sorry, it seems the coupon \"%s\" is invalid - it has now been removed from "
+"your order."
+msgstr ""
+"ببخشید، به نظر میرسد کوپن \"%s\" معتبر نیست - کوپن از درخواست خرید شما پاک "
+"میشود."
+
+#: classes/class-wc-coupon.php:450
+msgid ""
+"Sorry, it seems the coupon \"%s\" is not yours - it has now been removed "
+"from your order."
+msgstr ""
+"ببخشید، به نظر میرسد کوپن \"%s\" متعلق به شما نیست - کوپن از درخواست خرید "
+"شما پاک میشود."
+
+#: classes/class-wc-coupon.php:453
+msgid "Coupon code already applied!"
+msgstr "کوپن در حال حاضر در حال استفاده است!"
+
+#: classes/class-wc-coupon.php:456
+msgid ""
+"Sorry, coupon \"%s\" has already been applied and cannot be used in "
+"conjunction with other coupons."
+msgstr ""
+"ببخشید، کوپن \"%s\" در حال استفاده است و نمی تواند همراه با کوپن های دیگر "
+"استفاده شود."
+
+#: classes/class-wc-coupon.php:459
+msgid "Coupon usage limit has been reached."
+msgstr "مهلت استفاده از کوپن به پایان رسیده است."
+
+#: classes/class-wc-coupon.php:462
+msgid "This coupon has expired."
+msgstr "این کوپن منقضی شده است."
+
+#: classes/class-wc-coupon.php:465
+msgid "The minimum spend for this coupon is %s."
+msgstr "کمترین میزان استفاده از این کوپن \"%s\" است"
+
+#: classes/class-wc-coupon.php:468
+msgid "Sorry, this coupon is not applicable to your cart contents."
+msgstr "ببخشید، این کوپن با محتویات سبد خرید شما همخوانی ندارد."
+
+#: classes/class-wc-coupon.php:471
+msgid "Sorry, this coupon is not valid for sale items."
+msgstr "ببخشید، این کوپن برای موارد فروخته شده معتبر نیست."
+
+#: classes/class-wc-coupon.php:497
+msgid "Please enter a coupon code."
+msgstr "کد کوپن خود را وارد کنید"
+
+#: classes/class-wc-customer.php:628 classes/class-wc-customer.php:638
+msgid "File %d"
+msgstr "فایل %d"
+
+#: classes/class-wc-emails.php:246
+msgid "Note"
+msgstr "یادداشت"
+
+#: classes/class-wc-emails.php:281
+msgid "Product low in stock"
+msgstr "کمبود محصول در انبار"
+
+#: classes/class-wc-emails.php:286 classes/class-wc-emails.php:318
+#: classes/class-wc-emails.php:362
+msgid "Variation #%s of %s"
+msgstr "متغیر شماره  %s از %s"
+
+#: classes/class-wc-emails.php:288 classes/class-wc-emails.php:320
+#: classes/class-wc-emails.php:364
+msgid "Product #%s - %s"
+msgstr "محصول شماره %s از %s"
+
+#: classes/class-wc-emails.php:290
+msgid "is low in stock."
+msgstr "در انبار کم می باشد"
+
+#: classes/class-wc-emails.php:313
+msgid "Product out of stock"
+msgstr "محصول موجود نیست"
+
+#: classes/class-wc-emails.php:322
+msgid "is out of stock."
+msgstr "در انبار موجود نمی باشد"
+
+#: classes/class-wc-emails.php:357
+msgid "Product Backorder"
+msgstr "پیش‌خرید محصول"
+
+#: classes/class-wc-emails.php:366
+msgid "%s units of %s have been backordered in order #%s."
+msgstr "%s واحد از %s در سفارش شماره %s پیش‌خرید شده‌اند."
+
+#: classes/class-wc-order.php:283
+msgctxt "hash before order number"
+msgid "#"
+msgstr "شماره "
+
+#: classes/class-wc-order.php:858
+msgid "&nbsp;<small>%svia %s</small>"
+msgstr "<small>%s از طریق %s</small>"
+
+#: classes/class-wc-order.php:923
+msgid "Cart Subtotal:"
+msgstr "مجموع:"
+
+#: classes/class-wc-order.php:929
+msgid "Cart Discount:"
+msgstr "تخفیف سبد خرید:"
+
+#: classes/class-wc-order.php:935
+msgid "Shipping:"
+msgstr "ارسال "
+
+#: classes/class-wc-order.php:980
+msgid "Subtotal:"
+msgstr "مجموع:"
+
+#: classes/class-wc-order.php:1006
+msgid "Order Discount:"
+msgstr "تخفیف سفارش:"
+
+#: classes/class-wc-order.php:1011
+msgid "Order Total:"
+msgstr "هزینه کل:"
+
+#: classes/class-wc-order.php:1034 templates/cart/totals.php:145
+#: templates/checkout/review-order.php:151
+msgid "(Includes %s)"
+msgstr "(شامل "
+
+#: classes/class-wc-order.php:1183 classes/class-wc-order.php:1185
+#: classes/class-wc-order.php:1188
+msgid "WooCommerce"
+msgstr "فروشگاه"
+
+#: classes/class-wc-order.php:1235
+msgid "Order status changed from %s to %s."
+msgstr "وضعیت سفارش از %s به %s تغییر کرد."
+
+#: classes/class-wc-order.php:1461 woocommerce-ajax.php:1163
+#: woocommerce-ajax.php:1164
+msgid "Item #%s stock reduced from %s to %s."
+msgstr "كالاي #%s موجود است "
+
+#: classes/class-wc-order.php:1473
+msgid "Order item stock reduced successfully."
+msgstr "فرایند کاهش از انبار برای فروش با موفقیت انجام شد."
+
+#: classes/class-wc-product-external.php:56
+msgid "Buy product"
+msgstr "خرید محصول"
+
+#: classes/class-wc-shortcodes.php:571
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:257
+#: templates/loop/add-to-cart.php:46
+#: templates/single-product/add-to-cart/grouped.php:45
+#: templates/single-product/add-to-cart/grouped.php:75
+#: templates/single-product/add-to-cart/simple.php:42
+#: templates/single-product/add-to-cart/variable.php:78
+msgid "Add to cart"
+msgstr "افزودن به سبد خرید"
+
+#: classes/emails/class-wc-email-customer-completed-order.php:24
+msgid "Completed order"
+msgstr "سفارش های تکمیل شده"
+
+#: classes/emails/class-wc-email-customer-completed-order.php:25
+msgid ""
+"Order complete emails are sent to the customer when the order is marked "
+"complete and usual indicates that the order has been shipped."
+msgstr ""
+"ایمیلهای سفارشهای تکمیل شده، وقتی که سفارش برچسب تکمیل شدن دریافت کرد، به "
+"مشتری فرستاده شد و حاکی از حمل محصول دارد."
+
+#: classes/emails/class-wc-email-customer-completed-order.php:27
+msgid "Your order is complete"
+msgstr "درخواست خرید کامل شد."
+
+#: classes/emails/class-wc-email-customer-completed-order.php:28
+msgid "Your {blogname} order from {order_date} is complete"
+msgstr "درخواست {blogname شما از {order_date} کامل شد."
+
+#: classes/emails/class-wc-email-customer-completed-order.php:37
+msgid "Your order is complete - download your files"
+msgstr "درخواست خرید شما کامل شد. فایل مرد نظر را دانلود کنید."
+
+#: classes/emails/class-wc-email-customer-completed-order.php:38
+msgid ""
+"Your {blogname} order from {order_date} is complete - download your files"
+msgstr ""
+"درخواست {blogname شما از {order_date} کامل شد. فایل مرد نظر را دانلود کنید"
+
+#: classes/emails/class-wc-email-customer-completed-order.php:141
+#: classes/emails/class-wc-email-new-order.php:128
+msgid "Subject"
+msgstr "موضوع"
+
+#: classes/emails/class-wc-email-customer-completed-order.php:148
+#: classes/emails/class-wc-email-new-order.php:135
+msgid "Email Heading"
+msgstr "عنوان ایمیل"
+
+#: classes/emails/class-wc-email-customer-completed-order.php:155
+msgid "Subject (downloadable)"
+msgstr "موضوع (قابل دانلود)"
+
+#: classes/emails/class-wc-email-customer-completed-order.php:162
+msgid "Email Heading (downloadable)"
+msgstr "عنوان ایمیل (قابل دانلود)"
+
+#: classes/emails/class-wc-email-customer-invoice.php:27
+msgid "Customer invoice"
+msgstr "صورتحساب مشتری"
+
+#: classes/emails/class-wc-email-customer-invoice.php:28
+msgid ""
+"Customer invoice emails can be sent to the user containing order info and "
+"payment links."
+msgstr ""
+"می توانید ایمیل صورتحساب مشتری را به همراه اطلالعت خرید و لینک های پرداخت "
+"بفرستید."
+
+#: classes/emails/class-wc-email-customer-invoice.php:33
+msgid "Invoice for order {order_number} from {order_date}"
+msgstr "صورتحساب برای خرید {order_number} از {order_date}"
+
+#: classes/emails/class-wc-email-customer-invoice.php:34
+msgid "Invoice for order {order_number}"
+msgstr "صورتحساب برای خرید {order_number}"
+
+#: classes/emails/class-wc-email-customer-invoice.php:36
+msgid "Your {blogname} order from {order_date}"
+msgstr "خرید {blogname} شما از {order_date}"
+
+#: classes/emails/class-wc-email-customer-invoice.php:37
+msgid "Order {order_number} details"
+msgstr "جزییات خرید {order_number}"
+
+#: classes/emails/class-wc-email-customer-invoice.php:158
+msgid "Email subject (paid)"
+msgstr "موضوع ایمیل (پرداخت)"
+
+#: classes/emails/class-wc-email-customer-invoice.php:165
+msgid "Email heading (paid)"
+msgstr "عنوان ایمیل (پرداخت)"
+
+#: classes/emails/class-wc-email-customer-new-account.php:31
+msgid "New account"
+msgstr "حساب کاربری جدید"
+
+#: classes/emails/class-wc-email-customer-new-account.php:32
+msgid ""
+"Customer new account emails are sent when a customer signs up via the "
+"checkout or My Account page."
+msgstr ""
+"ایمیل حساب های کاربری جدید که در برگه خرید یا حساب کاربری من ایجاد شده اند، "
+"فرستاده شد"
+
+#: classes/emails/class-wc-email-customer-new-account.php:37
+msgid "Your account on {blogname}"
+msgstr "اکانت شما در {blogname}"
+
+#: classes/emails/class-wc-email-customer-new-account.php:38
+msgid "Welcome to {blogname}"
+msgstr "به {blogname} خوش آمدید"
+
+#: classes/emails/class-wc-email-customer-note.php:29
+msgid "Customer note"
+msgstr "یادداشت مشتری"
+
+#: classes/emails/class-wc-email-customer-note.php:30
+msgid "Customer note emails are sent when you add a note to an order."
+msgstr ""
+"ایمیل های یاداشت مشتری وقتی شما یک یادداشت به درخواست اضافه کردید، فرستاده "
+"شد."
+
+#: classes/emails/class-wc-email-customer-note.php:35
+msgid "Note added to your {blogname} order from {order_date}"
+msgstr "یادداشت شما به درخواست {blogname} از {order_date} اضافه شد."
+
+#: classes/emails/class-wc-email-customer-note.php:36
+msgid "A note has been added to your order"
+msgstr "یادداشت به درخواست خرید شما اضافه شد."
+
+#: classes/emails/class-wc-email-customer-processing-order.php:24
+msgid "Processing order"
+msgstr "پردازش درخواست خرید"
+
+#: classes/emails/class-wc-email-customer-processing-order.php:25
+msgid ""
+"This is an order notification sent to the customer after payment containing "
+"order details."
+msgstr ""
+"ایمیل اطلاع رسانی بعد از پرداخت، حاوی جزییات درخواست خرید برای مشتری فرستاده "
+"شد."
+
+#: classes/emails/class-wc-email-customer-processing-order.php:27
+msgid "Thank you for your order"
+msgstr "از خرید شما متشکریم"
+
+#: classes/emails/class-wc-email-customer-processing-order.php:28
+msgid "Your {blogname} order receipt from {order_date}"
+msgstr "رسید خرید {blogname} شما از {order_date}"
+
+#: classes/emails/class-wc-email-customer-reset-password.php:36
+msgid "Reset password"
+msgstr "بازگردانی کلمه عبور"
+
+#: classes/emails/class-wc-email-customer-reset-password.php:37
+msgid ""
+"Customer reset password emails are sent when a customer resets their "
+"password."
+msgstr ""
+"ایمیل های بازگردانی کلمه عبور زمانی ارسال می شود که مشتری درخواست بازگردانی "
+"کلمه عبور خود را داشته باشد."
+
+#: classes/emails/class-wc-email-customer-reset-password.php:42
+msgid "Password Reset for {blogname}"
+msgstr "بازگردانی کلمه عبور برای {blogname}"
+
+#: classes/emails/class-wc-email-customer-reset-password.php:43
+msgid "Password Reset Instructions"
+msgstr "مراحل بازگردانی کلمه عبور"
+
+#: classes/emails/class-wc-email-new-order.php:24
+msgid "New order"
+msgstr "درخواست خرید جدید"
+
+#: classes/emails/class-wc-email-new-order.php:25
+msgid "New order emails are sent when an order is received/paid by a customer."
+msgstr ""
+"ایمیل های درخواست خرید جدید زمانی ارسال می شود که درخواست/پرداخت خرید انجام "
+"شده باشد."
+
+#: classes/emails/class-wc-email-new-order.php:27
+msgid "New customer order"
+msgstr "درخواست جدید خرید مشتری"
+
+#: classes/emails/class-wc-email-new-order.php:28
+msgid "[{blogname}] New customer order ({order_number}) - {order_date}"
+msgstr "{blogname} درخواست خرید جدید ({order_number}) - {order_date}"
+
+#: classes/emails/class-wc-email-new-order.php:121
+msgid "Recipient(s)"
+msgstr "گیرنده"
+
+#: classes/emails/class-wc-email-new-order.php:123
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+"گیرندگان ایمیل را وارد (بوسیله کاما از هم جدا کنید). به طور پیش فرض <code>"
+"%s</code>"
+
+#: classes/emails/class-wc-email-new-order.php:130
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"کنترل موضوع ایمیل ها. اگر مایل به استفاده از حالت پیش فرض هستید، خالی "
+"بگذارید <code>%s</code>"
+
+#: classes/emails/class-wc-email-new-order.php:137
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"کنترل عنوان اصلی ایمیل ها که شامل ایمیل های اطلاع رسانی هم میشود. جهت "
+"استفاده از حالت پیش فرض خالی بگذارید <code>%s</code>"
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:28
+msgid "Bacs"
+msgstr "خرید بانکی"
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:65
+msgid "Enable Bank Transfer"
+msgstr "فعال کردن خرید از طریق انتقال به کارت یا حساب"
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:69
+#: classes/gateways/cheque/class-wc-gateway-cheque.php:63
+#: classes/gateways/cod/class-wc-gateway-cod.php:87
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:171
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:125
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:104
+#: classes/shipping/local-pickup/class-wc-shipping-local-pickup.php:84
+msgid "Title"
+msgstr "عنوان"
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:71
+#: classes/gateways/cheque/class-wc-gateway-cheque.php:65
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:173
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:127
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:85
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:83
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:60
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:106
+#: classes/shipping/local-pickup/class-wc-shipping-local-pickup.php:86
+msgid "This controls the title which the user sees during checkout."
+msgstr "متن نمایشی هنگام پرداخت صورتحساب"
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:72
+msgid "Direct Bank Transfer"
+msgstr "انتقال مستقیم بانکی"
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:76
+#: classes/gateways/cheque/class-wc-gateway-cheque.php:70
+msgid "Customer Message"
+msgstr "پیام مشتری"
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:78
+msgid ""
+"Give the customer instructions for paying via BACS, and let them know that "
+"their order won't be shipping until the money is received."
+msgstr "توضیحات به خریدار که بعد از پرداخت عملیات ارسال انجام خواهد شد."
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:79
+msgid ""
+"Make your payment directly into our bank account. Please use your Order ID "
+"as the payment reference. Your order wont be shipped until the funds have "
+"cleared in our account."
+msgstr ""
+"پرداخت خود را مستقیما به حساب بانکی ما واریز کنید . لطفا Order ID خود را "
+"بعنوان کد ارجاع پرداخت استفاده کنید. سفارش شما تا زمانی که وجوه به حساب ما "
+"وارد نشود ارسال نخواهد شد."
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:82
+msgid "Account Details"
+msgstr "اطلاعات حساب كاربری"
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:84
+msgid "Optionally enter your bank details below for customers to pay into."
+msgstr ""
+"در صورت تمایل جزییات حساب بانکی خود را برای واریز مشتری در اینجا وارد کنید"
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:88
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:163
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:203
+msgid "Account Name"
+msgstr "نام حساب"
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:94
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:164
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:204
+msgid "Account Number"
+msgstr "شماره کارت"
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:100
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:165
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:205
+msgid "Sort Code"
+msgstr "شماره حساب"
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:106
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:166
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:206
+msgid "Bank Name"
+msgstr "نام بانک"
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:112
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:167
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:207
+msgid "IBAN"
+msgstr "شماره حساب بانک بین المللی"
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:117
+msgid "BIC (formerly Swift)"
+msgstr "BIC (قبلا به نام سوییفت شناخته میشد)"
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:136
+msgid "BACS Payment"
+msgstr "پرداخت BACS"
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:137
+msgid ""
+"Allows payments by BACS (Bank Account Clearing System), more commonly known "
+"as direct bank/wire transfer."
+msgstr ""
+"اجازه پرداخت توسط BACS معمولا بعنوان انتقال مستقیم به بانک معروف می باشد."
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:158
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:200
+msgid "Our Details"
+msgstr "مشخصات ما"
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:168
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:208
+msgid "BIC"
+msgstr "BIC"
+
+#: classes/gateways/bacs/class-wc-gateway-bacs.php:234
+msgid "Awaiting BACS payment"
+msgstr "پرداخت BACS در انتظار"
+
+#: classes/gateways/cheque/class-wc-gateway-cheque.php:28
+msgid "Cheque"
+msgstr "چک"
+
+#: classes/gateways/cheque/class-wc-gateway-cheque.php:59
+msgid "Enable Cheque Payment"
+msgstr "فعال کردن پرداخت از طریق چک"
+
+#: classes/gateways/cheque/class-wc-gateway-cheque.php:66
+#: classes/gateways/cheque/class-wc-gateway-cheque.php:90
+msgid "Cheque Payment"
+msgstr "پرداخت از طریق چک"
+
+#: classes/gateways/cheque/class-wc-gateway-cheque.php:72
+msgid ""
+"Let the customer know the payee and where they should be sending the cheque "
+"to and that their order won't be shipping until you receive it."
+msgstr ""
+"بگذارید خریدار گیرنده را بشناسد و اینکه به کجا باید چک را ارسال کنند و اینکه "
+"سفارش آنها تا زمانی که چک را دریافت نکنید ارسال نمی شود."
+
+#: classes/gateways/cheque/class-wc-gateway-cheque.php:73
+msgid ""
+"Please send your cheque to Store Name, Store Street, Store Town, Store "
+"State / County, Store Postcode."
+msgstr ""
+"لطفا چک خود را به نام فروشگاه، خیابان فروشگاه، شهر فروشگاه، ایالت/کشور "
+"فروشگاه، کدپستی فروشگاه بفرستید."
+
+#: classes/gateways/cheque/class-wc-gateway-cheque.php:91
+msgid ""
+"Allows cheque payments. Why would you take cheques in this day and age? Well "
+"you probably wouldn't but it does allow you to make test purchases for "
+"testing order emails and the 'success' pages etc."
+msgstr ""
+"اجازه پرداخت با چک. چرا در دوره از تاریخ از چک استفاده میکنید؟! در هر حال "
+"این کار باعث میشود شما اجازه تست خرید موفق محصول خریداری شده را داشته باشید. "
+
+#: classes/gateways/cheque/class-wc-gateway-cheque.php:147
+msgid "Awaiting cheque payment"
+msgstr "انتظار برای پاس شدن چك "
+
+#: classes/gateways/cod/class-wc-gateway-cod.php:27
+#: classes/gateways/cod/class-wc-gateway-cod.php:54
+#: classes/gateways/cod/class-wc-gateway-cod.php:90
+msgid "Cash on Delivery"
+msgstr "پرداخت هنگام دریافت"
+
+#: classes/gateways/cod/class-wc-gateway-cod.php:55
+msgid "Have your customers pay with cash (or by other means) upon delivery."
+msgstr "پرداخت هزینه خرید هنگام تحویل در محل"
+
+#: classes/gateways/cod/class-wc-gateway-cod.php:80
+msgid "Enable COD"
+msgstr "پرداخت هنگام دریافت فعال است"
+
+#: classes/gateways/cod/class-wc-gateway-cod.php:81
+msgid "Enable Cash on Delivery"
+msgstr "فعال کردن پرداخت هنگام تحویل"
+
+#: classes/gateways/cod/class-wc-gateway-cod.php:89
+msgid "Payment method title that the customer will see on your website."
+msgstr "روش پرداختی که برای خریدار نمایش داده می‌شود."
+
+#: classes/gateways/cod/class-wc-gateway-cod.php:94
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:178
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:132
+#: woocommerce-template.php:748
+msgid "Description"
+msgstr "توضیحات"
+
+#: classes/gateways/cod/class-wc-gateway-cod.php:96
+msgid "Payment method description that the customer will see on your website."
+msgstr "توضیحات پرداخت که برای خریدار نمایش داده می‌شود."
+
+#: classes/gateways/cod/class-wc-gateway-cod.php:97
+#: classes/gateways/cod/class-wc-gateway-cod.php:103
+msgid "Pay with cash upon delivery."
+msgstr "پرداخت نقدی پس از تحویل."
+
+#: classes/gateways/cod/class-wc-gateway-cod.php:100
+msgid "Instructions"
+msgstr "دستورالعمل‌ها"
+
+#: classes/gateways/cod/class-wc-gateway-cod.php:102
+msgid "Instructions that will be added to the thank you page."
+msgstr "توضیحات در برگه تشکر، بعد از پرداخت."
+
+#: classes/gateways/cod/class-wc-gateway-cod.php:106
+msgid "Enable for shipping methods"
+msgstr "فعال کردن روشهای ارسال"
+
+#: classes/gateways/cod/class-wc-gateway-cod.php:111
+msgid ""
+"If COD is only available for certain methods, set it up here. Leave blank to "
+"enable for all methods."
+msgstr ""
+"اگر میخواهید پرداخت هنگام دریافت فقط در موارد خاصی فعال باشد، از اینجا "
+"تنظیمات آن را انجام دهید. اگر خالی بگذارید، برای تمام روشها اعمال میشود."
+
+#: classes/gateways/cod/class-wc-gateway-cod.php:176
+msgid "Payment to be made upon delivery."
+msgstr "پرداخت پس از تحویل"
+
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:31
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:196
+msgid "Mijireh Checkout"
+msgstr "تسویه‌حساب از طریق Mijireh"
+
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:143
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:321
+msgid "Mijireh error:"
+msgstr "خطای Mijireh: "
+
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:160
+msgid "Enable Mijireh Checkout"
+msgstr "فعال کردن پرداخت توسط Mijireh"
+
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:164
+msgid "Access Key"
+msgstr "کلید دسترسی"
+
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:166
+msgid "The Mijireh access key for your store."
+msgstr "کد دسترسی Mijireh برای فروشگاه شما"
+
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:174
+msgid "Credit Card"
+msgstr "کارت اعتباری"
+
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:180
+msgid "Pay securely with you credit card."
+msgstr "با امنیت بالا بوسیله کارت اعتباری خود خرید کنید"
+
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:181
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:134
+msgid "This controls the description which the user sees during checkout."
+msgstr "این کنترل ها مشخص میکنند که کاربر طی فرایند پرداخت چه چیزهایی میبیند"
+
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:200
+msgid "Get started with Mijireh Checkout"
+msgstr "پرداخت با Mijireh را آغاز کنید"
+
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:201
+msgid ""
+"provides a fully PCI Compliant, secure way to collect and transmit credit "
+"card data to your payment gateway while keeping you in control of the design "
+"of your site. Mijireh supports a wide variety of payment gateways: Stripe, "
+"Authorize.net, PayPal, eWay, SagePay, Braintree, PayLeap, and more."
+msgstr ""
+"در حالیکه طراحی سایتتان را در کنترل خود دارید یک PCI کاملاً سازگار ارائه کرده "
+"و جمع آوری و انتقال داده های کارت اعتباری را به دروازه پرداختتان ایمن سازی "
+"میکند. Mijireh دروازه های پرداخت گوناگونی را پشتیبانی میکند: Stripe, "
+"Authorize.net, PayPal, eWay, SagePay, Braintree, PayLeap و غیره"
+
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:203
+msgid "Join for free"
+msgstr "عضویت رایگان"
+
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:203
+msgid "Learn more about WooCommerce and Mijireh"
+msgstr "اطلاعات بیشتر در مورد WooCommerce و Mijireh"
+
+#: classes/gateways/mijireh/class-wc-gateway-mijireh.php:207
+msgid ""
+"provides a fully PCI Compliant, secure way to collect and transmit credit "
+"card data to your payment gateway while keeping you in control of the design "
+"of your site."
+msgstr ""
+"در حالیکه طراحی سایتتان را در کنترل خود دارید یک PCI کاملاً سازگار ارائه کرده "
+"و جمع آوری و انتقال داده های کارت اعتباری را به دروازه پرداختتان ایمن سازی "
+"میکند."
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:34
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:128
+msgid "PayPal"
+msgstr "پی‌پل"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:90
+msgid "PayPal standard"
+msgstr "استاندارد پی‌پل"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:91
+msgid ""
+"PayPal standard works by sending the user to PayPal to enter their payment "
+"information."
+msgstr ""
+"پی‌پل استاندارد بوسیله فرستادن کاربر با پی‌پل جهت ورود اطلاعات خرید عمل میکند."
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:103
+msgid "Gateway Disabled"
+msgstr "درگاه غيرفعال شده است"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:103
+msgid "PayPal does not support your store currency."
+msgstr "پی‌پل واحد پول فروشگاه شما را قبول نمیکند."
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:121
+msgid "Enable PayPal standard"
+msgstr "فعال کردن پی پال استاندارد"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:135
+msgid ""
+"Pay via PayPal; you can pay with your credit card if you don't have a PayPal "
+"account"
+msgstr ""
+"پرداخت از طریق پی‌پل، شما در صورت نداشتن حساب کاربری پی‌پل می توانید بوسیله "
+"کارت اعتباری خود پرداخت کنید"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:138
+msgid "PayPal Email"
+msgstr "ايميل پی‌پل"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:140
+msgid ""
+"Please enter your PayPal email address; this is needed in order to take "
+"payment."
+msgstr "لطفا ايميل پی‌پل خود را وارد کنید. این کار برای پرداخت لازم است."
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:146
+msgid "Invoice Prefix"
+msgstr "پیش فاکتور"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:148
+msgid ""
+"Please enter a prefix for your invoice numbers. If you use your PayPal "
+"account for multiple stores ensure this prefix is unique as PayPal will not "
+"allow orders with the same invoice number."
+msgstr ""
+"لطفا پیشوند برای شماره فاکتور خود را وارد کنید. اگر شما استفاده از حساب پی‌پل "
+"خود را برای فروشگاه های مختلف استفاده می کنید، مطمئن شوید این پیشوند منحصر "
+"به فرد است در غیر اینصورت پی‌پل سفارشات را با شماره صورتحساب درج شده را اجازه "
+"نمی دهد."
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:153
+msgid "Submission method"
+msgstr "روش واگذاری"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:155
+msgid "Use form submission method."
+msgstr "از فرم روش ثبت نام استفاده کنید."
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:156
+msgid ""
+"Enable this to post order data to PayPal via a form instead of using a "
+"redirect/querystring."
+msgstr ""
+"فعال کردن این برای ارسال داده ها جهت پی‌پل از طریق یک فرم به جای استفاده از "
+"تغییر مسیر / رشته درخواست."
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:160
+msgid "Page Style"
+msgstr "طراحی برگه"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:162
+msgid ""
+"Optionally enter the name of the page style you wish to use. These are "
+"defined within your PayPal account."
+msgstr ""
+"در صورت تمایل نام سبک برگه‌ای که مایل به استفاده از آن هستید را وارد کنید. "
+"این تعاریف در حساب کاربری پی‌پل شما استفاده میشود."
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:165
+msgid "Optional"
+msgstr "در صورت تمایل"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:168
+msgid "Shipping options"
+msgstr "امكانات حمل كالا"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:173
+msgid "Shipping details"
+msgstr "اطلاعات حمل و نقل كالا"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:175
+msgid "Send shipping details to PayPal instead of billing."
+msgstr "ارسال جزئیات بیشتر حمل و نقل به پی‌پل جای استفاده از صدور صورت حساب."
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:177
+msgid ""
+"PayPal allows us to send 1 address. If you are using PayPal for shipping "
+"labels you may prefer to send the shipping address rather than billing."
+msgstr ""
+"پی‌پل به ما برای ارسال 1 آدرس اجازه می دهد . اگر شما از پی‌پل برای برچسب های "
+"حمل و نقل استفاده میکنید، ممکن است ارسال آدرس حمل و نقل را به جای صدور "
+"صورت‌حساب ترجیح دهید"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:181
+msgid "Address override"
+msgstr "بازنویسی آدرس"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:183
+msgid ""
+"Enable \"address_override\" to prevent address information from being "
+"changed."
+msgstr "برای جلوگیری از تغییر اطلاعات آدرس \"address_override\" را فعال کنید."
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:184
+msgid ""
+"PayPal verifies addresses therefore this setting can cause errors (we "
+"recommend keeping it disabled)."
+msgstr ""
+"پی‌پل آدرس ها را بررسی و تایید میکند بنابراین این تنظیمات ممکن است خطا ایجاد "
+"کند(ما پیشنهاد میکنیم این تنظیم را غیرفعال کنید)"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:188
+msgid "Gateway Testing"
+msgstr "آزمایش درگاه"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:193
+msgid "PayPal sandbox"
+msgstr "سندباکس پی‌پل"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:195
+msgid "Enable PayPal sandbox"
+msgstr "فعال کردن سندباکس پی‌پل"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:197
+msgid ""
+"PayPal sandbox can be used to test payments. Sign up for a developer account "
+"<a href=\"%s\">here</a>."
+msgstr ""
+"سندباکس پی‌پل را می توان برای آزمایش پرداخت ها استفاده کرد. برای یک حساب "
+"برنامه نویس <a href=\"%s\">اینجا</a> ثبت نام کنید "
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:200
+msgid "Debug Log"
+msgstr "گزارش عیب یابی"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:202
+msgid "Enable logging"
+msgstr "فعال کردن گزارش گیری"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:204
+msgid ""
+"Log PayPal events, such as IPN requests, inside <code>woocommerce/logs/"
+"paypal.txt</code>"
+msgstr ""
+"گزارش رویدادهای پی‌پل، نظیر درخواست آی پی ان درون code>woocommerce/logs/"
+"paypal.txt</code>"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:313
+msgid "Order %s"
+msgstr "سفارش %s"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:323
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:373
+msgid "Shipping via"
+msgstr "ارسال از طریق "
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:414
+msgid ""
+"Thank you for your order. We are now redirecting you to PayPal to make "
+"payment."
+msgstr ""
+"از خرید شما متشکریم . ما شما را به پی‌پل بازمی‌گردانیم تا پرداخت خود را انجام "
+"دهید . "
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:435
+msgid "Pay via PayPal"
+msgstr "پرداخت با پي پال"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:435
+msgid "Cancel order &amp; restore cart"
+msgstr "لغو درخواست خرید &amp; بازگرداندن به سبد خرید"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:489
+msgid ""
+"Thank you for your order, please click the button below to pay with PayPal."
+msgstr ""
+"از خرید شما متشکریم ، برای پرداخت از طریق PayPal لطفا دکمه زیر را کلیک کنید"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:634
+msgid "Validation error: PayPal amounts do not match (gross %s)."
+msgstr "خطای معتبرسازی: مقادیر پی‌پل همخوانی ندارند. ( %s ) "
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:652
+msgid "IPN payment completed"
+msgstr "پرداخت IPN تکمیل شد"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:664
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:672
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:690
+msgid "Payment %s via IPN."
+msgstr "پرداخت %s از طریق IPN."
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:677
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:695
+msgid "Order refunded/reversed"
+msgstr "سفارش مسترد/بازگشت خورده"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:678
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:696
+msgid "Order %s has been marked as refunded - PayPal reason code: %s"
+msgstr "سفارش %s مسترد گشته است - کد علت پی‌پل: %s"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:681
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:699
+msgid "Payment for order %s refunded/reversed"
+msgstr "پرداخت برای سفارش %s مسترد شده/بازگشت خورده"
+
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:26
+msgid "Google Analytics"
+msgstr "آنالیزگر گوگل"
+
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:27
+msgid ""
+"Google Analytics is a free service offered by Google that generates detailed "
+"statistics about the visitors to a website."
+msgstr ""
+"آنالزیزگر گوگل، ابزاری رایگان توسط گوگل است که آمار دقیقی در مورد بازدید "
+"کنندگان سایت تولید میکند."
+
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:62
+msgid "Google Analytics ID"
+msgstr "شماره شناسایی Google Analytics "
+
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:63
+msgid ""
+"Log into your google analytics account to find your ID. e.g. <code>UA-XXXXX-"
+"X</code>"
+msgstr "به وسیله کلمه شناسایی Google Analytics خود وارد شوید."
+
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:68
+msgid "Tracking code"
+msgstr "کد رهگیری"
+
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:69
+msgid ""
+"Add tracking code to your site's footer. You don't need to enable this if "
+"using a 3rd party analytics plugin."
+msgstr ""
+"کد رهگیری را به انتهای سایت خود اضافه کنید. شما احتیاجی به انجام این مورد "
+"ندارید، اگر از افزونه Analytics  استفاده میکنید."
+
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:75
+msgid "Add eCommerce tracking code to the thankyou page"
+msgstr "اضافه کردن کد رهگیری eCommerce به برگه تشکر"
+
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:81
+msgid "Add event tracking code for add to cart actions"
+msgstr "کد ردیابی رویدادها را به اضافه کردن به اعمال سبد خرید اضافه کن"
+
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:113
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:168
+#: woocommerce-ajax.php:1725
+msgid "Guest"
+msgstr "مهمان"
+
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:201
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:258
+#: templates/single-product/meta.php:19
+msgid "SKU:"
+msgstr "موجودی:"
+
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:256
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:276
+#: woocommerce.php:948
+msgid "Products"
+msgstr "محصولات"
+
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:277
+msgid "Add to Cart"
+msgstr "اضافه به سبد خرید"
+
+#: classes/integrations/sharedaddy/class-wc-sharedaddy.php:26
+msgid "ShareDaddy"
+msgstr "اشتراک پدر"
+
+#: classes/integrations/sharedaddy/class-wc-sharedaddy.php:27
+msgid "ShareDaddy is a sharing plugin bundled with JetPack."
+msgstr "اشتراک پدر یک پلاگ این رایگان اشتراک با جت پک است"
+
+#: classes/integrations/sharedaddy/class-wc-sharedaddy.php:51
+msgid "Output ShareDaddy button?"
+msgstr "دکمه خروجی اشتراک پدر؟"
+
+#: classes/integrations/sharedaddy/class-wc-sharedaddy.php:52
+msgid "Enable this option to show the ShareDaddy button on the product page."
+msgstr "با فعال کردن این گزینه دکمه ShareDaddy را در برگه محصول نمایش دهید."
+
+#: classes/integrations/sharethis/class-wc-sharethis.php:29
+msgid "ShareThis"
+msgstr "ShareThis"
+
+#: classes/integrations/sharethis/class-wc-sharethis.php:30
+msgid ""
+"ShareThis offers a sharing widget which will allow customers to share links "
+"to products with their friends."
+msgstr ""
+"ShareThis به شما ابزارک اشتراک را پیشنهاد میدهد که به وسیله آن می توانید به "
+"مشتریان امکان اشتراک گذاری لینک محصول با دوستان را بدهید."
+
+#: classes/integrations/sharethis/class-wc-sharethis.php:63
+msgid "ShareThis Publisher ID"
+msgstr "کد شناسایی منتشر کننده ShareThis"
+
+#: classes/integrations/sharethis/class-wc-sharethis.php:64
+msgid ""
+"Enter your %1$sShareThis publisher ID%2$s to show social sharing buttons on "
+"product pages."
+msgstr ""
+"کد شناسایی منتشر کننده ShareThis را وارد کنید تا دکمه های اشتراک در برگه "
+"محصول نشان داده شوند."
+
+#: classes/integrations/sharethis/class-wc-sharethis.php:69
+msgid "ShareThis Code"
+msgstr "به اشتراک گذاری این کد"
+
+#: classes/integrations/sharethis/class-wc-sharethis.php:70
+msgid "You can tweak the ShareThis code by editing this option."
+msgstr "شما می توانید با ویرایش این گزینه کد ShareThis را بهبود ببخشید"
+
+#: classes/integrations/shareyourcart/class-wc-shareyourcart.php:22
+#: classes/integrations/shareyourcart/class.shareyourcart-wp.php:329
+msgid "ShareYourCart"
+msgstr "ShareYourCart"
+
+#: classes/integrations/shareyourcart/class-wc-shareyourcart.php:23
+msgid ""
+"Increase your social media exposure by 10 percent! ShareYourCart helps you "
+"get more customers by motivating satisfied customers to talk with their "
+"friends about your products. For help with ShareYourCart view the <a href="
+"\"http://docs.woothemes.com/document/shareyourcart/\" target=\"__blank"
+"\">documentation</a>."
+msgstr ""
+"نمایش رسانه های اجتماعی شما را تا ده درصد بیشتر میکند ! ShareYourCart با "
+"ایجاد انگیزه در مشتریان راضی برای صحبت با دوستانشان درباره محصولات شما، به "
+"شما در جذب مشتریان بیشتر کمک میکند. برای کمک در زمینه ShareYourCart مراجعه "
+"کنید به <a href=\"http://docs.woothemes.com/document/shareyourcart/\" target="
+"\"__blank\">documentation</a>."
+
+#: classes/integrations/shareyourcart/class.shareyourcart-wp.php:328
+msgid "Share your cart settings"
+msgstr "تنظیمات کارت خود را به اشتراک بگذارید"
+
+#: classes/integrations/shareyourcart/class.shareyourcart-wp.php:342
+msgid "Button"
+msgstr "دکمه"
+
+#: classes/integrations/shareyourcart/class.shareyourcart-wp.php:343
+msgid "Customize Button"
+msgstr "سفارشی سازی دکمه"
+
+#: classes/integrations/shareyourcart/class.shareyourcart-wp.php:351
+#: classes/integrations/shareyourcart/class.shareyourcart-wp.php:352
+msgid "Documentation"
+msgstr "مستندات"
+
+#: classes/integrations/shareyourcart/views/admin-page.php:33
+msgid "Setup your ShareYourCart account"
+msgstr "ایجاد حساب کاربری در ShareYourCart"
+
+#: classes/integrations/shareyourcart/views/admin-page.php:35
+msgid "Create an account"
+msgstr "حساب کاربری بسازید"
+
+#: classes/integrations/shareyourcart/views/admin-page.php:35
+msgid "Can't access your account?"
+msgstr "نمی‌توانید به حساب کاربری خود دسترسی داشته باشید؟"
+
+#: classes/integrations/shareyourcart/views/admin-page.php:100
+msgid "Configure"
+msgstr "تنظیمات"
+
+#: classes/integrations/shareyourcart/views/admin-page.php:110
+#: classes/integrations/shareyourcart/views/button-settings-page.php:120
+msgid "Save changes"
+msgstr "ذخیره تغییرات"
+
+#: classes/integrations/shareyourcart/views/button-settings-page.php:8
+#: classes/integrations/shareyourcart/views/button-settings-page.php:11
+msgid "Button style"
+msgstr "نوع دکمه"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:25
+msgid "Flat rate"
+msgstr "نرخ"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:28
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:461
+msgid "Flat Rates"
+msgstr "نرخ ها"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:29
+msgid "Flat rates let you define a standard rate per item, or per order."
+msgstr ""
+"نرخ ها به شما اجازه تعریف نرخ استاندارد برای هر آیتم، یا هر درخواست خرید را "
+"می دهد"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:79
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:54
+msgid "Enable this shipping method"
+msgstr "فعال کردن این روش ارسال"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:83
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:81
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:58
+msgid "Method Title"
+msgstr "عنوان روش"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:86
+msgid "Flat Rate"
+msgstr "نرخ ثابت"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:90
+msgid "Cost per order"
+msgstr "هزینه به ازای سفارش"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:96
+msgid ""
+"Enter a cost (excluding tax) per order, e.g. 5.00. Leave blank to disable."
+msgstr ""
+"قیمت را برای هر درخواست خرید (به همراه مالیات) وارد کنید. مثلا 5. اگر خالی "
+"بگذارید غیرفعال خواهد بود"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:102
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:88
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:143
+#: classes/shipping/local-pickup/class-wc-shipping-local-pickup.php:99
+msgid "Method availability"
+msgstr " روش های موجود"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:107
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:93
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:148
+#: classes/shipping/local-pickup/class-wc-shipping-local-pickup.php:104
+msgid "All allowed countries"
+msgstr "تمام کشورهای مجاز"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:108
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:112
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:94
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:98
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:149
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:153
+#: classes/shipping/local-pickup/class-wc-shipping-local-pickup.php:105
+#: classes/shipping/local-pickup/class-wc-shipping-local-pickup.php:109
+msgid "Specific Countries"
+msgstr "کشورهای خاص"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:120
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:83
+msgid "Calculation Type"
+msgstr "نوع محاسبه"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:124
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:87
+msgid "Per Order - charge shipping for the entire order as a whole"
+msgstr "هر سفارش - هزینه حمل را برای تمامی سفارش ها یک جا پرداخت کنید"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:125
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:88
+msgid "Per Item - charge shipping for each item individually"
+msgstr "هر قلم - هزینه حمل هر جنس را به صورت جداگانه پرداخت کنید"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:126
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:89
+msgid "Per Class - charge shipping for each shipping class in an order"
+msgstr "پر کلاس - هزینه حمل را در هر کلاس حمل پرداخت کنید"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:130
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:93
+msgid "Tax Status"
+msgstr "وضعیت مالیات"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:134
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:97
+msgid "Taxable"
+msgstr "مشمول ماليات"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:135
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:98
+msgid "None"
+msgstr "هيچ كدام"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:139
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:102
+msgid "Default Cost"
+msgstr "هزینه پیش‌فرض"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:145
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:108
+msgid "Cost excluding tax. Enter an amount, e.g. 2.50."
+msgstr "هزینه، منهای مالیات"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:151
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:114
+msgid "Default Handling Fee"
+msgstr "هزینه نگه‌داری پیش‌فرض"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:153
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:116
+msgid ""
+"Fee excluding tax. Enter an amount, e.g. 2.50, or a percentage, e.g. 5%. "
+"Leave blank to disable."
+msgstr "هزینه را وارد کنید، یه درصد و یه مقدار به ریال"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:159
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:122
+msgid "Minimum Fee"
+msgstr "کمترین قیمت"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:165
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:128
+msgid ""
+"Enter a minimum fee amount. Fee's less than this will be increased. Leave "
+"blank to disable."
+msgstr "کمترین مقدار را وارد کنید."
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:171
+msgid "Shipping Options"
+msgstr "امكانات ارسال كالا"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:173
+msgid ""
+"Optional extra shipping options with additional costs (one per line). "
+"Example: <code>Option Name|Cost|Per-order (yes or no)</code>. Example: "
+"<code>Priority Mail|6.95|yes</code>. If per-order is set to no, it will use "
+"the \"Calculation Type\" setting."
+msgstr ""
+"سایر امکانات اختیاری حمل با هزینه اضافی(هر خط یکی)\n"
+"مثال: <code> امکان نام|هزینه|هر سفارش(بله یا خیر) <code/>\n"
+"مثال: <code> اولویت پست|6.95|بله <code>\n"
+"اگر امکان هر سفارش خیر مقدار بگیرد، تنظیمات \"نوع محاسبه\" اعمال می گردد"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:176
+msgid "Option Name|Cost|Per-order (yes or no)"
+msgstr "انتخاب اسم|هزینه|هر سفارش (بله یا خیر)"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:467
+#: woocommerce.php:857
+msgid "Shipping Class"
+msgstr "کلاس ارسال"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:468
+msgid "Cost"
+msgstr "هزینه"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:468
+msgid "Cost, excluding tax."
+msgstr ":قيمت با احتساب ماليات"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:469
+msgid "Handling Fee"
+msgstr "هزینه نگه‌داری"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:469
+msgid ""
+"Fee excluding tax. Enter an amount, e.g. 2.50, or a percentage, e.g. 5%."
+msgstr ""
+"دستمزد بدون احتساب مالیات. مقدار دستمزد را وارد کنید، مثال: ۲۰۰۰ و یا به "
+"صورت درصد : 5% "
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:474
+msgid "+ Add Flat Rate"
+msgstr "+ افزودن نرخ ثابت"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:475
+msgid ""
+"Add rates for shipping classes here &mdash; they will override the default "
+"costs defined above."
+msgstr ""
+"سنجش هر کلاس حمل را در اینجا اضافه کنید ؛ پیش فرض های هزینه که در بالا تعریف "
+"شده اند دوباره مقدار دهی می شوند"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:475
+msgid "Delete selected rates"
+msgstr "نرخ های انتخاب شده را پاک کن"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:495
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:528
+msgid "Select a class&hellip;"
+msgstr "یک کلاس انتخاب کنید"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:500
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:501
+msgid "0.00"
+msgstr "0.00"
+
+#: classes/shipping/flat-rate/class-wc-shipping-flat-rate.php:542
+msgid "Delete the selected rates?"
+msgstr "پاک کردن رتبه‌های انتخاب شده؟"
+
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:25
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:84
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:145
+msgid "Free Shipping"
+msgstr "حمل و نقل رایگان"
+
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:77
+msgid "Enable Free Shipping"
+msgstr "فعال کردن حمل و نقل رایگان"
+
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:106
+msgid "Free Shipping Requires..."
+msgstr "حمل و نقل رایگان نیازمند ..."
+
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:110
+#: templates/order/order-details.php:110 templates/order/order-details.php:125
+msgid "N/A"
+msgstr "نامعلوم"
+
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:111
+msgid "A valid free shipping coupon"
+msgstr "کوپن حمل و نقل رایگان"
+
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:112
+msgid "A minimum order amount (defined below)"
+msgstr "کمترین میزان درخواست خرید (اینجا تعیین کنید)"
+
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:113
+msgid "A minimum order amount OR a coupon"
+msgstr "کمترین میزان خرید یا کوپن"
+
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:114
+msgid "A minimum order amount AND a coupon"
+msgstr "کمترین میزان خرید و کوپن"
+
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:118
+msgid "Minimum Order Amount"
+msgstr "حداقل مبلغ سفارش"
+
+#: classes/shipping/free-shipping/class-wc-shipping-free-shipping.php:124
+msgid ""
+"Users will need to spend this amount to get free shipping (if enabled above)."
+msgstr ""
+"کاربران ملزم به هزینه کردن این مقدار هستند تا حمل و نقل رایگان بدست بیاورند "
+"(اگر فعال کنید)"
+
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:28
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:31
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:61
+msgid "International Delivery"
+msgstr "تحویل بین المللی"
+
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:32
+msgid "International delivery based on flat rate shipping."
+msgstr "تحویل بین المللی براساس نرخ حمل و نقل"
+
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:65
+msgid "Availability"
+msgstr "موجودیت"
+
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:70
+msgid "Selected countries"
+msgstr "کشور‌های منتخب"
+
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:71
+msgid "Excluding selected countries"
+msgstr "به جز کشور‌های انتخاب شده"
+
+#: classes/shipping/international-delivery/class-wc-shipping-international-delivery.php:75
+msgid "Countries"
+msgstr "کشورها"
+
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:25
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:107
+msgid "Local Delivery"
+msgstr "تحویل محلی"
+
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:98
+#: classes/shipping/local-pickup/class-wc-shipping-local-pickup.php:78
+msgid "Enable"
+msgstr "فعال"
+
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:100
+msgid "Enable local delivery"
+msgstr "فعال کردن تحویل محلی"
+
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:111
+msgid "Fee Type"
+msgstr "روش پرداخت"
+
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:113
+msgid "How to calculate delivery charges"
+msgstr "چگونه هزینه های تحویل را محاسبه کنید"
+
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:116
+msgid "Fixed amount"
+msgstr "مقدار ثابت"
+
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:117
+msgid "Percentage of cart total"
+msgstr "درصد از کل سبد خرید"
+
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:118
+msgid "Fixed amount per product"
+msgstr "مقدار ثابت از هر محصول"
+
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:123
+msgid "Delivery Fee"
+msgstr "هزینه تحویل"
+
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:129
+msgid ""
+"What fee do you want to charge for local delivery, disregarded if you choose "
+"free. Leave blank to disable."
+msgstr ""
+"چه هزینه ای می خواهید برای تحویل محلی در نظر بگیرید.اگر نر خالی بگذارید برای "
+"غیر فعال کردن."
+
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:135
+#: classes/shipping/local-pickup/class-wc-shipping-local-pickup.php:91
+msgid "Zip/Post Codes"
+msgstr "کد/صندوق پستی"
+
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:137
+#: classes/shipping/local-pickup/class-wc-shipping-local-pickup.php:93
+msgid ""
+"What zip/post codes would you like to offer delivery to? Separate codes with "
+"a comma. Accepts wildcards, e.g. P* will match a postcode of PE30."
+msgstr ""
+"چه کدپستی برای دریافت سفارش ترجیح می دهید؟ کدها را با کاما جدا کنید، کلماتی "
+"مانند P* مشابه با PE30 پذیرفته می شوند"
+
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:172
+msgid ""
+"Local delivery is a simple shipping method for delivering orders locally."
+msgstr ""
+"تحویل محلی یک روش ساده حمل و نقل برای رساندن درخواست های خرید به صورتمحلی می "
+"باشد."
+
+#: classes/shipping/local-pickup/class-wc-shipping-local-pickup.php:25
+#: classes/shipping/local-pickup/class-wc-shipping-local-pickup.php:87
+msgid "Local Pickup"
+msgstr "انتخاب محلی"
+
+#: classes/shipping/local-pickup/class-wc-shipping-local-pickup.php:80
+msgid "Enable local pickup"
+msgstr "فعال کردن انتخاب محلی"
+
+#: classes/shipping/local-pickup/class-wc-shipping-local-pickup.php:117
+msgid "Apply base tax rate"
+msgstr "درخواست نرخ مالیات پایه"
+
+#: classes/shipping/local-pickup/class-wc-shipping-local-pickup.php:119
+msgid ""
+"When this shipping method is chosen, apply the base tax rate rather than for "
+"the customer's given address."
+msgstr ""
+"زمانی که روش حمل انتخاب شد، به جای نرخ مالیات آدرس خریدار، درخواست نرخ "
+"مالیات پایه را بدهید."
+
+#: classes/shipping/local-pickup/class-wc-shipping-local-pickup.php:134
+msgid ""
+"Local pickup is a simple method which allows the customer to pick up their "
+"order themselves."
+msgstr "انتخاب محلی یک روش ساده برای مشتریان است تا سفارش را خودشان بردارند."
+
+#: classes/shortcodes/class-wc-shortcode-cart.php:54
+#: woocommerce-functions.php:1637
+msgid "Please enter a valid postcode/ZIP."
+msgstr "لطفا کد پستی صحیح را وارد کنید."
+
+#: classes/shortcodes/class-wc-shortcode-cart.php:65
+#: classes/shortcodes/class-wc-shortcode-cart.php:71
+msgid "Shipping costs updated."
+msgstr "هزینه حمل و نقل به روز شد."
+
+#: classes/shortcodes/class-wc-shortcode-checkout.php:64
+msgid ""
+"The order totals have been updated. Please confirm your order by pressing "
+"the Place Order button at the bottom of the page."
+msgstr ""
+"مجموع سفارش به روز شده است. در صورتیکه مورد تایید است دکمه \" قرار دادن "
+"سفارش \" را در پایین برگه فشار دهید."
+
+#: classes/shortcodes/class-wc-shortcode-lost-password.php:80
+#: woocommerce-core-functions.php:2488 woocommerce-functions.php:1559
+msgid "Please enter your password."
+msgstr "لطفا رمز عبور خود را وارد کنید ."
+
+#: classes/shortcodes/class-wc-shortcode-lost-password.php:95
+msgid "Your password has been reset."
+msgstr "کلمه عبور شما بازگردانده شد"
+
+#: classes/shortcodes/class-wc-shortcode-lost-password.php:95
+msgid "Log in"
+msgstr "ورود"
+
+#: classes/shortcodes/class-wc-shortcode-lost-password.php:116
+msgid "Enter a username or e-mail address."
+msgstr "نام کاربری یا پست الکترونیک را وارد کنید"
+
+#: classes/shortcodes/class-wc-shortcode-lost-password.php:123
+msgid "There is no user registered with that email address."
+msgstr "هیچ حسابی با این ایمیل ثبت نام نشده است."
+
+#: classes/shortcodes/class-wc-shortcode-lost-password.php:138
+msgid "Invalid username or e-mail."
+msgstr "نام کاربری یا رمز عبور صحیح نیست"
+
+#: classes/shortcodes/class-wc-shortcode-lost-password.php:152
+msgid "Password reset is not allowed for this user"
+msgstr "ریست رمز عبور برای این کاربر مجاز نیست"
+
+#: classes/shortcodes/class-wc-shortcode-lost-password.php:180
+msgid "Check your e-mail for the confirmation link."
+msgstr "پست الکترونیک خود را برای ایمیل تایید چک کنید."
+
+#: classes/shortcodes/class-wc-shortcode-lost-password.php:200
+#: classes/shortcodes/class-wc-shortcode-lost-password.php:205
+#: classes/shortcodes/class-wc-shortcode-lost-password.php:212
+msgid "Invalid key"
+msgstr "کلید بی اعتبار"
+
+#: classes/shortcodes/class-wc-shortcode-order-tracking.php:53
+msgid "Please enter a valid order ID"
+msgstr "لطفا یک کد سفارش معتبر وارد کنید."
+
+#: classes/shortcodes/class-wc-shortcode-order-tracking.php:57
+msgid "Please enter a valid order email"
+msgstr "لطفا یک آدرس ایمیل معتبر وارد کنید."
+
+#: classes/shortcodes/class-wc-shortcode-order-tracking.php:76
+msgid "Sorry, we could not find that order id in our database."
+msgstr "متاسفانه کد سفارش وارد شده در سیستم ما پیدا نشد."
+
+#: classes/shortcodes/class-wc-shortcode-pay.php:65
+#: classes/shortcodes/class-wc-shortcode-pay.php:118
+msgid ""
+"Your order has already been paid for. Please contact us if you need "
+"assistance."
+msgstr ""
+"سفارش شما قبلا پرداخت شده است . در صورتیکه نیاز به کمک دارید با ما تماس "
+"بگیرید."
+
+#: classes/shortcodes/class-wc-shortcode-pay.php:70
+#: classes/shortcodes/class-wc-shortcode-pay.php:125
+#: classes/shortcodes/class-wc-shortcode-view-order.php:49
+#: woocommerce-functions.php:880 woocommerce-functions.php:959
+msgid "Invalid order."
+msgstr "سفارش نامعتبر"
+
+#: classes/shortcodes/class-wc-shortcode-pay.php:90
+#: templates/checkout/thankyou.php:40
+#: templates/emails/customer-completed-order.php:18
+#: templates/emails/customer-invoice.php:22
+#: templates/emails/customer-note.php:22
+#: templates/emails/customer-processing-order.php:18
+msgid "Order:"
+msgstr "سفارش : "
+
+#: classes/shortcodes/class-wc-shortcode-pay.php:94
+#: templates/checkout/thankyou.php:44
+msgid "Date:"
+msgstr "تاریخ :"
+
+#: classes/shortcodes/class-wc-shortcode-pay.php:98
+#: templates/checkout/thankyou.php:48
+msgid "Total:"
+msgstr "قیمت نهایی:"
+
+#: classes/shortcodes/class-wc-shortcode-pay.php:103
+#: templates/checkout/thankyou.php:53
+msgid "Payment method:"
+msgstr "روش پرداخت : "
+
+#: classes/shortcodes/class-wc-shortcode-view-order.php:49
+msgid "My Account &rarr;"
+msgstr "حساب من"
+
+#: classes/shortcodes/class-wc-shortcode-view-order.php:56
+msgid ""
+"Order <mark class=\"order-number\">%s</mark> made on <mark class=\"order-date"
+"\">%s</mark>"
+msgstr ""
+"درخواست خرید <mark class=\"order-status\">%s</mark> ایجاد شده در <mark class="
+"\"order-status\">%s</mark>"
+
+#: classes/shortcodes/class-wc-shortcode-view-order.php:57
+msgid "Order status: <mark class=\"order-status\">%s</mark>"
+msgstr "وضعیت درخواست خرید: <mark class=\"order-status\">%s</mark>"
+
+#: classes/shortcodes/class-wc-shortcode-view-order.php:63
+#: templates/order/tracking.php:31
+msgid "Order Updates"
+msgstr "به روز رسانی های سفارش"
+
+#: classes/shortcodes/class-wc-shortcode-view-order.php:69
+msgid "l jS \\of F Y, h:ia"
+msgstr "l ، j F سال Y ساعت h:i:s A"
+
+#: classes/widgets/class-wc-widget-best-sellers.php:31
+msgid "Display a list of your best selling products on your site."
+msgstr "نمایش پرفروش‌ترین محصولات در سایت."
+
+#: classes/widgets/class-wc-widget-best-sellers.php:33
+msgid "WooCommerce Best Sellers"
+msgstr "پرفروش‌ترین‌های ووکامرس"
+
+#: classes/widgets/class-wc-widget-best-sellers.php:71
+msgid "Best Sellers"
+msgstr "پرفروش‌ترین‌ها"
+
+#: classes/widgets/class-wc-widget-best-sellers.php:192
+#: classes/widgets/class-wc-widget-cart.php:115
+#: classes/widgets/class-wc-widget-featured-products.php:172
+#: classes/widgets/class-wc-widget-layered-nav.php:349
+#: classes/widgets/class-wc-widget-onsale.php:177
+#: classes/widgets/class-wc-widget-price-filter.php:179
+#: classes/widgets/class-wc-widget-product-categories.php:185
+#: classes/widgets/class-wc-widget-product-search.php:91
+#: classes/widgets/class-wc-widget-product-tag-cloud.php:101
+#: classes/widgets/class-wc-widget-random-products.php:133
+#: classes/widgets/class-wc-widget-recent-products.php:169
+#: classes/widgets/class-wc-widget-recent-reviews.php:158
+#: classes/widgets/class-wc-widget-recently-viewed.php:166
+#: classes/widgets/class-wc-widget-top-rated-products.php:159
+msgid "Title:"
+msgstr "عنوان "
+
+#: classes/widgets/class-wc-widget-best-sellers.php:195
+#: classes/widgets/class-wc-widget-featured-products.php:175
+#: classes/widgets/class-wc-widget-onsale.php:180
+#: classes/widgets/class-wc-widget-random-products.php:138
+#: classes/widgets/class-wc-widget-recent-products.php:172
+#: classes/widgets/class-wc-widget-recent-reviews.php:161
+#: classes/widgets/class-wc-widget-recently-viewed.php:169
+#: classes/widgets/class-wc-widget-top-rated-products.php:162
+msgid "Number of products to show:"
+msgstr "تعداد محصولات برای نمایش"
+
+#: classes/widgets/class-wc-widget-best-sellers.php:199
+msgid "Hide free products"
+msgstr "مخفی کردن محصولات رایگان"
+
+#: classes/widgets/class-wc-widget-cart.php:33
+msgid "Display the user's Cart in the sidebar."
+msgstr "نمایش کارت کاربر در نوار کناری"
+
+#: classes/widgets/class-wc-widget-cart.php:35
+msgid "WooCommerce Cart"
+msgstr "کارت WooCommerce"
+
+#: classes/widgets/class-wc-widget-cart.php:119
+msgid "Hide if cart is empty"
+msgstr "اگرسبد خريد خالي است آن را مخفي كن"
+
+#: classes/widgets/class-wc-widget-featured-products.php:35
+msgid "Display a list of featured products on your site."
+msgstr "نمایش لیستی از محصولات برجسته به روی سایت "
+
+#: classes/widgets/class-wc-widget-featured-products.php:37
+msgid "WooCommerce Featured Products"
+msgstr "محصولات برجسته WooCommerce"
+
+#: classes/widgets/class-wc-widget-featured-products.php:75
+msgid "Featured Products"
+msgstr "محصولات برجسته"
+
+#: classes/widgets/class-wc-widget-layered-nav-filters.php:31
+msgid "Shows active layered nav filters so users can see and deactivate them."
+msgstr ""
+"لایه های فیلتر تخصصی فعال را نشان بده تا کاربران بتوانند آن ها را ببینند و "
+"غیرفعال کنند"
+
+#: classes/widgets/class-wc-widget-layered-nav-filters.php:33
+msgid "WooCommerce Layered Nav Filters"
+msgstr "لایه های فیلتر تخصصی تجارت وو"
+
+#: classes/widgets/class-wc-widget-layered-nav-filters.php:62
+msgid "Active filters"
+msgstr "فیلترهای فعال"
+
+#: classes/widgets/class-wc-widget-layered-nav-filters.php:93
+#: classes/widgets/class-wc-widget-layered-nav-filters.php:99
+#: classes/widgets/class-wc-widget-layered-nav-filters.php:104
+msgid "Remove filter"
+msgstr "پاک کردن فیلتر"
+
+#: classes/widgets/class-wc-widget-layered-nav-filters.php:99
+msgid "Min"
+msgstr "کمترین"
+
+#: classes/widgets/class-wc-widget-layered-nav-filters.php:104
+msgid "Max"
+msgstr "بیشترین"
+
+#: classes/widgets/class-wc-widget-layered-nav.php:31
+msgid ""
+"Shows a custom attribute in a widget which lets you narrow down the list of "
+"products when viewing product categories."
+msgstr ""
+"یک سری ویژگی سفارشی را در یک ویجت نشان میدهد که امکان محدود کردن فهرست "
+"محصولات را در هنگام مشاهده دسته بندی محصول به شما ارائه میکند."
+
+#: classes/widgets/class-wc-widget-layered-nav.php:33
+msgid "WooCommerce Layered Nav"
+msgstr "لایه کنترل WooCommerce "
+
+#: classes/widgets/class-wc-widget-layered-nav.php:100
+msgid "Any %s"
+msgstr "هر %s"
+
+#: classes/widgets/class-wc-widget-layered-nav.php:352
+msgid "Attribute:"
+msgstr "خاصیت"
+
+#: classes/widgets/class-wc-widget-layered-nav.php:363
+msgid "Display Type:"
+msgstr "نوع نمایش:"
+
+#: classes/widgets/class-wc-widget-layered-nav.php:365
+msgid "List"
+msgstr "ليست"
+
+#: classes/widgets/class-wc-widget-layered-nav.php:366
+msgid "Dropdown"
+msgstr "کرکره ای"
+
+#: classes/widgets/class-wc-widget-layered-nav.php:369
+msgid "Query Type:"
+msgstr "نوع جستجو"
+
+#: classes/widgets/class-wc-widget-layered-nav.php:371
+msgid "AND"
+msgstr "و"
+
+#: classes/widgets/class-wc-widget-layered-nav.php:372
+msgid "OR"
+msgstr "يا"
+
+#: classes/widgets/class-wc-widget-login.php:31
+msgid "Display a login area and \"My Account\" links in the sidebar."
+msgstr "نمایش محل ورود و لینک «حساب کاربری من» در نوار کناری."
+
+#: classes/widgets/class-wc-widget-login.php:33
+msgid "WooCommerce Login"
+msgstr "ورود ووکامرس"
+
+#: classes/widgets/class-wc-widget-login.php:59
+#: classes/widgets/class-wc-widget-login.php:223
+msgid "Customer Login"
+msgstr "ورود مشتری"
+
+#: classes/widgets/class-wc-widget-login.php:60
+#: classes/widgets/class-wc-widget-login.php:226
+msgid "Welcome %s"
+msgstr "خوش آمديد"
+
+#: classes/widgets/class-wc-widget-login.php:76
+msgid "My account"
+msgstr "حساب کاربری من"
+
+#: classes/widgets/class-wc-widget-login.php:77
+msgid "Change my password"
+msgstr "تغییر رمز عبور"
+
+#: classes/widgets/class-wc-widget-login.php:78
+msgid "Logout"
+msgstr "خروج از سيستم"
+
+#: classes/widgets/class-wc-widget-login.php:116
+#: templates/myaccount/form-login.php:29
+#: templates/myaccount/form-lost-password.php:24
+#: templates/shop/form-login.php:20
+msgid "Username or email"
+msgstr "کلمه کاربری یا ایمیل"
+
+#: classes/widgets/class-wc-widget-login.php:118
+#: templates/myaccount/form-login.php:33 templates/myaccount/form-login.php:85
+#: templates/shop/form-login.php:24
+msgid "Password"
+msgstr "رمز عبور"
+
+#: classes/widgets/class-wc-widget-login.php:120 woocommerce-functions.php:945
+msgid "Login &rarr;"
+msgstr "ورود &rarr;"
+
+#: classes/widgets/class-wc-widget-login.php:120
+msgid "Lost password?"
+msgstr "رمز عبور را گم کرده اید ؟"
+
+#: classes/widgets/class-wc-widget-login.php:222
+msgid "Logged out title:"
+msgstr "عنوان خروج:"
+
+#: classes/widgets/class-wc-widget-login.php:225
+msgid "Logged in title:"
+msgstr "عنوان ورود:"
+
+#: classes/widgets/class-wc-widget-onsale.php:31
+msgid "Display a list of your on-sale products on your site."
+msgstr "نمایش لیستی از محصولات فروش ویژه در سایت شما."
+
+#: classes/widgets/class-wc-widget-onsale.php:33
+msgid "WooCommerce On-sale"
+msgstr "محصولات در فروش ویژه ووکامرس"
+
+#: classes/widgets/class-wc-widget-onsale.php:70
+msgid "On Sale"
+msgstr "حراج"
+
+#: classes/widgets/class-wc-widget-price-filter.php:33
+msgid ""
+"Shows a price filter slider in a widget which lets you narrow down the list "
+"of shown products when viewing product categories."
+msgstr ""
+"اسلایدر فیلتر قیمتی را نشان میدهد در ویجتی که امکان محدود کردن فهرست محصولات "
+"به نمایش درآمده را در حین مشاهده دسته بندی محصول در اختیار شما میگذارد."
+
+#: classes/widgets/class-wc-widget-price-filter.php:35
+msgid "WooCommerce Price Filter"
+msgstr "فیلتر هزینه ووکامرس"
+
+#: classes/widgets/class-wc-widget-price-filter.php:136
+msgid "Min price"
+msgstr "حداقل قیمت"
+
+#: classes/widgets/class-wc-widget-price-filter.php:137
+msgid "Max price"
+msgstr "حداكثر قيمت"
+
+#: classes/widgets/class-wc-widget-price-filter.php:138
+msgid "Filter"
+msgstr "صافی"
+
+#: classes/widgets/class-wc-widget-price-filter.php:140
+msgid "Price:"
+msgstr "قيمت:"
+
+#: classes/widgets/class-wc-widget-price-filter.php:162
+msgid "Filter by price"
+msgstr "فیلتر براساس قیمت : "
+
+#: classes/widgets/class-wc-widget-product-categories.php:33
+msgid "A list or dropdown of product categories."
+msgstr "لیستی از دسته بندی های محصولات ."
+
+#: classes/widgets/class-wc-widget-product-categories.php:35
+msgid "WooCommerce Product Categories"
+msgstr "دسته بندی محصولات ووکامرس "
+
+#: classes/widgets/class-wc-widget-product-categories.php:57
+#: woocommerce.php:787 woocommerce.php:789
+msgid "Product Categories"
+msgstr "دسته های محصولات"
+
+#: classes/widgets/class-wc-widget-product-categories.php:129
+msgid "No product categories exist."
+msgstr "هیچ محصولی در این دسته وجود ندارد."
+
+#: classes/widgets/class-wc-widget-product-categories.php:188
+msgid "Order by:"
+msgstr "سفارش توسط: "
+
+#: classes/widgets/class-wc-widget-product-categories.php:190
+msgid "Category Order"
+msgstr "دسته‌بندی سفارش"
+
+#: classes/widgets/class-wc-widget-product-categories.php:191
+#: templates/single-product-reviews.php:99 woocommerce-ajax.php:1244
+msgid "Name"
+msgstr "نام"
+
+#: classes/widgets/class-wc-widget-product-categories.php:195
+msgid "Show as dropdown"
+msgstr "به صورت دراپ داون نشان بده"
+
+#: classes/widgets/class-wc-widget-product-categories.php:198
+msgid "Show post counts"
+msgstr "تعداد پست ها را نشان بده"
+
+#: classes/widgets/class-wc-widget-product-categories.php:201
+msgid "Show hierarchy"
+msgstr "سلسله مراتب را نشان بده"
+
+#: classes/widgets/class-wc-widget-product-categories.php:204
+msgid "Only show children for the current category"
+msgstr "فقط زیرمجموعه های این دسته بندی را نشان بده"
+
+#: classes/widgets/class-wc-widget-product-search.php:31
+msgid "A Search box for products only."
+msgstr "جستجو فقط برای محصولات "
+
+#: classes/widgets/class-wc-widget-product-search.php:33
+msgid "WooCommerce Product Search"
+msgstr "جستجوی محصول WooCommerce"
+
+#: classes/widgets/class-wc-widget-product-tag-cloud.php:31
+msgid "Your most used product tags in cloud format."
+msgstr "پراستفاده ترین تگ محصولات شما در قالب ابری"
+
+#: classes/widgets/class-wc-widget-product-tag-cloud.php:33
+msgid "WooCommerce Product Tags"
+msgstr "تگ های محصولات WooCommerce"
+
+#: classes/widgets/class-wc-widget-product-tag-cloud.php:58
+#: woocommerce.php:823 woocommerce.php:825
+msgid "Product Tags"
+msgstr "برچسب محصولات"
+
+#: classes/widgets/class-wc-widget-random-products.php:24
+msgid "WooCommerce Random Products"
+msgstr "محصولات تصادفی ووکامرس"
+
+#: classes/widgets/class-wc-widget-random-products.php:27
+msgid "Display a list of random products on your site."
+msgstr "نمایش لیستی از محصولات تصادفی در سایت شما."
+
+#: classes/widgets/class-wc-widget-random-products.php:46
+msgid "Random Products"
+msgstr "محصولات تصادفی"
+
+#: classes/widgets/class-wc-widget-random-products.php:144
+#: classes/widgets/class-wc-widget-recent-products.php:176
+msgid "Show hidden product variations"
+msgstr "نمایش تغییرات مخفی محصول "
+
+#: classes/widgets/class-wc-widget-recent-products.php:31
+msgid "Display a list of your most recent products on your site."
+msgstr "نمایش لیستی از آخرین محصولات به روی سایت "
+
+#: classes/widgets/class-wc-widget-recent-products.php:33
+msgid "WooCommerce Recent Products"
+msgstr "محصولات جدید WooCommerce"
+
+#: classes/widgets/class-wc-widget-recent-products.php:70
+msgid "New Products"
+msgstr "محصولات جدید"
+
+#: classes/widgets/class-wc-widget-recent-reviews.php:31
+msgid "Display a list of your most recent reviews on your site."
+msgstr "نمایش لیستی از آخرین دیدگاه‌ها به روی سایت"
+
+#: classes/widgets/class-wc-widget-recent-reviews.php:33
+msgid "WooCommerce Recent Reviews"
+msgstr "آخرین دیدگاه‌های WooCommerce"
+
+#: classes/widgets/class-wc-widget-recent-reviews.php:71
+msgid "Recent Reviews"
+msgstr "آخرین دیدگاه‌ها"
+
+#: classes/widgets/class-wc-widget-recent-reviews.php:97
+msgctxt "by comment author"
+msgid "by %1$s"
+msgstr "توسط %1$s"
+
+#: classes/widgets/class-wc-widget-recently-viewed.php:31
+msgid "Display a list of recently viewed products."
+msgstr "نمایش لیستی از آخرین محصولات مشاهده شده "
+
+#: classes/widgets/class-wc-widget-recently-viewed.php:33
+msgid "WooCommerce Recently Viewed Products"
+msgstr "آخرین محصولات مشاهده شده در WooCommerce"
+
+#: classes/widgets/class-wc-widget-recently-viewed.php:76
+msgid "Recently viewed"
+msgstr "آخرین مشاهدات"
+
+#: classes/widgets/class-wc-widget-top-rated-products.php:33
+msgid "Display a list of top rated products on your site."
+msgstr "نمایش لیستی از محصولات پر امتیاز به روی سایت شما"
+
+#: classes/widgets/class-wc-widget-top-rated-products.php:35
+msgid "WooCommerce Top Rated Products"
+msgstr "پرامتیازترین محصولات WooCommerce"
+
+#: classes/widgets/class-wc-widget-top-rated-products.php:72
+msgid "Top Rated Products"
+msgstr "پر امتیازترین محصولات"
+
+#: i18n/states/AU.php:13
+msgid "Australian Capital Territory"
+msgstr "قلمرو سرمایه استرالیایی"
+
+#: i18n/states/AU.php:14
+msgid "New South Wales"
+msgstr "نیو ساوت ولز"
+
+#: i18n/states/AU.php:15
+msgid "Northern Territory"
+msgstr "نواحی شمالی"
+
+#: i18n/states/AU.php:16
+msgid "Queensland"
+msgstr "کویینزلند"
+
+#: i18n/states/AU.php:17
+msgid "South Australia"
+msgstr "استراليای جنوبي"
+
+#: i18n/states/AU.php:18
+msgid "Tasmania"
+msgstr "تاسمانی"
+
+#: i18n/states/AU.php:19
+msgid "Victoria"
+msgstr "ویکتوریا"
+
+#: i18n/states/AU.php:20
+msgid "Western Australia"
+msgstr "استرالیای غربی"
+
+#: i18n/states/BR.php:13
+msgid "Acre"
+msgstr "آکره"
+
+#: i18n/states/BR.php:14
+msgid "Alagoas"
+msgstr "آلاگواس"
+
+#: i18n/states/BR.php:15
+msgid "Amap&aacute;"
+msgstr "آماپا"
+
+#: i18n/states/BR.php:16
+msgid "Amazonas"
+msgstr "آمازون"
+
+#: i18n/states/BR.php:17
+msgid "Bahia"
+msgstr "باهیا"
+
+#: i18n/states/BR.php:18
+msgid "Cear&aacute;"
+msgstr "سئارا"
+
+#: i18n/states/BR.php:19
+msgid "Distrito Federal"
+msgstr "منطقه فدرال"
+
+#: i18n/states/BR.php:20
+msgid "Esp&iacute;rito Santo"
+msgstr "اسپیریتو سانتو"
+
+#: i18n/states/BR.php:21
+msgid "Goi&aacute;s"
+msgstr "گوییاس"
+
+#: i18n/states/BR.php:22
+msgid "Maranh&atilde;o"
+msgstr "مارانیائو"
+
+#: i18n/states/BR.php:23
+msgid "Mato Grosso"
+msgstr "ماتو گروسو"
+
+#: i18n/states/BR.php:24
+msgid "Mato Grosso do Sul"
+msgstr "ماتو گروسو دو سول"
+
+#: i18n/states/BR.php:25
+msgid "Minas Gerais"
+msgstr "میناس گرایس"
+
+#: i18n/states/BR.php:26
+msgid "Par&aacute;"
+msgstr "پارا"
+
+#: i18n/states/BR.php:27
+msgid "Para&iacute;ba"
+msgstr "پارابا"
+
+#: i18n/states/BR.php:28
+msgid "Paran&aacute;"
+msgstr "پارانا"
+
+#: i18n/states/BR.php:29
+msgid "Pernambuco"
+msgstr "پرنامبوکو"
+
+#: i18n/states/BR.php:30
+msgid "Piau&iacute;"
+msgstr "پیاوی"
+
+#: i18n/states/BR.php:31
+msgid "Rio de Janeiro"
+msgstr "ریودوژانیرو"
+
+#: i18n/states/BR.php:32
+msgid "Rio Grande do Norte"
+msgstr "ریوگرانده دو نورتی"
+
+#: i18n/states/BR.php:33
+msgid "Rio Grande do Sul"
+msgstr "ریوگرانده دو سول"
+
+#: i18n/states/BR.php:34
+msgid "Rond&ocirc;nia"
+msgstr "روندونیا"
+
+#: i18n/states/BR.php:35
+msgid "Roraima"
+msgstr "رورایما"
+
+#: i18n/states/BR.php:36
+msgid "Santa Catarina"
+msgstr "سانتا کاتارینا"
+
+#: i18n/states/BR.php:37
+msgid "S&atilde;o Paulo"
+msgstr "سائوپائولو"
+
+#: i18n/states/BR.php:38
+msgid "Sergipe"
+msgstr "سرژیپه"
+
+#: i18n/states/BR.php:39
+msgid "Tocantins"
+msgstr "نوتیفیکیشن"
+
+#: i18n/states/CA.php:13
+msgid "Alberta"
+msgstr "آلبرتا"
+
+#: i18n/states/CA.php:14
+msgid "British Columbia"
+msgstr "بریتیش کلمبیا"
+
+#: i18n/states/CA.php:15
+msgid "Manitoba"
+msgstr "مانیتوبا"
+
+#: i18n/states/CA.php:16
+msgid "New Brunswick"
+msgstr "نیوبرانزویک"
+
+#: i18n/states/CA.php:17
+msgid "Newfoundland"
+msgstr "نیوفاندلند"
+
+#: i18n/states/CA.php:18
+msgid "Northwest Territories"
+msgstr "نواحی شمال غربی"
+
+#: i18n/states/CA.php:19
+msgid "Nova Scotia"
+msgstr "نوا اسکاتیا"
+
+#: i18n/states/CA.php:20
+msgid "Nunavut"
+msgstr "نوناووت"
+
+#: i18n/states/CA.php:21
+msgid "Ontario"
+msgstr "اونتاریو"
+
+#: i18n/states/CA.php:22
+msgid "Prince Edward Island"
+msgstr "جزیره پرنس ادوارد"
+
+#: i18n/states/CA.php:23
+msgid "Quebec"
+msgstr "کبک"
+
+#: i18n/states/CA.php:24
+msgid "Saskatchewan"
+msgstr "ساسکچوان"
+
+#: i18n/states/CA.php:25
+msgid "Yukon Territory"
+msgstr "محدوده یوکان"
+
+#: i18n/states/CN.php:13
+msgid "Yunnan / &#20113;&#21335;"
+msgstr "یون نان"
+
+#: i18n/states/CN.php:14
+msgid "Beijing / &#21271;&#20140;"
+msgstr "بیجینگ"
+
+#: i18n/states/CN.php:15
+msgid "Tianjin / &#22825;&#27941;"
+msgstr "تیان جین"
+
+#: i18n/states/CN.php:16
+msgid "Hebei / &#27827;&#21271;"
+msgstr "هبئی"
+
+#: i18n/states/CN.php:17
+msgid "Shanxi / &#23665;&#35199;"
+msgstr "شانشی"
+
+#: i18n/states/CN.php:18
+msgid "Inner Mongolia / &#20839;&#33945;&#21476;"
+msgstr "مغولستان داخلی"
+
+#: i18n/states/CN.php:19
+msgid "Liaoning / &#36797;&#23425;"
+msgstr "لیائونینگ"
+
+#: i18n/states/CN.php:20
+msgid "Jilin / &#21513;&#26519;"
+msgstr "جی‌لین"
+
+#: i18n/states/CN.php:21
+msgid "Heilongjiang / &#40657;&#40857;&#27743;"
+msgstr "هیلونگ‌جیانگ"
+
+#: i18n/states/CN.php:22
+msgid "Shanghai / &#19978;&#28023;"
+msgstr "شانگهای"
+
+#: i18n/states/CN.php:23
+msgid "Jiangsu / &#27743;&#33487;"
+msgstr "جیانگ‌سو"
+
+#: i18n/states/CN.php:24
+msgid "Zhejiang / &#27993;&#27743;"
+msgstr "چه‌جیانگ"
+
+#: i18n/states/CN.php:25
+msgid "Anhui / &#23433;&#24509;"
+msgstr "آن‌هوئی"
+
+#: i18n/states/CN.php:26
+msgid "Fujian / &#31119;&#24314;"
+msgstr "فوجی‌آن "
+
+#: i18n/states/CN.php:27
+msgid "Jiangxi / &#27743;&#35199;"
+msgstr "جیانگ‌شی"
+
+#: i18n/states/CN.php:28
+msgid "Shandong / &#23665;&#19996;"
+msgstr "شاندونگ"
+
+#: i18n/states/CN.php:29
+msgid "Henan / &#27827;&#21335;"
+msgstr "هنان"
+
+#: i18n/states/CN.php:30
+msgid "Hubei / &#28246;&#21271;"
+msgstr "هوبئی"
+
+#: i18n/states/CN.php:31
+msgid "Hunan / &#28246;&#21335;"
+msgstr "هونان"
+
+#: i18n/states/CN.php:32
+msgid "Guangdong / &#24191;&#19996;"
+msgstr "گوانگ دونگ"
+
+#: i18n/states/CN.php:33
+msgid "Guangxi Zhuang / &#24191;&#35199;&#22766;&#26063;"
+msgstr "گوانگ‌شی"
+
+#: i18n/states/CN.php:34
+msgid "Hainan / &#28023;&#21335;"
+msgstr "هانیان"
+
+#: i18n/states/CN.php:35
+msgid "Chongqing / &#37325;&#24198;"
+msgstr "چونگ‌کینگ"
+
+#: i18n/states/CN.php:36
+msgid "Sichuan / &#22235;&#24029;"
+msgstr "سیچوآن"
+
+#: i18n/states/CN.php:37
+msgid "Guizhou / &#36149;&#24030;"
+msgstr "گوئیژو"
+
+#: i18n/states/CN.php:38
+msgid "Shaanxi / &#38485;&#35199;"
+msgstr "شاآنشی"
+
+#: i18n/states/CN.php:39
+msgid "Gansu / &#29976;&#32899;"
+msgstr "گانسو"
+
+#: i18n/states/CN.php:40
+msgid "Qinghai / &#38738;&#28023;"
+msgstr "چینگ‌های"
+
+#: i18n/states/CN.php:41
+msgid "Ningxia Hui / &#23425;&#22799;"
+msgstr "نینگشیا هوی"
+
+#: i18n/states/CN.php:42
+msgid "Macau / &#28595;&#38376;"
+msgstr "ماکائو"
+
+#: i18n/states/CN.php:43
+msgid "Tibet / &#35199;&#34255;"
+msgstr "تبت"
+
+#: i18n/states/CN.php:44
+msgid "Xinjiang / &#26032;&#30086;"
+msgstr "سین‌کیانگ"
+
+#: i18n/states/HK.php:13
+msgid "Hong Kong Island"
+msgstr "جزيره‌ی هنگ كنگ"
+
+#: i18n/states/HK.php:14
+msgid "Kowloon"
+msgstr "کولون"
+
+#: i18n/states/HK.php:15
+msgid "New Territories"
+msgstr "سرزمین های جدید"
+
+#: i18n/states/HU.php:13
+msgid "Bács-Kiskun"
+msgstr "باکز کیسکان"
+
+#: i18n/states/HU.php:14
+msgid "Békés"
+msgstr "بیکیش"
+
+#: i18n/states/HU.php:15
+msgid "Baranya"
+msgstr "بارانیا"
+
+#: i18n/states/HU.php:16
+msgid "Borsod-Abaúj-Zemplén"
+msgstr "برساد آباج زمپلان"
+
+#: i18n/states/HU.php:17
+msgid "Budapest"
+msgstr "بوداپست"
+
+#: i18n/states/HU.php:18
+msgid "Csongrád"
+msgstr "کنراد"
+
+#: i18n/states/HU.php:19
+msgid "Fejér"
+msgstr "فجر"
+
+#: i18n/states/HU.php:20
+msgid "Győr-Moson-Sopron"
+msgstr "گیور مُشون شُپرون"
+
+#: i18n/states/HU.php:21
+msgid "Hajdú-Bihar"
+msgstr "هاجو بیهار"
+
+#: i18n/states/HU.php:22
+msgid "Heves"
+msgstr "هِوِش"
+
+#: i18n/states/HU.php:23
+msgid "Jász-Nagykun-Szolnok"
+msgstr "جاز ناگیکون سلنوک"
+
+#: i18n/states/HU.php:24
+msgid "Komárom-Esztergom"
+msgstr "کُمَرُم استرگم"
+
+#: i18n/states/HU.php:25
+msgid "Nógrád"
+msgstr "نوگراد"
+
+#: i18n/states/HU.php:26
+msgid "Pest"
+msgstr "پست"
+
+#: i18n/states/HU.php:27
+msgid "Somogy"
+msgstr "سوموگی"
+
+#: i18n/states/HU.php:28
+msgid "Szabolcs-Szatmár-Bereg"
+msgstr "Szabolcs-Szatmár-Bereg"
+
+#: i18n/states/HU.php:29
+msgid "Tolna"
+msgstr "تولنا"
+
+#: i18n/states/HU.php:30
+msgid "Vas"
+msgstr "واس"
+
+#: i18n/states/HU.php:31
+msgid "Veszprém"
+msgstr "وسپریم"
+
+#: i18n/states/HU.php:32
+msgid "Zala"
+msgstr "زالا"
+
+#: i18n/states/HZ.php:13
+msgid "Auckland"
+msgstr "آوکلند"
+
+#: i18n/states/HZ.php:14
+msgid "Bay of Plenty"
+msgstr "خلیج فراوانی"
+
+#: i18n/states/HZ.php:15
+msgid "Canterbury"
+msgstr "کانتربوری"
+
+#: i18n/states/HZ.php:16
+msgid "Hawke&rsquo;s Bay"
+msgstr "هاکرز بِی"
+
+#: i18n/states/HZ.php:17
+msgid "Manawatu-Wanganui"
+msgstr "مانائوتا وانگانوئی"
+
+#: i18n/states/HZ.php:18
+msgid "Marlborough"
+msgstr "مارلبرو"
+
+#: i18n/states/HZ.php:19
+msgid "Nelson"
+msgstr "نلسون"
+
+#: i18n/states/HZ.php:20
+msgid "Northland"
+msgstr "نورثلند"
+
+#: i18n/states/HZ.php:21
+msgid "Otago"
+msgstr "اوتاگا"
+
+#: i18n/states/HZ.php:22
+msgid "Southland"
+msgstr "سرزمین جنوب"
+
+#: i18n/states/HZ.php:23
+msgid "Taranaki"
+msgstr "تاراناکی"
+
+#: i18n/states/HZ.php:24
+msgid "Tasman"
+msgstr "تاسمان"
+
+#: i18n/states/HZ.php:25
+msgid "Waikato"
+msgstr "وایکاتو"
+
+#: i18n/states/HZ.php:26
+msgid "Wellington"
+msgstr "ویلینگتون"
+
+#: i18n/states/HZ.php:27
+msgid "West Coast"
+msgstr "ساحل غربی"
+
+#: i18n/states/ID.php:13
+msgid "Daerah Istimewa Aceh"
+msgstr "منطقه آچه خاص"
+
+#: i18n/states/ID.php:14
+msgid "Sumatera Utara"
+msgstr "سوماترا شمالی"
+
+#: i18n/states/ID.php:15
+msgid "Sumatera Barat"
+msgstr "سوماترا غربی"
+
+#: i18n/states/ID.php:16
+msgid "Riau"
+msgstr "ریائو"
+
+#: i18n/states/ID.php:17
+msgid "Kepulauan Riau"
+msgstr "جزایر ریائو"
+
+#: i18n/states/ID.php:18
+msgid "Jambi"
+msgstr "جامبی"
+
+#: i18n/states/ID.php:19
+msgid "Sumatera Selatan"
+msgstr "سوماترای جنوبی "
+
+#: i18n/states/ID.php:20
+msgid "Bangka Belitung"
+msgstr "جزایر بانگکا-بلیتونگ"
+
+#: i18n/states/ID.php:21
+msgid "Bengkulu"
+msgstr "بنگکولو"
+
+#: i18n/states/ID.php:22
+msgid "Lampung"
+msgstr "لامپونگ"
+
+#: i18n/states/ID.php:23
+msgid "DKI Jakarta"
+msgstr "دیکی جاکارتا"
+
+#: i18n/states/ID.php:24
+msgid "Jawa Barat"
+msgstr "جاوه غربی"
+
+#: i18n/states/ID.php:25
+msgid "Banten"
+msgstr "بنتن"
+
+#: i18n/states/ID.php:26
+msgid "Jawa Tengah"
+msgstr "جاوه مرکزی"
+
+#: i18n/states/ID.php:27
+msgid "Jawa Timur"
+msgstr "جاوه شرقی"
+
+#: i18n/states/ID.php:28
+msgid "Daerah Istimewa Yogyakarta"
+msgstr "یوگیاکارتا"
+
+#: i18n/states/ID.php:29
+msgid "Bali"
+msgstr "بالی"
+
+#: i18n/states/ID.php:30
+msgid "Nusa Tenggara Barat"
+msgstr "نوسا جنوب غربی"
+
+#: i18n/states/ID.php:31
+msgid "Nusa Tenggara Timur"
+msgstr "نوسا جنوب شرقی"
+
+#: i18n/states/ID.php:32
+msgid "Kalimantan Barat"
+msgstr "کالیمانتان غربی"
+
+#: i18n/states/ID.php:33
+msgid "Kalimantan Tengah"
+msgstr "کالیمانتان مرکزی"
+
+#: i18n/states/ID.php:34
+msgid "Kalimantan Timur"
+msgstr "کالیمانتان شرقی"
+
+#: i18n/states/ID.php:35
+msgid "Kalimantan Selatan"
+msgstr "کالیمانتان جنوبی"
+
+#: i18n/states/ID.php:36
+msgid "Kalimantan Utara"
+msgstr "کالیمانتان شمالی"
+
+#: i18n/states/ID.php:37
+msgid "Sulawesi Utara"
+msgstr "سولاوسی شمالی"
+
+#: i18n/states/ID.php:38
+msgid "Sulawesi Tengah"
+msgstr "سولاوسی مرکزی"
+
+#: i18n/states/ID.php:39
+msgid "Sulawesi Tenggara"
+msgstr "سولاوسی جنوب شرقی"
+
+#: i18n/states/ID.php:40
+msgid "Sulawesi Barat"
+msgstr "سولاوسی غربی"
+
+#: i18n/states/ID.php:41
+msgid "Sulawesi Selatan"
+msgstr "سولاوسی جنوبی"
+
+#: i18n/states/ID.php:42
+msgid "Gorontalo"
+msgstr "گورونتالو"
+
+#: i18n/states/ID.php:43
+msgid "Maluku"
+msgstr "ملوک"
+
+#: i18n/states/ID.php:44
+msgid "Maluku Utara"
+msgstr "ملوک شمالی"
+
+#: i18n/states/ID.php:45
+msgid "Papua"
+msgstr "پاپوئا"
+
+#: i18n/states/ID.php:46
+msgid "Papua Barat"
+msgstr "پاپوئا غربی"
+
+#: i18n/states/IN.php:13
+msgid "Andra Pradesh"
+msgstr "آندرا پرادش"
+
+#: i18n/states/IN.php:14
+msgid "Arunachal Pradesh"
+msgstr "آروناچال پرادش"
+
+#: i18n/states/IN.php:15
+msgid "Assam"
+msgstr "آسام"
+
+#: i18n/states/IN.php:16
+msgid "Bihar"
+msgstr "بیهار"
+
+#: i18n/states/IN.php:17
+msgid "Chhattisgarh"
+msgstr "چتیسگر"
+
+#: i18n/states/IN.php:18
+msgid "Goa"
+msgstr "گوا"
+
+#: i18n/states/IN.php:19
+msgid "Gujarat"
+msgstr "گجرات"
+
+#: i18n/states/IN.php:20
+msgid "Haryana"
+msgstr "هاریانا"
+
+#: i18n/states/IN.php:21
+msgid "Himachal Pradesh"
+msgstr "هیماچال پرادش"
+
+#: i18n/states/IN.php:22
+msgid "Jammu and Kashmir"
+msgstr "جامو و کشمیر"
+
+#: i18n/states/IN.php:23
+msgid "Jharkhand"
+msgstr "جارکند یا جارخند"
+
+#: i18n/states/IN.php:24
+msgid "Karnataka"
+msgstr "کارناتاکا"
+
+#: i18n/states/IN.php:25
+msgid "Kerala"
+msgstr "کرآلا"
+
+#: i18n/states/IN.php:26
+msgid "Madhya Pradesh"
+msgstr "مادایا پرادش"
+
+#: i18n/states/IN.php:27
+msgid "Maharashtra"
+msgstr "مهاراشترا"
+
+#: i18n/states/IN.php:28
+msgid "Manipur"
+msgstr "مانیپور"
+
+#: i18n/states/IN.php:29
+msgid "Meghalaya"
+msgstr "مگالایا"
+
+#: i18n/states/IN.php:30
+msgid "Mizoram"
+msgstr "میزورام"
+
+#: i18n/states/IN.php:31
+msgid "Nagaland"
+msgstr "ناگالند"
+
+#: i18n/states/IN.php:32
+msgid "Orissa"
+msgstr "اوریسا"
+
+#: i18n/states/IN.php:33
+msgid "Punjab"
+msgstr "پنجاب"
+
+#: i18n/states/IN.php:34
+msgid "Rajasthan"
+msgstr "راجستان"
+
+#: i18n/states/IN.php:35
+msgid "Sikkim"
+msgstr "سیکیم"
+
+#: i18n/states/IN.php:36
+msgid "Tamil Nadu"
+msgstr "تامیل نادو"
+
+#: i18n/states/IN.php:37
+msgid "Tripura"
+msgstr "تریپورا"
+
+#: i18n/states/IN.php:38
+msgid "Uttaranchal"
+msgstr "اوتارانچال"
+
+#: i18n/states/IN.php:39
+msgid "Uttar Pradesh"
+msgstr "اوتار پرادش"
+
+#: i18n/states/IN.php:40
+msgid "West Bengal"
+msgstr "بنگال غربی"
+
+#: i18n/states/IN.php:41
+msgid "Andaman and Nicobar Islands"
+msgstr "جزایر آندامان و نیکوبار"
+
+#: i18n/states/IN.php:42
+msgid "Chandigarh"
+msgstr "چندی‌گر"
+
+#: i18n/states/IN.php:43
+msgid "Dadar and Nagar Haveli"
+msgstr "دادار و ناگار هاوِلی"
+
+#: i18n/states/IN.php:44
+msgid "Daman and Diu"
+msgstr "دامان و دیو"
+
+#: i18n/states/IN.php:45
+msgid "Delhi"
+msgstr "دهلی"
+
+#: i18n/states/IN.php:46
+msgid "Lakshadeep"
+msgstr "لاکشادیپ"
+
+#: i18n/states/IN.php:47
+msgid "Pondicherry (Puducherry)"
+msgstr "پودوچری"
+
+#: i18n/states/MY.php:13
+msgid "Johor"
+msgstr "جوهور"
+
+#: i18n/states/MY.php:14
+msgid "Kedah"
+msgstr "کداح"
+
+#: i18n/states/MY.php:15
+msgid "Kelantan"
+msgstr "کلانتان"
+
+#: i18n/states/MY.php:16
+msgid "Melaka"
+msgstr "مالاکا"
+
+#: i18n/states/MY.php:17
+msgid "Negeri Sembilan"
+msgstr "نگاری سمبیلان"
+
+#: i18n/states/MY.php:18
+msgid "Pahang"
+msgstr "پاهانگ"
+
+#: i18n/states/MY.php:19
+msgid "Perak"
+msgstr "پراک"
+
+#: i18n/states/MY.php:20
+msgid "Perlis"
+msgstr "پرلیس"
+
+#: i18n/states/MY.php:21
+msgid "Pulau Pinang"
+msgstr "ایالت پنانگ"
+
+#: i18n/states/MY.php:22
+msgid "Sabah"
+msgstr "صباح"
+
+#: i18n/states/MY.php:23
+msgid "Sarawak"
+msgstr "ساراواک"
+
+#: i18n/states/MY.php:24
+msgid "Selangor"
+msgstr "سلانگور"
+
+#: i18n/states/MY.php:25
+msgid "Terengganu"
+msgstr "ترنگانو"
+
+#: i18n/states/MY.php:26
+msgid "W.P. Kuala Lumpur"
+msgstr "W.P. کوالالامپور"
+
+#: i18n/states/MY.php:27
+msgid "W.P. Labuan"
+msgstr "لابوآن W.P."
+
+#: i18n/states/MY.php:28
+msgid "W.P. Putrajaya"
+msgstr "W.P.پوتراجایا"
+
+#: i18n/states/TH.php:13
+msgid ""
+"Amnat Charoen (&#3629;&#3635;&#3609;&#3634;&#3592;&#3648;&#3592;&#3619;"
+"&#3636;&#3597;)"
+msgstr "امنات چاروین"
+
+#: i18n/states/TH.php:14
+msgid "Ang Thong (&#3629;&#3656;&#3634;&#3591;&#3607;&#3629;&#3591;)"
+msgstr "آنگ تونگ"
+
+#: i18n/states/TH.php:15
+msgid ""
+"Ayutthaya (&#3614;&#3619;&#3632;&#3609;&#3588;&#3619;&#3624;&#3619;&#3637;"
+"&#3629;&#3618;&#3640;&#3608;&#3618;&#3634;)"
+msgstr "آیوتتایا"
+
+#: i18n/states/TH.php:16
+msgid ""
+"Bangkok (&#3585;&#3619;&#3640;&#3591;&#3648;&#3607;&#3614;&#3617;&#3627;"
+"&#3634;&#3609;&#3588;&#3619;)"
+msgstr "بانکوک"
+
+#: i18n/states/TH.php:17
+msgid "Bueng Kan (&#3610;&#3638;&#3591;&#3585;&#3634;&#3628;)"
+msgstr "بئونگ کان"
+
+#: i18n/states/TH.php:18
+msgid ""
+"Buri Ram (&#3610;&#3640;&#3619;&#3637;&#3619;&#3633;&#3617;&#3618;&#3660;)"
+msgstr "بوری رام"
+
+#: i18n/states/TH.php:19
+msgid ""
+"Chachoengsao (&#3593;&#3632;&#3648;&#3594;&#3636;&#3591;&#3648;&#3607;&#3619;"
+"&#3634;)"
+msgstr "چاچوئنگسائو"
+
+#: i18n/states/TH.php:20
+msgid "Chai Nat (&#3594;&#3633;&#3618;&#3609;&#3634;&#3607;)"
+msgstr "چای نات"
+
+#: i18n/states/TH.php:21
+msgid "Chaiyaphum (&#3594;&#3633;&#3618;&#3616;&#3641;&#3617;&#3636;)"
+msgstr "چاافوم"
+
+#: i18n/states/TH.php:22
+msgid "Chanthaburi (&#3592;&#3633;&#3609;&#3607;&#3610;&#3640;&#3619;&#3637;)"
+msgstr "چانتابوری"
+
+#: i18n/states/TH.php:23
+msgid ""
+"Chiang Mai (&#3648;&#3594;&#3637;&#3618;&#3591;&#3651;&#3627;&#3617;&#3656;)"
+msgstr "چیانگ‌مای"
+
+#: i18n/states/TH.php:24
+msgid "Chiang Rai (&#3648;&#3594;&#3637;&#3618;&#3591;&#3619;&#3634;&#3618;)"
+msgstr "چیانگ ری"
+
+#: i18n/states/TH.php:25
+msgid "Chonburi (&#3594;&#3621;&#3610;&#3640;&#3619;&#3637;)"
+msgstr "چونبوری"
+
+#: i18n/states/TH.php:26
+msgid "Chumphon (&#3594;&#3640;&#3617;&#3614;&#3619;)"
+msgstr "چومپون"
+
+#: i18n/states/TH.php:27
+msgid ""
+"Kalasin (&#3585;&#3634;&#3628;&#3626;&#3636;&#3609;&#3608;&#3640;&#3660;)"
+msgstr "کالاسین"
+
+#: i18n/states/TH.php:28
+msgid ""
+"Kamphaeng Phet (&#3585;&#3635;&#3649;&#3614;&#3591;&#3648;&#3614;&#3594;"
+"&#3619;)"
+msgstr "کامفائنگ فت"
+
+#: i18n/states/TH.php:29
+msgid ""
+"Kanchanaburi (&#3585;&#3634;&#3597;&#3592;&#3609;&#3610;&#3640;&#3619;"
+"&#3637;)"
+msgstr "کانتچانابوری"
+
+#: i18n/states/TH.php:30
+msgid "Khon Kaen (&#3586;&#3629;&#3609;&#3649;&#3585;&#3656;&#3609;)"
+msgstr "خون کاین"
+
+#: i18n/states/TH.php:31
+msgid "Krabi (&#3585;&#3619;&#3632;&#3610;&#3637;&#3656;)"
+msgstr "کرابی"
+
+#: i18n/states/TH.php:32
+msgid "Lampang (&#3621;&#3635;&#3611;&#3634;&#3591;)"
+msgstr "لامپانگ"
+
+#: i18n/states/TH.php:33
+msgid "Lamphun (&#3621;&#3635;&#3614;&#3641;&#3609;)"
+msgstr "لامپهون"
+
+#: i18n/states/TH.php:34
+msgid "Loei (&#3648;&#3621;&#3618;)"
+msgstr "لوئی"
+
+#: i18n/states/TH.php:35
+msgid "Lopburi (&#3621;&#3614;&#3610;&#3640;&#3619;&#3637;)"
+msgstr "لوپبوری"
+
+#: i18n/states/TH.php:36
+msgid ""
+"Mae Hong Son (&#3649;&#3617;&#3656;&#3630;&#3656;&#3629;&#3591;&#3626;&#3629;"
+"&#3609;)"
+msgstr "مای هونگ سون"
+
+#: i18n/states/TH.php:37
+msgid ""
+"Maha Sarakham (&#3617;&#3627;&#3634;&#3626;&#3634;&#3619;&#3588;&#3634;"
+"&#3617;)"
+msgstr "ماها ساراخام"
+
+#: i18n/states/TH.php:38
+msgid "Mukdahan (&#3617;&#3640;&#3585;&#3604;&#3634;&#3627;&#3634;&#3619;)"
+msgstr "موکداهان"
+
+#: i18n/states/TH.php:39
+msgid "Nakhon Nayok (&#3609;&#3588;&#3619;&#3609;&#3634;&#3618;&#3585;)"
+msgstr "ناخون نایوک"
+
+#: i18n/states/TH.php:40
+msgid "Nakhon Pathom (&#3609;&#3588;&#3619;&#3611;&#3600;&#3617;)"
+msgstr "ناخون پاتوم"
+
+#: i18n/states/TH.php:41
+msgid "Nakhon Phanom (&#3609;&#3588;&#3619;&#3614;&#3609;&#3617;)"
+msgstr "ناخون فانوم"
+
+#: i18n/states/TH.php:42
+msgid ""
+"Nakhon Ratchasima (&#3609;&#3588;&#3619;&#3619;&#3634;&#3594;&#3626;&#3637;"
+"&#3617;&#3634;)"
+msgstr "ناخون راتچاسیما"
+
+#: i18n/states/TH.php:43
+msgid ""
+"Nakhon Sawan (&#3609;&#3588;&#3619;&#3626;&#3623;&#3619;&#3619;&#3588;"
+"&#3660;)"
+msgstr "ناخون ساوان"
+
+#: i18n/states/TH.php:44
+msgid ""
+"Nakhon Si Thammarat (&#3609;&#3588;&#3619;&#3624;&#3619;&#3637;&#3608;&#3619;"
+"&#3619;&#3617;&#3619;&#3634;&#3594;)"
+msgstr "ناخون سی تاممارات"
+
+#: i18n/states/TH.php:45
+msgid "Nan (&#3609;&#3656;&#3634;&#3609;)"
+msgstr "نان"
+
+#: i18n/states/TH.php:46
+msgid "Narathiwat (&#3609;&#3619;&#3634;&#3608;&#3636;&#3623;&#3634;&#3626;)"
+msgstr "ناراتیوات"
+
+#: i18n/states/TH.php:47
+msgid ""
+"Nong Bua Lam Phu (&#3627;&#3609;&#3629;&#3591;&#3610;&#3633;&#3623;&#3621;"
+"&#3635;&#3616;&#3641;)"
+msgstr "نونگ بئا لام فو"
+
+#: i18n/states/TH.php:48
+msgid "Nong Khai (&#3627;&#3609;&#3629;&#3591;&#3588;&#3634;&#3618;)"
+msgstr "نونگ خای"
+
+#: i18n/states/TH.php:49
+msgid "Nonthaburi (&#3609;&#3609;&#3607;&#3610;&#3640;&#3619;&#3637;)"
+msgstr "نونتابوری"
+
+#: i18n/states/TH.php:50
+msgid "Pathum Thani (&#3611;&#3607;&#3640;&#3617;&#3608;&#3634;&#3609;&#3637;)"
+msgstr "پاتوم تانی"
+
+#: i18n/states/TH.php:51
+msgid "Pattani (&#3611;&#3633;&#3605;&#3605;&#3634;&#3609;&#3637;)"
+msgstr "پاتانی"
+
+#: i18n/states/TH.php:52
+msgid "Phang Nga (&#3614;&#3633;&#3591;&#3591;&#3634;)"
+msgstr "پهانگ نگا"
+
+#: i18n/states/TH.php:53
+msgid "Phatthalung (&#3614;&#3633;&#3607;&#3621;&#3640;&#3591;)"
+msgstr "فاتالونگ"
+
+#: i18n/states/TH.php:54
+msgid "Phayao (&#3614;&#3632;&#3648;&#3618;&#3634;)"
+msgstr "فایائو"
+
+#: i18n/states/TH.php:55
+msgid ""
+"Phetchabun (&#3648;&#3614;&#3594;&#3619;&#3610;&#3641;&#3619;&#3603;&#3660;)"
+msgstr "پتچابون"
+
+#: i18n/states/TH.php:56
+msgid "Phetchaburi (&#3648;&#3614;&#3594;&#3619;&#3610;&#3640;&#3619;&#3637;)"
+msgstr "پتچابوری"
+
+#: i18n/states/TH.php:57
+msgid "Phichit (&#3614;&#3636;&#3592;&#3636;&#3605;&#3619;)"
+msgstr "فیچیت"
+
+#: i18n/states/TH.php:58
+msgid "Phitsanulok (&#3614;&#3636;&#3625;&#3603;&#3640;&#3650;&#3621;&#3585;)"
+msgstr "فیتسانولوک"
+
+#: i18n/states/TH.php:59
+msgid "Phrae (&#3649;&#3614;&#3619;&#3656;)"
+msgstr "فرای"
+
+#: i18n/states/TH.php:60
+msgid "Phuket (&#3616;&#3641;&#3648;&#3585;&#3655;&#3605;)"
+msgstr "پوکت"
+
+#: i18n/states/TH.php:61
+msgid ""
+"Prachin Buri (&#3611;&#3619;&#3634;&#3592;&#3637;&#3609;&#3610;&#3640;&#3619;"
+"&#3637;)"
+msgstr "پراچین بوری"
+
+#: i18n/states/TH.php:62
+msgid ""
+"Prachuap Khiri Khan (&#3611;&#3619;&#3632;&#3592;&#3623;&#3610;&#3588;&#3637;"
+"&#3619;&#3637;&#3586;&#3633;&#3609;&#3608;&#3660;)"
+msgstr "پراچواپ خیری خان"
+
+#: i18n/states/TH.php:63
+msgid "Ranong (&#3619;&#3632;&#3609;&#3629;&#3591;)"
+msgstr "رانونگ"
+
+#: i18n/states/TH.php:64
+msgid "Ratchaburi (&#3619;&#3634;&#3594;&#3610;&#3640;&#3619;&#3637;)"
+msgstr "راتچابوری"
+
+#: i18n/states/TH.php:65
+msgid "Rayong (&#3619;&#3632;&#3618;&#3629;&#3591;)"
+msgstr "رایونگ"
+
+#: i18n/states/TH.php:66
+msgid "Roi Et (&#3619;&#3657;&#3629;&#3618;&#3648;&#3629;&#3655;&#3604;)"
+msgstr "روی ات"
+
+#: i18n/states/TH.php:67
+msgid "Sa Kaeo (&#3626;&#3619;&#3632;&#3649;&#3585;&#3657;&#3623;)"
+msgstr "سا کایو"
+
+#: i18n/states/TH.php:68
+msgid "Sakon Nakhon (&#3626;&#3585;&#3621;&#3609;&#3588;&#3619;)"
+msgstr "ساکُن ناخون"
+
+#: i18n/states/TH.php:69
+msgid ""
+"Samut Prakan (&#3626;&#3617;&#3640;&#3607;&#3619;&#3611;&#3619;&#3634;&#3585;"
+"&#3634;&#3619;)"
+msgstr "ساموت پراکان"
+
+#: i18n/states/TH.php:70
+msgid ""
+"Samut Sakhon (&#3626;&#3617;&#3640;&#3607;&#3619;&#3626;&#3634;&#3588;"
+"&#3619;)"
+msgstr "ساموت ساخون"
+
+#: i18n/states/TH.php:71
+msgid ""
+"Samut Songkhram (&#3626;&#3617;&#3640;&#3607;&#3619;&#3626;&#3591;&#3588;"
+"&#3619;&#3634;&#3617;)"
+msgstr "ساموت سونگخرام"
+
+#: i18n/states/TH.php:72
+msgid "Saraburi (&#3626;&#3619;&#3632;&#3610;&#3640;&#3619;&#3637;)"
+msgstr "سارابوری"
+
+#: i18n/states/TH.php:73
+msgid "Satun (&#3626;&#3605;&#3641;&#3621;)"
+msgstr "ساتون"
+
+#: i18n/states/TH.php:74
+msgid ""
+"Sing Buri (&#3626;&#3636;&#3591;&#3627;&#3660;&#3610;&#3640;&#3619;&#3637;)"
+msgstr "سینگ بوری"
+
+#: i18n/states/TH.php:75
+msgid "Sisaket (&#3624;&#3619;&#3637;&#3626;&#3632;&#3648;&#3585;&#3625;)"
+msgstr "سی سا کت"
+
+#: i18n/states/TH.php:76
+msgid "Songkhla (&#3626;&#3591;&#3586;&#3621;&#3634;)"
+msgstr "سونگخلا"
+
+#: i18n/states/TH.php:77
+msgid "Sukhothai (&#3626;&#3640;&#3650;&#3586;&#3607;&#3633;&#3618;)"
+msgstr "سوخوتای"
+
+#: i18n/states/TH.php:78
+msgid ""
+"Suphan Buri (&#3626;&#3640;&#3614;&#3619;&#3619;&#3603;&#3610;&#3640;&#3619;"
+"&#3637;)"
+msgstr "سوپان بوری"
+
+#: i18n/states/TH.php:79
+msgid ""
+"Surat Thani (&#3626;&#3640;&#3619;&#3634;&#3625;&#3598;&#3619;&#3660;&#3608;"
+"&#3634;&#3609;&#3637;)"
+msgstr "سورات تانی"
+
+#: i18n/states/TH.php:80
+msgid "Surin (&#3626;&#3640;&#3619;&#3636;&#3609;&#3607;&#3619;&#3660;)"
+msgstr "سورین"
+
+#: i18n/states/TH.php:81
+msgid "Tak (&#3605;&#3634;&#3585;)"
+msgstr "تاک"
+
+#: i18n/states/TH.php:82
+msgid "Trang (&#3605;&#3619;&#3633;&#3591;)"
+msgstr "ترانگ"
+
+#: i18n/states/TH.php:83
+msgid "Trat (&#3605;&#3619;&#3634;&#3604;)"
+msgstr "تذات"
+
+#: i18n/states/TH.php:84
+msgid ""
+"Ubon Ratchathani (&#3629;&#3640;&#3610;&#3621;&#3619;&#3634;&#3594;&#3608;"
+"&#3634;&#3609;&#3637;)"
+msgstr "اوبون راتچاتانی"
+
+#: i18n/states/TH.php:85
+msgid "Udon Thani (&#3629;&#3640;&#3604;&#3619;&#3608;&#3634;&#3609;&#3637;)"
+msgstr "اودون تانی"
+
+#: i18n/states/TH.php:86
+msgid ""
+"Uthai Thani (&#3629;&#3640;&#3607;&#3633;&#3618;&#3608;&#3634;&#3609;&#3637;)"
+msgstr "یوتای تانی"
+
+#: i18n/states/TH.php:87
+msgid ""
+"Uttaradit (&#3629;&#3640;&#3605;&#3619;&#3604;&#3636;&#3605;&#3606;&#3660;)"
+msgstr "اوتارادیت"
+
+#: i18n/states/TH.php:88
+msgid "Yala (&#3618;&#3632;&#3621;&#3634;)"
+msgstr "یالا"
+
+#: i18n/states/TH.php:89
+msgid "Yasothon (&#3618;&#3650;&#3626;&#3608;&#3619;)"
+msgstr "یاسوتون"
+
+#: i18n/states/US.php:13
+msgid "Alabama"
+msgstr "آلاباما"
+
+#: i18n/states/US.php:14
+msgid "Alaska"
+msgstr "آلاسكا"
+
+#: i18n/states/US.php:15
+msgid "Arizona"
+msgstr "آريزونا"
+
+#: i18n/states/US.php:16
+msgid "Arkansas"
+msgstr "آركانزاس"
+
+#: i18n/states/US.php:17
+msgid "California"
+msgstr "كاليفورنيا"
+
+#: i18n/states/US.php:18
+msgid "Colorado"
+msgstr "كلورادو"
+
+#: i18n/states/US.php:19
+msgid "Connecticut"
+msgstr "کانکتیکات"
+
+#: i18n/states/US.php:20
+msgid "Delaware"
+msgstr "دلاویر"
+
+#: i18n/states/US.php:21
+msgid "District Of Columbia"
+msgstr "بخش کلمبیا"
+
+#: i18n/states/US.php:22
+msgid "Florida"
+msgstr "فلوريدا"
+
+#: i18n/states/US.php:24
+msgid "Hawaii"
+msgstr "هاوايي"
+
+#: i18n/states/US.php:25
+msgid "Idaho"
+msgstr "آیداهو"
+
+#: i18n/states/US.php:26
+msgid "Illinois"
+msgstr "ایلینویز"
+
+#: i18n/states/US.php:27
+msgid "Indiana"
+msgstr "اينديانا"
+
+#: i18n/states/US.php:28
+msgid "Iowa"
+msgstr "آیووا"
+
+#: i18n/states/US.php:29
+msgid "Kansas"
+msgstr "كانزاس"
+
+#: i18n/states/US.php:30
+msgid "Kentucky"
+msgstr "كنتاكي"
+
+#: i18n/states/US.php:31
+msgid "Louisiana"
+msgstr "لوییزیانا"
+
+#: i18n/states/US.php:32
+msgid "Maine"
+msgstr "ماین"
+
+#: i18n/states/US.php:33
+msgid "Maryland"
+msgstr "مریلند"
+
+#: i18n/states/US.php:34
+msgid "Massachusetts"
+msgstr "ماساچوست"
+
+#: i18n/states/US.php:35
+msgid "Michigan"
+msgstr "ميشيگان"
+
+#: i18n/states/US.php:36
+msgid "Minnesota"
+msgstr "مینه سوتا"
+
+#: i18n/states/US.php:37
+msgid "Mississippi"
+msgstr "مي سي سي پي"
+
+#: i18n/states/US.php:38
+msgid "Missouri"
+msgstr "ميسوري"
+
+#: i18n/states/US.php:39
+msgid "Montana"
+msgstr "مونتانا"
+
+#: i18n/states/US.php:40
+msgid "Nebraska"
+msgstr "نبرسكا"
+
+#: i18n/states/US.php:41
+msgid "Nevada"
+msgstr "نوادا"
+
+#: i18n/states/US.php:42
+msgid "New Hampshire"
+msgstr "نیو همپشایر"
+
+#: i18n/states/US.php:43
+msgid "New Jersey"
+msgstr "نيوجرسي"
+
+#: i18n/states/US.php:44
+msgid "New Mexico"
+msgstr "نيومكزيكو"
+
+#: i18n/states/US.php:45
+msgid "New York"
+msgstr "نيويورك"
+
+#: i18n/states/US.php:46
+msgid "North Carolina"
+msgstr "كارولينای شمالي"
+
+#: i18n/states/US.php:47
+msgid "North Dakota"
+msgstr "داكوتای شمالي"
+
+#: i18n/states/US.php:48
+msgid "Ohio"
+msgstr "اوهايو"
+
+#: i18n/states/US.php:49
+msgid "Oklahoma"
+msgstr "اوكلاهاما"
+
+#: i18n/states/US.php:50
+msgid "Oregon"
+msgstr "اورگون"
+
+#: i18n/states/US.php:51
+msgid "Pennsylvania"
+msgstr "پنسیلوانیا"
+
+#: i18n/states/US.php:52
+msgid "Rhode Island"
+msgstr "رود آیلند"
+
+#: i18n/states/US.php:53
+msgid "South Carolina"
+msgstr "كارولينای جنوبي"
+
+#: i18n/states/US.php:54
+msgid "South Dakota"
+msgstr "داكوتای جنوبي"
+
+#: i18n/states/US.php:55
+msgid "Tennessee"
+msgstr "تنسی"
+
+#: i18n/states/US.php:56
+msgid "Texas"
+msgstr "تگزاس"
+
+#: i18n/states/US.php:57
+msgid "Utah"
+msgstr "يوتا"
+
+#: i18n/states/US.php:58
+msgid "Vermont"
+msgstr "ورمونت"
+
+#: i18n/states/US.php:59
+msgid "Virginia"
+msgstr "ويرجينيا"
+
+#: i18n/states/US.php:60
+msgid "Washington"
+msgstr "واشنگتن"
+
+#: i18n/states/US.php:61
+msgid "West Virginia"
+msgstr "ويرجينيای غربي"
+
+#: i18n/states/US.php:62
+msgid "Wisconsin"
+msgstr "ویسکانسین"
+
+#: i18n/states/US.php:63
+msgid "Wyoming"
+msgstr "وایومینگ"
+
+#: i18n/states/US.php:64
+msgid "Armed Forces (AA)"
+msgstr "نیروهای مسلح (AA)"
+
+#: i18n/states/US.php:65
+msgid "Armed Forces (AE)"
+msgstr "نیروهای مسلح (AE)"
+
+#: i18n/states/US.php:66
+msgid "Armed Forces (AP)"
+msgstr "نیروهای مسلح (AP)"
+
+#: i18n/states/US.php:67
+msgid "American Samoa"
+msgstr "ساموای آمریکا"
+
+#: i18n/states/US.php:68
+msgid "Guam"
+msgstr "گوام"
+
+#: i18n/states/US.php:69
+msgid "Northern Mariana Islands"
+msgstr "جزایر ماریانای شمالی"
+
+#: i18n/states/US.php:70
+msgid "Puerto Rico"
+msgstr "پورتو ریکو"
+
+#: i18n/states/US.php:71
+msgid "US Minor Outlying Islands"
+msgstr "جزایر کوچک دورافتاده ایالات متحده"
+
+#: i18n/states/US.php:72
+msgid "US Virgin Islands"
+msgstr "جزایر ویرجین ایالات متحده آمریکا"
+
+#: i18n/states/ZA.php:13
+msgid "Eastern Cape"
+msgstr "کیپ شرقی"
+
+#: i18n/states/ZA.php:14
+msgid "Free State"
+msgstr "منطقه آزاد"
+
+#: i18n/states/ZA.php:15
+msgid "Gauteng"
+msgstr "گائوتِنگ"
+
+#: i18n/states/ZA.php:16
+msgid "KwaZulu-Natal"
+msgstr "کوازولو-ناتال"
+
+#: i18n/states/ZA.php:17
+msgid "Limpopo"
+msgstr "لیمپوپو"
+
+#: i18n/states/ZA.php:18
+msgid "Mpumalanga"
+msgstr "پومالانگا"
+
+#: i18n/states/ZA.php:19
+msgid "Northern Cape"
+msgstr "کیپ شمالی"
+
+#: i18n/states/ZA.php:20
+msgid "North West"
+msgstr "شمال غربی"
+
+#: i18n/states/ZA.php:21
+msgid "Western Cape"
+msgstr "کیپ غربی"
+
+#: i18n/strings.php:16
+msgid "pending"
+msgstr "در انتظار بررسی"
+
+#: i18n/strings.php:17
+msgid "failed"
+msgstr "ناموفق"
+
+#: i18n/strings.php:18
+msgid "on-hold"
+msgstr "متوقف"
+
+#: i18n/strings.php:19
+msgid "processing"
+msgstr "در حال انجام"
+
+#: i18n/strings.php:20
+msgid "completed"
+msgstr "تمام شده"
+
+#: i18n/strings.php:21
+msgid "refunded"
+msgstr "مسترد"
+
+#: i18n/strings.php:22
+msgid "cancelled"
+msgstr "متوقف شده"
+
+#: templates/cart/cart-empty.php:14
+msgid "Your cart is currently empty."
+msgstr "سبد خرید شما در حال حاضر خالی است."
+
+#: templates/cart/cart-empty.php:18
+msgid "&larr; Return To Shop"
+msgstr "بازگشت به فروشگاه"
+
+#: templates/cart/cart.php:28 templates/checkout/form-pay.php:19
+#: templates/checkout/review-order.php:21
+#: templates/emails/admin-new-order.php:22
+#: templates/emails/customer-completed-order.php:23
+#: templates/emails/customer-invoice.php:27
+#: templates/emails/customer-note.php:27
+#: templates/emails/customer-processing-order.php:23
+#: templates/order/order-details.php:20 woocommerce.php:949
+msgid "Product"
+msgstr "محصول"
+
+#: templates/cart/cart.php:29 templates/emails/admin-new-order.php:24
+#: templates/emails/customer-completed-order.php:25
+#: templates/emails/customer-invoice.php:29
+#: templates/emails/customer-note.php:29
+#: templates/emails/customer-processing-order.php:25
+msgid "Price"
+msgstr "قیمت"
+
+#: templates/cart/cart.php:30 templates/emails/admin-new-order.php:23
+#: templates/emails/customer-completed-order.php:24
+#: templates/emails/customer-invoice.php:28
+#: templates/emails/customer-note.php:28
+#: templates/emails/customer-processing-order.php:24
+msgid "Quantity"
+msgstr "تعداد"
+
+#: templates/cart/cart.php:31 templates/checkout/review-order.php:22
+#: templates/myaccount/my-orders.php:35 templates/order/order-details.php:21
+msgid "Total"
+msgstr "مجموع"
+
+#: templates/cart/cart.php:47
+msgid "Remove this item"
+msgstr "حذف کردن این آیتم"
+
+#: templates/cart/cart.php:100
+#: templates/single-product/add-to-cart/quantity.php:13
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "تعداد"
+
+#: templates/cart/cart.php:127 woocommerce.php:1062
+msgid "Coupon"
+msgstr "کوپن"
+
+#: templates/cart/cart.php:127 templates/checkout/form-coupon.php:29
+msgid "Apply Coupon"
+msgstr "اعمال کوپن"
+
+#: templates/cart/cart.php:134
+msgid "Update Cart"
+msgstr "به روز رسانی سبد خرید"
+
+#: templates/cart/cart.php:134
+msgid "Proceed to Checkout &rarr;"
+msgstr "اتمام خرید و صفحه پرداخت"
+
+#: templates/cart/cross-sells.php:40
+msgid "You may be interested in&hellip;"
+msgstr "ممکن است به این محصول نیز علاقه مند باشید"
+
+#: templates/cart/mini-cart.php:55
+msgid "No products in the cart."
+msgstr "سبد خرید شما خالی است."
+
+#: templates/cart/mini-cart.php:63 templates/cart/totals.php:92
+#: templates/checkout/review-order.php:93
+msgid "Subtotal"
+msgstr " قیمت کل "
+
+#: templates/cart/mini-cart.php:69
+msgid "Checkout &rarr;"
+msgstr "تسویه حساب"
+
+#: templates/cart/shipping-calculator.php:20
+msgid "Calculate Shipping"
+msgstr "محاسبه هزینه حمل و نقل"
+
+#: templates/cart/shipping-calculator.php:24 woocommerce-template.php:1327
+msgid "Select a country&hellip;"
+msgstr "کشور مورد نظر را انتخاب کنید"
+
+#: templates/cart/shipping-calculator.php:42
+#: templates/cart/shipping-calculator.php:50
+#: templates/cart/shipping-calculator.php:61
+msgid "State / county"
+msgstr "ابالت/کشور"
+
+#: templates/cart/shipping-calculator.php:50 woocommerce-template.php:1377
+msgid "Select a state&hellip;"
+msgstr "استان مورد نظر را انتخاب کنید"
+
+#: templates/cart/shipping-calculator.php:71
+msgid "Update Totals"
+msgstr "به روز رسانی جمع کل"
+
+#: templates/cart/shipping-methods.php:32
+msgid "Free"
+msgstr "رایگان"
+
+#: templates/cart/shipping-methods.php:67
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+"لطفا مشخصات خود را وارد کنید تا روش‌های موجود برای ارسال کالا را مشاهده کنید"
+
+#: templates/cart/shipping-methods.php:69
+msgid ""
+"Sorry, it seems that there are no available shipping methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"متاسفانه به نظر می رسد در حال حاضر هیچ روش حمل و نقلی برای استان شما موجود "
+"نمی باشد . در صورتیکه نیاز به کمک دارید با ما تماس بگیرید"
+
+#: templates/cart/totals.php:22
+msgid "Cart Totals"
+msgstr "جمع کل سبد خرید"
+
+#: templates/cart/totals.php:28 templates/checkout/review-order.php:27
+msgid "Cart Subtotal"
+msgstr "قیمت مجموع "
+
+#: templates/cart/totals.php:35 templates/checkout/review-order.php:34
+#: woocommerce.php:1655
+msgid "Cart Discount"
+msgstr "تخفيف سبد خريد "
+
+#: templates/cart/totals.php:35 templates/cart/totals.php:120
+msgid "[Remove]"
+msgstr "[حذف]"
+
+#: templates/cart/totals.php:46 templates/checkout/review-order.php:45
+msgid "Shipping"
+msgstr "ارسال "
+
+#: templates/cart/totals.php:120 templates/checkout/review-order.php:124
+msgid "Order Discount"
+msgstr "تخفیف سفارش"
+
+#: templates/cart/totals.php:129 templates/checkout/review-order.php:133
+msgid "Order Total"
+msgstr "مجموع هزینه سفارش"
+
+#: templates/cart/totals.php:161
+msgid " (taxes estimated for %s)"
+msgstr "مالیات ها تخمین زده شده برای %s"
+
+#: templates/cart/totals.php:163
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+"توجه : جمع مالیات و حمل و نقل محاسبه شده %s و در صورتحساب با توجه به اطلاعات "
+"ارسال و پرداخت شما به روز می شود."
+
+#: templates/cart/totals.php:175
+msgid ""
+"No shipping methods were found; please recalculate your shipping and enter "
+"your state/county and zip/postcode to ensure there are no other available "
+"methods for your location."
+msgstr ""
+"روش حمل و نقلی یافت نشد. لطفا دوباره روش حمل و نقل و ایالت/کشور و کدپستی را "
+"وارد کنید. "
+
+#: templates/cart/totals.php:183
+msgid ""
+"Sorry, it seems that there are no available shipping methods for your "
+"location (%s)."
+msgstr ""
+"متاسفانه به نظر می رسد در حال حاضر هیچ روش حمل و نقلی برای استا (%s)ن شما "
+"موجود نمی باشد . در صورتیکه نیاز به کمک دارید با ما تماس بگیرید"
+
+#: templates/cart/totals.php:185
+msgid ""
+"If you require assistance or wish to make alternate arrangements please "
+"contact us."
+msgstr ""
+"اگر شما کمک نیاز دارید یا می توانید نظم جایگزینی انجام دهید، با ما تماس "
+"بگیرید."
+
+#: templates/checkout/cart-errors.php:16
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+"مشکلاتی در اقلام سبد خرید شما وجود دارد (که در بالا آمده اند). لطفاً به صفحه "
+"سبد خرید بازگشته و پیش از تسویه حساب این مشکلات را رفع کنید."
+
+#: templates/checkout/cart-errors.php:20
+msgid "&larr; Return To Cart"
+msgstr "بازگشت به سبدخرید"
+
+#: templates/checkout/form-billing.php:17
+msgid "Billing &amp; Shipping"
+msgstr "صورتحساب - حمل و نقل"
+
+#: templates/checkout/form-billing.php:21
+#: templates/myaccount/form-edit-address.php:27
+#: templates/myaccount/my-address.php:19 templates/myaccount/my-address.php:25
+#: templates/order/order-details.php:106
+msgid "Billing Address"
+msgstr "آدرس صورتحساب"
+
+#: templates/checkout/form-billing.php:42
+msgid "Create an account?"
+msgstr "می خواهید یک حساب ایجاد کنید ؟"
+
+#: templates/checkout/form-billing.php:51
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+"بوسیله وارد کردن اطلاعات در اینجا یک حساب کاربری ایجاد کنید. اگر در اینجا "
+"حساب کاربری دارید لطفا از بالای برگه وارد شوید"
+
+#: templates/checkout/form-checkout.php:20
+msgid "You must be logged in to checkout."
+msgstr "برای تسویه حساب باید وارد شوید."
+
+#: templates/checkout/form-checkout.php:51
+msgid "Your order"
+msgstr "سفارش شما"
+
+#: templates/checkout/form-coupon.php:17
+msgid "Have a coupon?"
+msgstr "کوپن تخفیف دارید?"
+
+#: templates/checkout/form-coupon.php:20
+msgid "Click here to enter your code"
+msgstr "برای وارد کردن کد اینجا کلیک کنید"
+
+#: templates/checkout/form-coupon.php:25
+msgid "Coupon code"
+msgstr "كد تخفيف:"
+
+#: templates/checkout/form-login.php:14
+msgid "Returning customer?"
+msgstr "مشتری بازگشتی؟"
+
+#: templates/checkout/form-login.php:17
+msgid "Click here to login"
+msgstr "برای ورود اینجا را کلیک کنید"
+
+#: templates/checkout/form-login.php:22
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+"اگر قبلا از ما خرید داشته اید، لطفا جزییات را در کادر های پایین بنویسید. اگر "
+"مشتری جدید هستید به مرحله پرداخت و ارسال بروید"
+
+#: templates/checkout/form-pay.php:20
+msgid "Qty"
+msgstr "تعداد "
+
+#: templates/checkout/form-pay.php:21
+msgid "Totals"
+msgstr "جمع کل "
+
+#: templates/checkout/form-pay.php:78
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+"متاسفانه به نظر می رسد در حال حاضر هیچ روش پرداختی برای مکانی که انتخاب کرده "
+"اید موجود نمی باشد . در صورتیکه نیاز به کمک داشتید با ما تماس بگیرید"
+
+#: templates/checkout/form-pay.php:87
+msgid "Pay for order"
+msgstr "پرداخت برای سفارش"
+
+#: templates/checkout/form-shipping.php:32
+msgid "Ship to billing address?"
+msgstr "سفارشات به همین آدرس ارسال شود."
+
+#: templates/checkout/form-shipping.php:35
+#: templates/myaccount/form-edit-address.php:27
+#: templates/myaccount/my-address.php:20 templates/order/order-details.php:121
+msgid "Shipping Address"
+msgstr "آدرس ارسال بار "
+
+#: templates/checkout/form-shipping.php:59
+#: templates/single-product/tabs/additional-information.php:14
+#: woocommerce-template.php:756
+msgid "Additional Information"
+msgstr "اطلاعات بیشتر"
+
+#: templates/checkout/review-order.php:217
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+"لطفا مشخصات خود را در بالا وارد کنید تا روش های موجود برای پرداخت را مشاهده "
+"کنید"
+
+#: templates/checkout/review-order.php:219
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"متاسفانه به نظر می رسد در حال حاضر هیچ روش پرداختی برای استان شما موجود نمی "
+"باشد. در صورتیکه نیاز به کمک دارید با ما تماس بگیرید."
+
+#: templates/checkout/review-order.php:228
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+"به دلیل اینکه براوزر شما جاوا اسکریپت را ساپورت نمی کند ، یا غیر فعال است ، "
+"لطفا قبل از اینکه سفارش خود را بگذارید دکمه به روز رسانی جمع کل را کلیک "
+"کنید. در صورتیکه این کار را نکنید ممکن است مبلغ قابل پرداخت شما بیش از چیزی "
+"که در بالا مشخص شده است باشد"
+
+#: templates/checkout/review-order.php:228
+msgid "Update totals"
+msgstr "به روز رسانی جمع کل"
+
+#: templates/checkout/review-order.php:234
+msgid "Place order"
+msgstr "انجام خرید"
+
+#: templates/checkout/review-order.php:238
+msgid "I have read and accept the"
+msgstr "من خوانده و موافقم با"
+
+#: templates/checkout/review-order.php:238
+msgid "terms &amp; conditions"
+msgstr "شرایط و توضیحات فروشگاه"
+
+#: templates/checkout/thankyou.php:18
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+"متاسفانه به دلیل رد شدن تراکنش از سمت بانک سفارش شما نمی تواند پردازش شود"
+
+#: templates/checkout/thankyou.php:22
+msgid "Please attempt your purchase again or go to your account page."
+msgstr "لطفا خرید خود را دوباره انجام دهید یا به برگه حساب خود بروید."
+
+#: templates/checkout/thankyou.php:24
+msgid "Please attempt your purchase again."
+msgstr "لطفا خرید خود را دوباره انجام دهید."
+
+#: templates/checkout/thankyou.php:36 templates/checkout/thankyou.php:67
+msgid "Thank you. Your order has been received."
+msgstr "متشکریم ، سفارش شما دریافت شد."
+
+#: templates/emails/admin-new-order.php:13
+#: templates/emails/plain/admin-new-order.php:13
+msgid "You have received an order from %s. Their order is as follows:"
+msgstr "شما سفارشی از %s دریافت کرده اید. سفارش آن ها به قرار زیر است:"
+
+#: templates/emails/admin-new-order.php:17
+msgid "Order: %s"
+msgstr "سفارش: %s"
+
+#: templates/emails/admin-new-order.php:50
+#: templates/emails/customer-completed-order.php:51
+#: templates/emails/customer-note.php:55
+#: templates/emails/customer-processing-order.php:51
+#: templates/emails/plain/admin-new-order.php:38
+#: templates/order/order-details.php:88
+msgid "Customer details"
+msgstr "مشخصات مشتری : "
+
+#: templates/emails/admin-new-order.php:53
+#: templates/emails/customer-completed-order.php:54
+#: templates/emails/customer-note.php:58
+#: templates/emails/customer-processing-order.php:54
+#: templates/emails/plain/admin-new-order.php:41
+#: templates/emails/plain/customer-completed-order.php:41
+#: templates/emails/plain/customer-note.php:49
+#: templates/emails/plain/customer-processing-order.php:41
+#: templates/order/order-details.php:92
+msgid "Email:"
+msgstr "ایمیل : "
+
+#: templates/emails/admin-new-order.php:56
+#: templates/emails/customer-completed-order.php:57
+#: templates/emails/customer-note.php:61
+#: templates/emails/customer-processing-order.php:57
+#: templates/emails/plain/admin-new-order.php:44
+#: templates/emails/plain/customer-completed-order.php:44
+#: templates/emails/plain/customer-note.php:52
+#: templates/emails/plain/customer-processing-order.php:44
+msgid "Tel:"
+msgstr "تلفن : "
+
+#: templates/emails/customer-completed-order.php:14
+#: templates/emails/plain/customer-completed-order.php:13
+msgid ""
+"Hi there. Your recent order on %s has been completed. Your order details are "
+"shown below for your reference:"
+msgstr ""
+"سلام. سفارش اخیر شما با شماره %s تمام شده است. اطلاعات سفارش شما در زیر "
+"فهرست شده است."
+
+#: templates/emails/customer-invoice.php:16
+#: templates/emails/plain/customer-invoice.php:14
+msgid ""
+"An order has been created for you on %s. To pay for this order please use "
+"the following link: %s"
+msgstr ""
+"سفارشی برای شما در شماره %s ایجاد شده است. برای پرداخت این سفارش به لینک "
+"مقابل مراجعه کنید: %s"
+
+#: templates/emails/customer-invoice.php:16
+msgid "pay"
+msgstr "پرداخت"
+
+#: templates/emails/customer-new-account.php:14
+#: templates/emails/plain/customer-new-account.php:13
+msgid ""
+"Thanks for creating an account on %s. Your username is <strong>%s</strong>."
+msgstr ""
+"با تشکر از ایجاد حساب کاربری شماره %s . نام کاربری شما <strong>%s</strong> "
+"است"
+
+#: templates/emails/customer-new-account.php:16
+#: templates/emails/plain/customer-new-account.php:15
+msgid "You can access your account area here: %s."
+msgstr "شما از این ناحیه می توانید به حساب کاربری خود دسترسی یابید: %s"
+
+#: templates/emails/customer-note.php:14
+#: templates/emails/plain/customer-note.php:13
+msgid "Hello, a note has just been added to your order:"
+msgstr "سلام، یک یادداشت به سفارش شما اضافه شده است:"
+
+#: templates/emails/customer-note.php:18
+#: templates/emails/plain/customer-note.php:21
+msgid "For your reference, your order details are shown below."
+msgstr "جزییات سفارش به شرح زیر می باشد."
+
+#: templates/emails/customer-processing-order.php:14
+#: templates/emails/plain/customer-processing-order.php:13
+msgid ""
+"Your order has been received and is now being processed. Your order details "
+"are shown below for your reference:"
+msgstr ""
+"سفارش شما دریافت شده و در حال پردازش است. اطلاعات سفارش شما در زیر نشان داده "
+"شده است: "
+
+#: templates/emails/customer-reset-password.php:14
+#: templates/emails/plain/customer-reset-password.php:13
+msgid "Someone requested that the password be reset for the following account:"
+msgstr "کسی درخواست ریست رمز عبور حساب کاربری پیرو را داده است:"
+
+#: templates/emails/customer-reset-password.php:15
+#: templates/emails/plain/customer-reset-password.php:15
+msgid "Username: %s"
+msgstr "نام کاربری: %s"
+
+#: templates/emails/customer-reset-password.php:16
+#: templates/emails/plain/customer-reset-password.php:16
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"اگر این اشتباه است، فقط این ایمیل را نادیده بگیرید و هیچ اتفاقی نمی افتد"
+
+#: templates/emails/customer-reset-password.php:17
+#: templates/emails/plain/customer-reset-password.php:17
+msgid "To reset your password, visit the following address:"
+msgstr "برای ریست کردن رمز عبور خود، به آدرس زیر بروید:"
+
+#: templates/emails/customer-reset-password.php:20
+msgid "Click here to reset your password"
+msgstr "برای ریست کردن رمز عبور خود اینجا را کلیک کنید"
+
+#: templates/emails/email-addresses.php:18
+#: templates/emails/plain/email-addresses.php:12
+msgid "Billing address"
+msgstr "آدرس صورتحساب"
+
+#: templates/emails/email-addresses.php:28
+#: templates/emails/plain/email-addresses.php:17
+msgid "Shipping address"
+msgstr "آدرس برای ارسال بار : "
+
+#: templates/emails/email-order-items.php:40
+msgid "Download %d:"
+msgstr "دانلود %d"
+
+#: templates/emails/email-order-items.php:42
+msgid "Download:"
+msgstr "دانلود"
+
+#: templates/emails/plain/admin-new-order.php:19
+#: templates/emails/plain/customer-completed-order.php:19
+#: templates/emails/plain/customer-invoice.php:20
+#: templates/emails/plain/customer-note.php:27
+#: templates/emails/plain/customer-processing-order.php:19
+msgid "Order number: %s"
+msgstr "شماره سفارش %s"
+
+#: templates/emails/plain/admin-new-order.php:20
+#: templates/emails/plain/customer-completed-order.php:20
+#: templates/emails/plain/customer-invoice.php:21
+#: templates/emails/plain/customer-note.php:28
+#: templates/emails/plain/customer-processing-order.php:20
+msgid "Order date: %s"
+msgstr "تاریخ سفارش %s"
+
+#: templates/emails/plain/admin-new-order.php:20
+msgid "jS F Y"
+msgstr "j F Y"
+
+#: templates/emails/plain/customer-completed-order.php:38
+#: templates/emails/plain/customer-note.php:46
+#: templates/emails/plain/customer-processing-order.php:38
+msgid "Your details"
+msgstr "جزییات شما"
+
+#: templates/emails/plain/email-order-items.php:28
+msgid "Quantity: %s"
+msgstr "تعداد %s"
+
+#: templates/emails/plain/email-order-items.php:31
+msgid "Cost: %s"
+msgstr "هزینه: %s"
+
+#: templates/loop/add-to-cart.php:17 templates/loop/add-to-cart.php:41
+#: templates/loop/add-to-cart.php:50
+msgid "Read More"
+msgstr "اطلاعات بیشتر"
+
+#: templates/loop/add-to-cart.php:33
+msgid "Select options"
+msgstr "انتخاب گزینه ها"
+
+#: templates/loop/add-to-cart.php:37
+msgid "View options"
+msgstr "توضیحات محصول"
+
+#: templates/loop/no-products-found.php:14 templates/loop-shop.php:40
+msgid "No products found which match your selection."
+msgstr "هیچ محصولی که با انتخاب شما یکی باشد یافت نشد"
+
+#: templates/loop/orderby.php:21
+msgid "Default sorting"
+msgstr "مرتب سازی پیش فرض"
+
+#: templates/loop/orderby.php:22
+msgid "Sort by popularity"
+msgstr "مرتب سازی بر اساس جمعیت"
+
+#: templates/loop/orderby.php:23
+msgid "Sort by average rating"
+msgstr "مرتب سازی بر اساس میانگین درجه"
+
+#: templates/loop/orderby.php:24
+msgid "Sort by newness"
+msgstr "مرتب سازی بر اساس جدیدترین"
+
+#: templates/loop/orderby.php:25
+msgid "Sort by price: low to high"
+msgstr "مرتب سازی بر اساس هزینه: کم به زیاد"
+
+#: templates/loop/orderby.php:26
+msgid "Sort by price: high to low"
+msgstr "مرتب سازی بر اساس هزینه: زیاد به کم"
+
+#: templates/loop/result-count.php:28
+msgid "Showing the single result"
+msgstr "نمایش یک نتیجه"
+
+#: templates/loop/result-count.php:30
+msgid "Showing all %d results"
+msgstr "نمایش همه %d نتیجه"
+
+#: templates/loop/result-count.php:32
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing %1$d–%2$d of %3$d results"
+msgstr "نمایش  %1$d–%2$d of %3$d نتیجه"
+
+#: templates/loop/sale-flash.php:16 templates/single-product/sale-flash.php:16
+msgid "Sale!"
+msgstr "حراج!"
+
+#: templates/myaccount/form-change-password.php:20
+#: templates/myaccount/form-lost-password.php:31
+msgid "New password"
+msgstr "رمز عبور جدید"
+
+#: templates/myaccount/form-change-password.php:24
+#: templates/myaccount/form-lost-password.php:35
+msgid "Re-enter new password"
+msgstr "رمز عبور جدید را دوباره وارد کنید"
+
+#: templates/myaccount/form-change-password.php:29
+#: templates/myaccount/form-lost-password.php:45
+msgid "Save"
+msgstr "ذخیره کردن"
+
+#: templates/myaccount/form-edit-address.php:43
+msgid "Save Address"
+msgstr "ذخیره کردن آدرس"
+
+#: templates/myaccount/form-login.php:26 templates/myaccount/form-login.php:40
+#: templates/shop/form-login.php:31
+msgid "Login"
+msgstr "ورود"
+
+#: templates/myaccount/form-login.php:50 templates/shop/form-login.php:33
+msgid "Lost Password?"
+msgstr "رمز عبور را گم کرده اید ؟"
+
+#: templates/myaccount/form-login.php:60
+#: templates/myaccount/form-login.php:101
+msgid "Register"
+msgstr "ثبت نام"
+
+#: templates/myaccount/form-login.php:66
+msgid "Username"
+msgstr "نام کاربری"
+
+#: templates/myaccount/form-login.php:78
+#: templates/single-product-reviews.php:101
+msgid "Email"
+msgstr "ایمیل"
+
+#: templates/myaccount/form-login.php:89
+msgid "Re-enter password"
+msgstr "رمز عبور را دوباره وارد کنید."
+
+#: templates/myaccount/form-lost-password.php:22
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+"رمز عبور خود را فراموش کرده اید؟ نام کاربری و پست‌الکترونیک خود را وارد کنید. "
+"شما یک لینک برای ساختن رمز جدید در پست‌الکترونیک خود دریافت خواهید کرد"
+
+#: templates/myaccount/form-lost-password.php:28
+msgid "Enter a new password below."
+msgstr "کلمه عبور جدید را وارد کنید"
+
+#: templates/myaccount/form-lost-password.php:45
+msgid "Reset Password"
+msgstr "بازگردانی کلمه عبور"
+
+#: templates/myaccount/my-account.php:19
+msgid ""
+"Hello, <strong>%s</strong>. From your account dashboard you can view your "
+"recent orders, manage your shipping and billing addresses and <a href=\"%s"
+"\">change your password</a>."
+msgstr ""
+"سلام <strong>%s</strong>، از دشبورد حساب خود می توانید آخرین سفارشات را "
+"مشاهده کرده ، نحوه باربری و ارسال بار و آدرس های مربوط به باربری و صورت حساب "
+"را مدیریت کنید و در صورت لزوم  <a href=\"%s\">رمز عبورتان را تغییر دهید</a>."
+
+#: templates/myaccount/my-address.php:17
+msgid "My Addresses"
+msgstr "آدرس های من"
+
+#: templates/myaccount/my-address.php:23
+msgid "My Address"
+msgstr "آدرس من"
+
+#: templates/myaccount/my-address.php:35
+msgid "The following addresses will be used on the checkout page by default."
+msgstr "آدرس‌های زیر برای ارسال فاکتور و صورت حساب استفاده خواهند شد."
+
+#: templates/myaccount/my-address.php:45 woocommerce.php:917
+#: woocommerce.php:953 woocommerce.php:990 woocommerce.php:1028
+#: woocommerce.php:1066
+msgid "Edit"
+msgstr "ویرایش"
+
+#: templates/myaccount/my-address.php:64
+msgid "You have not set up this type of address yet."
+msgstr "شما هنوز آدرسی تعیین نکنید"
+
+#: templates/myaccount/my-downloads.php:18
+msgid "Available downloads"
+msgstr "دانلود های موجود"
+
+#: templates/myaccount/my-downloads.php:27
+msgid "%s download remaining"
+msgid_plural "%s downloads remaining"
+msgstr[0] "%s از دانلود باقی مانده"
+
+#: templates/myaccount/my-orders.php:26
+msgid "Recent Orders"
+msgstr "آخرین سفارشات "
+
+#: templates/myaccount/my-orders.php:32 woocommerce.php:1025
+msgid "Order"
+msgstr "سفارش"
+
+#: templates/myaccount/my-orders.php:33
+msgid "Date"
+msgstr "تاریخ"
+
+#: templates/myaccount/my-orders.php:34
+msgid "Status"
+msgstr "وضعیت"
+
+#: templates/myaccount/my-orders.php:62
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] "%sبرای %s مورد"
+
+#: templates/myaccount/my-orders.php:77
+msgid "Cancel"
+msgstr "لغو"
+
+#: templates/myaccount/my-orders.php:82
+msgid "View"
+msgstr "مشاهده "
+
+#: templates/order/form-tracking.php:17
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"return. This was given to you on your receipt and in the confirmation email "
+"you should have received."
+msgstr ""
+"برای دنبال کردن سفارشتان کد سفارش خود را در زیر وارد کرده و بازگشت را فشار "
+"دهید .  این کد از طریق رسید و ایمیلی که به شما ارسال شده  است در اختیارتان "
+"قرار گرفته است."
+
+#: templates/order/form-tracking.php:19
+msgid "Order ID"
+msgstr "شماره سفارش"
+
+#: templates/order/form-tracking.php:19
+msgid "Found in your order confirmation email."
+msgstr "شماره سفارش در ایمیل ارسال شده به شما موجود است."
+
+#: templates/order/form-tracking.php:20
+msgid "Billing Email"
+msgstr "ایمیل صورتحساب"
+
+#: templates/order/form-tracking.php:20
+msgid "Email you used during checkout."
+msgstr "ایمیلی که در طول بررسی  استفاده کردید"
+
+#: templates/order/form-tracking.php:23
+msgid "Track"
+msgstr "مسیر"
+
+#: templates/order/order-details.php:16
+msgid "Order Details"
+msgstr "مشخصات سفارش"
+
+#: templates/order/order-details.php:57
+msgid "Download file %s &rarr;"
+msgstr "دانلود فایل %s "
+
+#: templates/order/order-details.php:81
+msgid "Order Again"
+msgstr "سفارش مجدد"
+
+#: templates/order/order-details.php:93
+msgid "Telephone:"
+msgstr "تلفن :"
+
+#: templates/order/tracking.php:18
+msgid "Order %s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr "سفارش %s که ایجاد شده %s در وضعیت &ldquo;%s&rdquo; است"
+
+#: templates/order/tracking.php:18
+msgid "ago"
+msgstr "قبل"
+
+#: templates/order/tracking.php:20
+msgid "and was completed"
+msgstr "و تمام شد."
+
+#: templates/order/tracking.php:20
+msgid " ago"
+msgstr " قبل"
+
+#: templates/shop/breadcrumb.php:66
+msgid "Products tagged &ldquo;"
+msgstr "محصولات"
+
+#: templates/shop/breadcrumb.php:94 templates/shop/breadcrumb.php:196
+msgid "Search results for &ldquo;"
+msgstr "نتیجه جستجو"
+
+#: templates/shop/breadcrumb.php:154
+msgid "Error 404"
+msgstr "404 یافت نشد"
+
+#: templates/shop/breadcrumb.php:200
+msgid "Posts tagged &ldquo;"
+msgstr "پستهای برچسب شده &ldquo;"
+
+#: templates/shop/breadcrumb.php:205
+msgid "Author:"
+msgstr "نویسنده:"
+
+#: templates/shop/breadcrumb.php:210
+msgid "Page"
+msgstr "برگه"
+
+#: templates/single-product/add-to-cart/variable.php:24
+msgid "Choose an option"
+msgstr "یک گزینه را انتخاب کنید"
+
+#: templates/single-product/add-to-cart/variable.php:64
+msgid "Clear selection"
+msgstr "قسمت انتخاب شده را پاک کن"
+
+#: templates/single-product/meta.php:22
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "دسته:"
+
+#: templates/single-product/meta.php:24
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "برچسب:"
+
+#: templates/single-product/product-attributes.php:28
+msgid "Weight"
+msgstr "وزن"
+
+#: templates/single-product/product-attributes.php:37
+msgid "Dimensions"
+msgstr "ابعاد"
+
+#: templates/single-product/related.php:36
+msgid "Related Products"
+msgstr "محصولات مرتبط"
+
+#: templates/single-product/review.php:26
+msgid "Rated %d out of 5"
+msgstr "رتبه بندی شده %d از 5"
+
+#: templates/single-product/review.php:33
+msgid "Your comment is awaiting approval"
+msgstr "نظر شما در انتظار تایید است"
+
+#: templates/single-product/review.php:40
+msgid "verified owner"
+msgstr "مالک تایید شده"
+
+#: templates/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr "درباره محصول"
+
+#: templates/single-product/up-sells.php:41
+msgid "You may also like&hellip;"
+msgstr "شما شاید این را هم دوست داشته باشید"
+
+#: templates/single-product-reviews.php:45
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] "%s بازبینی شده %s"
+
+#: templates/single-product-reviews.php:51
+#: templates/single-product-reviews.php:57
+msgid "Reviews"
+msgstr "دیدگاه‌ها"
+
+#: templates/single-product-reviews.php:73
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> قبلی"
+
+#: templates/single-product-reviews.php:74
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "بعدی <span class=\"meta-nav\">&rarr;</span>"
+
+#: templates/single-product-reviews.php:78
+msgid "Add Your Review"
+msgstr "دیدگاه‌ خود را اضافه کنید"
+
+#: templates/single-product-reviews.php:78
+msgid "Add Review"
+msgstr "افزودن دیدگاه"
+
+#: templates/single-product-reviews.php:80
+msgid "Add a review"
+msgstr "دیدگاه خود را بنویسید"
+
+#: templates/single-product-reviews.php:84
+msgid "Be the first to review"
+msgstr "اولین نفری باشید که برای این محصول دیدگاه می‌نویسد."
+
+#: templates/single-product-reviews.php:86
+msgid ""
+"There are no reviews yet, would you like to <a href=\"#review_form\" class="
+"\"inline show_review_form\">submit yours</a>?"
+msgstr ""
+"تا به حال هیچ دیدگاهی نوشته نشده است ، <a href=\"#review_form\" class="
+"\"inline show_review_form\">اولین دیدگاه را شما بنویسید!</a>"
+
+#: templates/single-product-reviews.php:104
+msgid "Submit Review"
+msgstr "ارسال نظر "
+
+#: templates/single-product-reviews.php:111
+msgid "Rating"
+msgstr "امتیازدهی"
+
+#: templates/single-product-reviews.php:112
+msgid "Rate&hellip;"
+msgstr "رای دهید"
+
+#: templates/single-product-reviews.php:113
+msgid "Perfect"
+msgstr "عالی"
+
+#: templates/single-product-reviews.php:114
+msgid "Good"
+msgstr "خوب"
+
+#: templates/single-product-reviews.php:115
+msgid "Average"
+msgstr "متوسط"
+
+#: templates/single-product-reviews.php:116
+msgid "Not that bad"
+msgstr "نه خیلی بد"
+
+#: templates/single-product-reviews.php:117
+msgid "Very Poor"
+msgstr "خیلی بد"
+
+#: templates/single-product-reviews.php:122
+msgid "Your Review"
+msgstr "دیدگاه شما"
+
+#: woocommerce-ajax.php:111
+msgid "Please enter your username and password to login."
+msgstr "لطفا رمز عبور خود را وارد کنید."
+
+#: woocommerce-ajax.php:191
+msgid "Sorry, your session has expired."
+msgstr "متاسفانه زمان شما به اتمام رسید"
+
+#: woocommerce-ajax.php:191
+msgid "Return to homepage &rarr;"
+msgstr "بازگشت به برگه اصلی"
+
+#: woocommerce-ajax.php:332 woocommerce-ajax.php:366 woocommerce-ajax.php:389
+msgid "You do not have sufficient permissions to access this page."
+msgstr "شما اجازه دسترسی به این برگه را ندارید."
+
+#: woocommerce-ajax.php:334 woocommerce-ajax.php:367 woocommerce-ajax.php:390
+msgid "You have taken too long. Please go back and retry."
+msgstr "وقت شما به پایان رسید . لطفا دوباره امتحان کنید."
+
+#: woocommerce-ajax.php:626
+msgid "Same as parent"
+msgstr "مانند مادر"
+
+#: woocommerce-ajax.php:627
+msgid "Standard"
+msgstr "استادارد"
+
+#: woocommerce-ajax.php:1172
+msgid ""
+"No products had their stock reduced - they may not have stock management "
+"enabled."
+msgstr ""
+"هیچ محصولی موجودی خود را کاهش نداده است - ممکن است مدیریت موجودی را فعال "
+"نکرده باشد."
+
+#: woocommerce-ajax.php:1215 woocommerce-ajax.php:1216
+msgid "Item #%s stock increased from %s to %s."
+msgstr "موجودی انبار آیتم شماره  %s از %s به %s افزایش یافت."
+
+#: woocommerce-ajax.php:1223
+msgid ""
+"No products had their stock increased - they may not have stock management "
+"enabled."
+msgstr ""
+"هیچ محصولی موجودی خود را افزایش نداده است - ممکن است مدیریت موجودی را فعال "
+"نکرده باشد."
+
+#: woocommerce-ajax.php:1244
+msgid "Value"
+msgstr "ارزش"
+
+#: woocommerce-ajax.php:1558
+msgid "Delete note"
+msgstr "پاک کردن یادداشت"
+
+#: woocommerce-core-functions.php:268
+msgid "%s &ndash; %s%s"
+msgstr "%s &ndash; %s%s"
+
+#: woocommerce-core-functions.php:675
+msgid "Australian Dollars"
+msgstr "دلار استرالیا"
+
+#: woocommerce-core-functions.php:676
+msgid "Brazilian Real"
+msgstr "رئال برزیل"
+
+#: woocommerce-core-functions.php:677
+msgid "Canadian Dollars"
+msgstr "دلار کانادا"
+
+#: woocommerce-core-functions.php:678
+msgid "Chinese Yuan"
+msgstr "یوآن چین"
+
+#: woocommerce-core-functions.php:679
+msgid "Czech Koruna"
+msgstr "کرون چک"
+
+#: woocommerce-core-functions.php:680
+msgid "Danish Krone"
+msgstr "كرون دانمارک"
+
+#: woocommerce-core-functions.php:681
+msgid "Euros"
+msgstr "یورو"
+
+#: woocommerce-core-functions.php:682
+msgid "Hong Kong Dollar"
+msgstr "دلار هنگ کنگ"
+
+#: woocommerce-core-functions.php:683
+msgid "Hungarian Forint"
+msgstr "فورینت مجارستان"
+
+#: woocommerce-core-functions.php:684
+msgid "Indonesia Rupiah"
+msgstr "روپیه اندونزی"
+
+#: woocommerce-core-functions.php:685
+msgid "Israeli Shekel"
+msgstr "شکل اسرائیل"
+
+#: woocommerce-core-functions.php:686
+msgid "Japanese Yen"
+msgstr "ین ژاپن"
+
+#: woocommerce-core-functions.php:687
+msgid "Malaysian Ringgits"
+msgstr "رینگیت مالزی"
+
+#: woocommerce-core-functions.php:688
+msgid "Mexican Peso"
+msgstr "پزو مکزیک"
+
+#: woocommerce-core-functions.php:689
+msgid "Norwegian Krone"
+msgstr "کرون نروژ"
+
+#: woocommerce-core-functions.php:690
+msgid "New Zealand Dollar"
+msgstr "دلار نیوزیلند"
+
+#: woocommerce-core-functions.php:691
+msgid "Philippine Pesos"
+msgstr "پزو فیلیپین"
+
+#: woocommerce-core-functions.php:692
+msgid "Polish Zloty"
+msgstr "ین لهستانی"
+
+#: woocommerce-core-functions.php:693
+msgid "Pounds Sterling"
+msgstr "پوند استرلینگ"
+
+#: woocommerce-core-functions.php:694
+msgid "Romanian Leu"
+msgstr "لئو رومانی"
+
+#: woocommerce-core-functions.php:695
+msgid "Singapore Dollar"
+msgstr "دلار سنگاپور"
+
+#: woocommerce-core-functions.php:696
+msgid "South African rand"
+msgstr "رند آفریقای جنوبی"
+
+#: woocommerce-core-functions.php:697
+msgid "Swedish Krona"
+msgstr "کرون سوئد"
+
+#: woocommerce-core-functions.php:698
+msgid "Swiss Franc"
+msgstr "فرانک سوییس"
+
+#: woocommerce-core-functions.php:699
+msgid "Taiwan New Dollars"
+msgstr "دلار جدید تایوان"
+
+#: woocommerce-core-functions.php:700
+msgid "Thai Baht"
+msgstr "بات تایلند"
+
+#: woocommerce-core-functions.php:701
+msgid "Turkish Lira"
+msgstr "لیر ترکیه"
+
+#: woocommerce-core-functions.php:702
+msgid "US Dollars"
+msgstr "دلار ایالات متحده آمریکا"
+
+#: woocommerce-core-functions.php:1189 woocommerce-core-functions.php:1215
+msgid "Download Permissions Granted"
+msgstr "ارائه مجوز دسترسی"
+
+#: woocommerce-core-functions.php:1328
+msgctxt "slug"
+msgid "uncategorized"
+msgstr "بدون دسته بندی"
+
+#: woocommerce-core-functions.php:1517
+msgid "Select a category"
+msgstr "یک دسته بندی انتخاب کنید "
+
+#: woocommerce-core-functions.php:1521
+msgid "Uncategorized"
+msgstr "دسته‌بندی نشده"
+
+#: woocommerce-core-functions.php:1893
+msgid "Customer"
+msgstr "مشتری"
+
+#: woocommerce-core-functions.php:1900
+msgid "Shop Manager"
+msgstr "مدیر فروشگاه"
+
+#: woocommerce-core-functions.php:2433
+msgid "Unpaid order cancelled - time limit reached."
+msgstr "سفارش پرداخت نشده لغو شد - حد زمانی پایان یافت"
+
+#: woocommerce-core-functions.php:2485 woocommerce-functions.php:703
+msgid "Please enter a username."
+msgstr "نام کاربری را وارد کنید"
+
+#: woocommerce-functions.php:208 woocommerce-functions.php:253
+msgid "Cart updated."
+msgstr "سبد خرید به روز شد"
+
+#: woocommerce-functions.php:239
+msgid "You can only have 1 %s in your cart."
+msgstr "شما تنها می‌توانید یک %s در سبد خرید خود داشته باشید"
+
+#: woocommerce-functions.php:296 woocommerce-functions.php:343
+msgid "Please choose product options&hellip;"
+msgstr "لطفا گزینه های محصول را انتحاب کنید"
+
+#: woocommerce-functions.php:378
+msgid ""
+"Please choose the quantity of items you wish to add to your cart&hellip;"
+msgstr ""
+"لطفاً تعداد اقلامی که می‌خواهید به سبد خرید خود اضافه کنید را انتخاب "
+"کنید&hellip;"
+
+#: woocommerce-functions.php:386
+msgid "Please choose a product to add to your cart&hellip;"
+msgstr "لطفاً یک محصول برای اضافه کردن به سبد خرید انتخاب کنید&hellip;"
+
+#: woocommerce-functions.php:455
+msgid "Added &quot;%s&quot; to your cart."
+msgstr "به سبد خريد شما &quot;%s&quot; اضافه گرديد"
+
+#: woocommerce-functions.php:455
+msgid "&quot; and &quot;"
+msgstr "&quot; و &quot;"
+
+#: woocommerce-functions.php:458
+msgid "&quot;%s&quot; was successfully added to your cart."
+msgstr "&quot;%s&quot; با موفقیت به سبد خرید اضافه شد"
+
+#: woocommerce-functions.php:466
+msgid "Continue Shopping &rarr;"
+msgstr "خرید را ادامه دهید"
+
+#: woocommerce-functions.php:633
+msgid "Username is required."
+msgstr "نام کاربری مورد نیاز است"
+
+#: woocommerce-functions.php:634 woocommerce-functions.php:729
+msgid "Password is required."
+msgstr "رمز عبور مورد نیاز است"
+
+#: woocommerce-functions.php:705
+msgid ""
+"This username is invalid because it uses illegal characters. Please enter a "
+"valid username."
+msgstr ""
+"نام كاربری وارد شده دارای حروف غيرمجاز است.لطفا با دقت نام كاربری خود را "
+"وارد نماييد"
+
+#: woocommerce-functions.php:708
+msgid "This username is already registered, please choose another one."
+msgstr "این نام کاربری قبلا ثبت نام شده است، لطفا یک نام دیگر انتخاب کنید."
+
+#: woocommerce-functions.php:720
+msgid "Please type your e-mail address."
+msgstr "ایمیل خود را وارد کنید"
+
+#: woocommerce-functions.php:722
+msgid "The email address isn&#8217;t correct."
+msgstr "آدرس ایمیل isn&#8217;t صحیح است"
+
+#: woocommerce-functions.php:725
+msgid "This email is already registered, please choose another one."
+msgstr "این ایمیل قبلا برای ثبت نام در این سایت استفاده شده است."
+
+#: woocommerce-functions.php:730
+msgid "Re-enter your password."
+msgstr "پسورد خود را دوباره وارد کنید."
+
+#: woocommerce-functions.php:735
+msgid "Anti-spam field was filled in."
+msgstr "بخش ضد‌اسپم در آن پر شده بود"
+
+#: woocommerce-functions.php:841
+msgid "The cart has been filled with the items from your previous order."
+msgstr "کارت با مشخصات سفارش قبلی شما پر شده است."
+
+#: woocommerce-functions.php:867
+msgid "Order cancelled by customer."
+msgstr "سفارش توسط مشتری کنسل شد"
+
+#: woocommerce-functions.php:870
+msgid "Your order was cancelled."
+msgstr "سفارش شما کنسل شد"
+
+#: woocommerce-functions.php:876
+msgid ""
+"Your order is no longer pending and could not be cancelled. Please contact "
+"us if you need assistance."
+msgstr ""
+"سفارش شما دیگر در حالت انتظار قرار ندارد و نمی توانید آن را کنسل کنید . در "
+"صورتی که نیاز به کمک دارید با ما تماس بگیرید"
+
+#: woocommerce-functions.php:911
+msgid "Invalid email address."
+msgstr "ایمیل وارد شده اشتباه است."
+
+#: woocommerce-functions.php:911 woocommerce-functions.php:933
+#: woocommerce-functions.php:953 woocommerce-functions.php:959
+#: woocommerce-functions.php:963 woocommerce-functions.php:966
+#: woocommerce-functions.php:996 woocommerce-functions.php:1099
+msgid "Go to homepage &rarr;"
+msgstr "بازگشت به برگه اصلی"
+
+#: woocommerce-functions.php:933
+msgid "Invalid download."
+msgstr "دانلود نامعتبر"
+
+#: woocommerce-functions.php:945
+msgid "You must be logged in to download files."
+msgstr "براي دانلود بايد وارد سايت شويد"
+
+#: woocommerce-functions.php:948
+msgid "This is not your download link."
+msgstr "این لینک دانلود متعلق به شما نیست"
+
+#: woocommerce-functions.php:953
+msgid "Product no longer exists."
+msgstr "محصول دیگر وجود ندارد"
+
+#: woocommerce-functions.php:963
+msgid "Sorry, you have reached your download limit for this file"
+msgstr "متاسفانه محدودیت دانلود شما برای این فایل به اتمام رسیده است ."
+
+#: woocommerce-functions.php:966
+msgid "Sorry, this download has expired"
+msgstr ".متاسفانه زمان دانلود شما به اتمام رسید"
+
+#: woocommerce-functions.php:996
+msgid "No file defined"
+msgstr "فایلی تعریف نشده است"
+
+#: woocommerce-functions.php:1099
+msgid "File not found"
+msgstr "فايل مورد نظر يافت نشد."
+
+#: woocommerce-functions.php:1209
+msgid "New products"
+msgstr "محصولات جدید"
+
+#: woocommerce-functions.php:1217
+msgid "New products added to %s"
+msgstr "محصولات جدید به %s افزوده شد."
+
+#: woocommerce-functions.php:1225
+msgid "New products tagged %s"
+msgstr "محصولات جدید تگ شدند %s"
+
+#: woocommerce-functions.php:1264
+msgid "You have taken too long. Please go back and refresh the page."
+msgstr ""
+"زمان شما به اتمام رسیده است ، لطفا به برگه قبل رفته و صفحه را دوباره "
+"بارگذاری کنید"
+
+#: woocommerce-functions.php:1267
+msgid "Please rate the product."
+msgstr "به این محصول امتیاز دهید"
+
+#: woocommerce-functions.php:1575
+msgid "Password changed successfully."
+msgstr "کلمه عبور با موفقیت تغییر یافت"
+
+#: woocommerce-functions.php:1651
+msgid "Address changed successfully."
+msgstr "آدرس با موفقیت تغییر یافت"
+
+#: woocommerce-template.php:196
+msgid ""
+"This is a demo store for testing purposes &mdash; no orders shall be "
+"fulfilled."
+msgstr ""
+"این یک فروشگاه نمایشی برای اهداف آزمایشی است &mdash; هیچ سفارشی نباید پر شود"
+
+#: woocommerce-template.php:215
+msgid "Search Results: &ldquo;%s&rdquo;"
+msgstr "نتیجه جستجو &ldquo;%s&rdquo;"
+
+#: woocommerce-template.php:218
+msgid "&nbsp;&ndash; Page %s"
+msgstr "&nbsp;&ndash; برگه %s"
+
+#: woocommerce-template.php:764
+msgid "Reviews (%d)"
+msgstr "نظرات (%d)"
+
+#: woocommerce-template.php:990
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr "صفحه اصلی"
+
+#: woocommerce-template.php:1288 woocommerce.php:1175
+msgid "required"
+msgstr "ضروری"
+
+#: woocommerce-template.php:1334
+msgid "Update country"
+msgstr "به روز رسانی کشور"
+
+#: woocommerce-template.php:1489
+msgid "Search for:"
+msgstr "جستجو برای "
+
+#: woocommerce-template.php:1490
+msgid "Search for products"
+msgstr "جستجوی محصولات"
+
+#: woocommerce-template.php:1491 woocommerce.php:913
+msgid "Search"
+msgstr "جستجو"
+
+#: woocommerce.php:752
+msgctxt "slug"
+msgid "product-category"
+msgstr "دسته‌بندی محصول"
+
+#: woocommerce.php:753
+msgctxt "slug"
+msgid "product-tag"
+msgstr "برچسب-محصول"
+
+#: woocommerce.php:755
+msgctxt "slug"
+msgid "product"
+msgstr "محصول"
+
+#: woocommerce.php:790
+msgid "Product Category"
+msgstr "دسته‌بندی محصولات"
+
+#: woocommerce.php:791
+msgctxt "Admin menu name"
+msgid "Categories"
+msgstr "دسته‌بندی‌ها"
+
+#: woocommerce.php:792
+msgid "Search Product Categories"
+msgstr "جستجوی دسته‌بندی‌های محصولات"
+
+#: woocommerce.php:793
+msgid "All Product Categories"
+msgstr "تمام دسته‌بندی‌های محصولات"
+
+#: woocommerce.php:794
+msgid "Parent Product Category"
+msgstr "دسته‌بندی محصولات اصلی"
+
+#: woocommerce.php:795
+msgid "Parent Product Category:"
+msgstr "دسته‌بندی محصولات اصلی"
+
+#: woocommerce.php:796
+msgid "Edit Product Category"
+msgstr "ویرایش دسته‌بندی محصولات"
+
+#: woocommerce.php:797
+msgid "Update Product Category"
+msgstr "به روز رسانی دسته‌بندی محصولات"
+
+#: woocommerce.php:798
+msgid "Add New Product Category"
+msgstr "افزودن دسته محصول جدید"
+
+#: woocommerce.php:799
+msgid "New Product Category Name"
+msgstr "نام دسته محصول"
+
+#: woocommerce.php:826
+msgid "Product Tag"
+msgstr "برچسب محصول"
+
+#: woocommerce.php:827
+msgctxt "Admin menu name"
+msgid "Tags"
+msgstr "برچسب ها"
+
+#: woocommerce.php:828
+msgid "Search Product Tags"
+msgstr "جستجوی برچسب محصولات"
+
+#: woocommerce.php:829
+msgid "All Product Tags"
+msgstr "تمام برچسبها"
+
+#: woocommerce.php:830
+msgid "Parent Product Tag"
+msgstr "تگ محصول مادر"
+
+#: woocommerce.php:831
+msgid "Parent Product Tag:"
+msgstr "تگ محصول مادر:"
+
+#: woocommerce.php:832
+msgid "Edit Product Tag"
+msgstr "ویرایش برچسب محصول"
+
+#: woocommerce.php:833
+msgid "Update Product Tag"
+msgstr "به روز رسانی برچسب محصول"
+
+#: woocommerce.php:834
+msgid "Add New Product Tag"
+msgstr "افزودن برچسب محصول"
+
+#: woocommerce.php:835
+msgid "New Product Tag Name"
+msgstr "نام برچسب محصول"
+
+#: woocommerce.php:854 woocommerce.php:856
+msgid "Shipping Classes"
+msgstr "کلاس‌های ارسال"
+
+#: woocommerce.php:858
+msgctxt "Admin menu name"
+msgid "Shipping Classes"
+msgstr "کلاس‌های ارسال"
+
+#: woocommerce.php:859
+msgid "Search Shipping Classes"
+msgstr "جستجوی کلاس‌های ارسال"
+
+#: woocommerce.php:860
+msgid "All Shipping Classes"
+msgstr "همه کلاس‌های ارسال"
+
+#: woocommerce.php:861
+msgid "Parent Shipping Class"
+msgstr "کلاس ارسال مادر "
+
+#: woocommerce.php:862
+msgid "Parent Shipping Class:"
+msgstr "کلاس ارسال مادر "
+
+#: woocommerce.php:863
+msgid "Edit Shipping Class"
+msgstr "ویرایش کلاس ارسال"
+
+#: woocommerce.php:864
+msgid "Update Shipping Class"
+msgstr "آپدیت کلاس ارسال"
+
+#: woocommerce.php:865
+msgid "Add New Shipping Class"
+msgstr "افزودن کلاس جدید ارسال"
+
+#: woocommerce.php:866
+msgid "New Shipping Class Name"
+msgstr "نام کلاس ارسال جدید"
+
+#: woocommerce.php:914
+msgid "All"
+msgstr "همه"
+
+#: woocommerce.php:915 woocommerce.php:916
+msgid "Parent"
+msgstr "مادر"
+
+#: woocommerce.php:918
+msgid "Update"
+msgstr "به روزرسانی"
+
+#: woocommerce.php:919
+msgid "Add New"
+msgstr "افزودن"
+
+#: woocommerce.php:920
+msgid "New"
+msgstr "جدید"
+
+#: woocommerce.php:950
+msgctxt "Admin menu name"
+msgid "Products"
+msgstr "محصولات"
+
+#: woocommerce.php:951
+msgid "Add Product"
+msgstr "افزودن محصول"
+
+#: woocommerce.php:952
+msgid "Add New Product"
+msgstr "افزودن محصول جدید"
+
+#: woocommerce.php:954
+msgid "Edit Product"
+msgstr "ویرایش محصول"
+
+#: woocommerce.php:955
+msgid "New Product"
+msgstr "محصول جدید"
+
+#: woocommerce.php:956 woocommerce.php:957
+msgid "View Product"
+msgstr "نمایش محصول"
+
+#: woocommerce.php:958
+msgid "Search Products"
+msgstr "جستجوی محصولات"
+
+#: woocommerce.php:959
+msgid "No Products found"
+msgstr "محصولی یافت نشد"
+
+#: woocommerce.php:960
+msgid "No Products found in trash"
+msgstr "محصولی در زباله‌دان پیدا نشد"
+
+#: woocommerce.php:961
+msgid "Parent Product"
+msgstr "محصول مادر"
+
+#: woocommerce.php:963
+msgid "This is where you can add new products to your store."
+msgstr "اینجا محلی است که می‌توانید محصول را به فروشگاه خود اضافه کنید"
+
+#: woocommerce.php:986
+msgid "Variations"
+msgstr "تغييرات"
+
+#: woocommerce.php:987
+msgid "Variation"
+msgstr "تغییر"
+
+#: woocommerce.php:988
+msgid "Add Variation"
+msgstr "اضافه کردن متغیر"
+
+#: woocommerce.php:989
+msgid "Add New Variation"
+msgstr "تغییر جدید را ضافه کنید"
+
+#: woocommerce.php:991
+msgid "Edit Variation"
+msgstr "ویرایش تغییر"
+
+#: woocommerce.php:992
+msgid "New Variation"
+msgstr "تغییر جدید"
+
+#: woocommerce.php:993 woocommerce.php:994
+msgid "View Variation"
+msgstr "مشاهده تغییر"
+
+#: woocommerce.php:995
+msgid "Search Variations"
+msgstr "جستجوی تغییر"
+
+#: woocommerce.php:996
+msgid "No Variations found"
+msgstr "تغییری یافت نشد"
+
+#: woocommerce.php:997
+msgid "No Variations found in trash"
+msgstr "تغییری در زباله‌دان پیدا نشد"
+
+#: woocommerce.php:998
+msgid "Parent Variation"
+msgstr "تغییر والد"
+
+#: woocommerce.php:1015
+msgctxt "Admin menu name"
+msgid "Orders"
+msgstr "سفارشات"
+
+#: woocommerce.php:1024
+msgid "Orders"
+msgstr "سفارش ها"
+
+#: woocommerce.php:1026
+msgid "Add Order"
+msgstr "افزودن سفارش"
+
+#: woocommerce.php:1027
+msgid "Add New Order"
+msgstr "افزودن سفارش جدید"
+
+#: woocommerce.php:1029
+msgid "Edit Order"
+msgstr "ویرایش سفارش"
+
+#: woocommerce.php:1030
+msgid "New Order"
+msgstr "سفارش جدید"
+
+#: woocommerce.php:1033
+msgid "Search Orders"
+msgstr "جستجوی سفارش ها"
+
+#: woocommerce.php:1034
+msgid "No Orders found"
+msgstr "سفارشی یافت نشد"
+
+#: woocommerce.php:1035
+msgid "No Orders found in trash"
+msgstr "سفارشی در زباله‌دان  یافت نشد"
+
+#: woocommerce.php:1036
+msgid "Parent Orders"
+msgstr "سفارش های مادر"
+
+#: woocommerce.php:1039
+msgid "This is where store orders are stored."
+msgstr "محل ذخیره سفارشات"
+
+#: woocommerce.php:1061
+msgid "Coupons"
+msgstr "کوپن ها"
+
+#: woocommerce.php:1063
+msgctxt "Admin menu name"
+msgid "Coupons"
+msgstr "کوپن ها"
+
+#: woocommerce.php:1064
+msgid "Add Coupon"
+msgstr "افزودن کوپن"
+
+#: woocommerce.php:1065
+msgid "Add New Coupon"
+msgstr "افزودن کوپن جدید"
+
+#: woocommerce.php:1067
+msgid "Edit Coupon"
+msgstr "ویرایش کوپن"
+
+#: woocommerce.php:1068
+msgid "New Coupon"
+msgstr "کوپن جدید"
+
+#: woocommerce.php:1069
+msgid "View Coupons"
+msgstr "نمایش کوپن‌ها"
+
+#: woocommerce.php:1070
+msgid "View Coupon"
+msgstr "نمایش کوپن"
+
+#: woocommerce.php:1071
+msgid "Search Coupons"
+msgstr "جستجوی کوپن ها"
+
+#: woocommerce.php:1072
+msgid "No Coupons found"
+msgstr "کوپنی یافت نشد"
+
+#: woocommerce.php:1073
+msgid "No Coupons found in trash"
+msgstr "کوپنی در زباله‌دان پیدا نشد"
+
+#: woocommerce.php:1074
+msgid "Parent Coupon"
+msgstr "کوپن مادر"
+
+#: woocommerce.php:1076
+msgid ""
+"This is where you can add new coupons that customers can use in your store."
+msgstr "محل افزودن کوپن های خرید مشتری"
+
+#: woocommerce.php:1172
+msgid "Select an option&hellip;"
+msgstr "یک تنظیم انتخاب کنید"
+
+#: woocommerce.php:1173
+msgid "Please select a rating"
+msgstr "لطفا یک رتبه را معین کنید"
+
+#: woocommerce.php:1174
+msgid ""
+"Sorry, no products matched your selection. Please choose a different "
+"combination."
+msgstr ""
+"با عرض پوزش، هیچ محصولی مطابق انتخاب شما یافت نشد. لطفاً ترکیب دیگری را "
+"انتخاب کنید."
+
+#: woocommerce.php:1656
+msgid "Cart % Discount"
+msgstr "کارت % تخفیف"
+
+#: woocommerce.php:1657
+msgid "Product Discount"
+msgstr "تخفيف كالا"
+
+#: woocommerce.php:1658
+msgid "Product % Discount"
+msgstr "درصد تخفیف محصول"
+
+#: woocommerce.php:1723
+msgid "Action failed. Please refresh the page and retry."
+msgstr "عملیات ناموفق، لطفا برگه را دوباره بارگذاری نمایید."
